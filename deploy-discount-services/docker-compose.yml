@@ -9,3 +9,7 @@ services:
       - ./discount_service/.env.database
     ports:
       - 5432:5432
+
+
+volumes:
+  pg_discount_data:
