@@ -4,7 +4,7 @@ COPY pom.xml /build/
 COPY src /build/src/
 WORKDIR /build/
 RUN mvn package
-FROM openjdk:11-jdk-alpine
+FROM openjdk:11-alpine
 WORKDIR /app
 EXPOSE 8761
 COPY --from=MAVEN_BUILD /build/target/eureka-server-0.0.1-SNAPSHOT.jar /app/
