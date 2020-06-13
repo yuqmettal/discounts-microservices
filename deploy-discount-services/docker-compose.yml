@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  discount_database:
+    image: postgres
+    volumes:
+      - pg_discount_data:/var/lib/postgresql/data/
+    env_file:
+      - ./discount_service/.env.database
+    ports:
+      - 5432:5432
