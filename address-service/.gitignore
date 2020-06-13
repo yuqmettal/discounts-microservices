@@ -2,3 +2,5 @@ venv/
 *.pyc
 *.coverage
 .vscode/
+__pycache__
+.pytest*
