@@ -110,7 +110,7 @@ CREATE INDEX "fkIdx_159" ON "products"
 -- ************************************** "clients_prime_suscriptions"
 CREATE TABLE "clients_prime_suscriptions"
 (
- "id": int NOT NULL,
+ "id" int NOT NULL,
  "prime_suscription_id" int NOT NULL,
  "client_id"            int NOT NULL,
  "activation_date"      date NOT NULL,
@@ -296,11 +296,10 @@ CREATE TABLE "shopping_cart_items"
  "quantity"         int NOT NULL,
  "note_for_shopper" text NOT NULL,
  "shopping_car_id"  int NOT NULL,
- "retailer_id"      int NOT NULL,
- "product_id"       int NOT NULL,
+ "item_id"      int NOT NULL,
  CONSTRAINT "PK_shopping_cart_items" PRIMARY KEY ( "id" ),
  CONSTRAINT "FK_170" FOREIGN KEY ( "shopping_car_id" ) REFERENCES "shopping_cars" ( "shopping_car_id" ),
- CONSTRAINT "FK_173" FOREIGN KEY ( "retailer_id", "product_id" ) REFERENCES "stock_item" ( "retailer_id", "product_id" )
+ CONSTRAINT "FK_173" FOREIGN KEY ( "item_id" ) REFERENCES "stock_item" ( "id" )
 );
 
 CREATE INDEX "fkIdx_170" ON "shopping_cart_items"
@@ -310,8 +309,7 @@ CREATE INDEX "fkIdx_170" ON "shopping_cart_items"
 
 CREATE INDEX "fkIdx_173" ON "shopping_cart_items"
 (
- "retailer_id",
- "product_id"
+ "item_id"
 );
 
 -- ************************************** "client_orders"
@@ -350,15 +348,14 @@ CREATE TABLE "order_items"
 (
  "id"          int NOT NULL,
  "order_id"          int NOT NULL,
- "retailer_id"       int NOT NULL,
- "product_id"        int NOT NULL,
+ "item_id"       int NOT NULL,
  "pvp"               decimal NOT NULL,
  "quantity"          int NOT NULL,
  "note_for_shopper"  text NOT NULL,
  "pvp_with_disocunt" decimal NOT NULL,
  CONSTRAINT "PK_order_items" PRIMARY KEY ( "id" ),
  CONSTRAINT "FK_140" FOREIGN KEY ( "order_id" ) REFERENCES "client_orders" ( "order_id" ),
- CONSTRAINT "FK_143" FOREIGN KEY ( "retailer_id", "product_id" ) REFERENCES "stock_item" ( "retailer_id", "product_id" )
+ CONSTRAINT "FK_143" FOREIGN KEY ( "item_id" ) REFERENCES "stock_item" ( "id" )
 );
 
 CREATE INDEX "fkIdx_140" ON "order_items"
@@ -368,6 +365,5 @@ CREATE INDEX "fkIdx_140" ON "order_items"
 
 CREATE INDEX "fkIdx_143" ON "order_items"
 (
- "retailer_id",
- "product_id"
+ "item_id"
 );
