@@ -1,6 +1,11 @@
 version: "3.7"
 
 services:
+  eureka_server:
+    build: ../eureka-server
+    ports:
+      - 8761:8761
+
   discount_database:
     image: postgres
     volumes:
