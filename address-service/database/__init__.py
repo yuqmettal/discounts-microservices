@@ -1,2 +1,2 @@
-from .setup import SessionLocal, engine
+from .setup import SessionLocal, engine, Base
 from . import models
