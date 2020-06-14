@@ -5,6 +5,9 @@ from sqlalchemy.orm import Session
 from database import SessionLocal, engine, models
 
 
+models.Base.metadata.create_all(bind=engine)
+
+
 app = FastAPI()
 
 def get_db():
@@ -22,7 +25,7 @@ async def health_info():
 
 @app.get("/api/v1/country")
 async def get_all_countries(db: Session = Depends(get_db)):
-    users = models.Country.query.all()
+    users = db.query(models.Country).all()
     return users
 
 

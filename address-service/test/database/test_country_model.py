@@ -1,17 +1,14 @@
-from fastapi.testclient import TestClient
-from unittest import mock
+from sqlalchemy.orm import Session
 
-from main import app
-from database.models import Country
-
-
-client = TestClient(app)
+from database.crud import country
+from database.schema import CountryCreate
 
 
-@mock.patch('database.models.Country')
-def test_list_all_countries(mocked_country):
-    mocked_country.query.all.return_value = []
-    
-    response = client.get("api/v1/country")
-    assert response.status_code == 200
-    assert response.json() == []
+def test_list_all_countries(db: Session) -> None:
+    countries = country.filter(db)
+    assert countries == []
+    assert len(countries) == 0
+    new_country = CountryCreate(name="Ecuador", code="EC", language="ES", currency="USD")
+    country.create(db, new_country)
+    countries = country.filter(db)
+    assert len(countries) == 1
