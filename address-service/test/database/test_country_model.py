@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
 from database.crud import country as crud
-from database.schema import CountryCreate
+from database.schema import CountryCreate, CountryUpdate
 
 
 def test_list_all_countries(db: Session) -> None:
@@ -25,3 +25,21 @@ def test_create_country(db: Session) -> None:
     assert country.id == country_created.id
     assert country.code == country_created.code
     assert country.language == country_created.language
+
+
+def test_update_country(db: Session) -> None:
+    country_from_db = crud.getById(db, 2)
+    country_update = CountryUpdate(currency="USD")
+    updated_country = crud.update(db, db_object=country_from_db, object_to_update=country_update)
+    country_from_db = crud.getById(db, 2)
+    assert country_from_db.id == updated_country.id
+    assert country_from_db.currency == "USD"
+
+
+def test_delete_country(db: Session) -> None:
+    country_from_db = crud.getById(db, 2)
+    assert country_from_db
+    deleted = crud.remove(db, id=2)
+    country_from_db = crud.getById(db, 2)
+    assert country_from_db is None
+    assert deleted.id == 2
