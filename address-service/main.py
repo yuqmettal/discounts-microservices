@@ -1,36 +1,20 @@
 import uvicorn
 from fastapi import FastAPI, Depends
-from sqlalchemy.orm import Session
 from dotenv import load_dotenv
 
 load_dotenv()
 
-from database import SessionLocal, engine, models
-from database.crud import country
+from database import engine, models
+from api.v1 import api_router as v1_router
+from api.health import api_router as health_router
 
 
 models.Base.metadata.create_all(bind=engine)
 
-
 app = FastAPI()
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
-
-
-@app.get("/info")
-async def health_info():
-    return {"status": "UP"}
-
-
-@app.get("/api/v1/country")
-async def get_all_countries(db: Session = Depends(get_db)):
-    users = country.filter(db)
-    return users
+app.include_router(health_router)
+app.include_router(v1_router, prefix='/api/v1')
 
 
 if __name__ == "__main__":
