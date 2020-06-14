@@ -49,3 +49,6 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
         db.delete(obj)
         db.commit()
         return obj
+
+    def count(self, db: Session) -> int:
+        return db.query(self.model).count()

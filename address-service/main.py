@@ -1,8 +1,12 @@
 import uvicorn
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from database import SessionLocal, engine, models
+from database.crud import country
 
 
 models.Base.metadata.create_all(bind=engine)
@@ -25,7 +29,7 @@ async def health_info():
 
 @app.get("/api/v1/country")
 async def get_all_countries(db: Session = Depends(get_db)):
-    users = db.query(models.Country).all()
+    users = country.filter(db)
     return users
 
 
