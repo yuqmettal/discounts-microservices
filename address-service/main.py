@@ -11,7 +11,7 @@ from api.health import api_router as health_router
 
 models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI()
+app = FastAPI(title="Address service", openapi_url="/api/v1/openapi.json")
 
 app.include_router(health_router)
 app.include_router(v1_router, prefix='/api/v1')
