@@ -10,6 +10,14 @@ class CountryBase(BaseModel):
     currency: Optional[str] = None
 
 
+class CountryInsert(CountryBase):
+    id: int
+    name: str
+    code: str
+    language: str
+    currency: str
+
+
 class CountryCreate(CountryBase):
     name: str
     code: str

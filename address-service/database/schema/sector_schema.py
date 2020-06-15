@@ -8,6 +8,12 @@ class SectorBase(BaseModel):
     city_id: Optional[int] = None
 
 
+class SectorInsert(SectorBase):
+    id: int
+    name: str
+    city_id: int
+
+
 class SectorCreate(SectorBase):
     name: str
     city_id: int

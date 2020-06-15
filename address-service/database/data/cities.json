@@ -1,0 +1,1107 @@
+[
+    {
+        "id": 1,
+        "name": "CUENCA ",
+        "province_id": 1
+    },
+    {
+        "id": 2,
+        "name": "GIRÓN ",
+        "province_id": 1
+    },
+    {
+        "id": 3,
+        "name": "GUALACEO ",
+        "province_id": 1
+    },
+    {
+        "id": 4,
+        "name": "NABÓN ",
+        "province_id": 1
+    },
+    {
+        "id": 5,
+        "name": "PAUTE ",
+        "province_id": 1
+    },
+    {
+        "id": 6,
+        "name": "PUCARA ",
+        "province_id": 1
+    },
+    {
+        "id": 7,
+        "name": "SAN FERNANDO ",
+        "province_id": 1
+    },
+    {
+        "id": 8,
+        "name": "SANTA ISABEL ",
+        "province_id": 1
+    },
+    {
+        "id": 9,
+        "name": "SIGSIG ",
+        "province_id": 1
+    },
+    {
+        "id": 10,
+        "name": "OÑA ",
+        "province_id": 1
+    },
+    {
+        "id": 11,
+        "name": "CHORDELEG ",
+        "province_id": 1
+    },
+    {
+        "id": 12,
+        "name": "EL PAN ",
+        "province_id": 1
+    },
+    {
+        "id": 13,
+        "name": "SEVILLA DE ORO ",
+        "province_id": 1
+    },
+    {
+        "id": 14,
+        "name": "GUACHAPALA ",
+        "province_id": 1
+    },
+    {
+        "id": 15,
+        "name": "CAMILO PONCE ENRÍQUEZ ",
+        "province_id": 1
+    },
+    {
+        "id": 16,
+        "name": "GUARANDA ",
+        "province_id": 2
+    },
+    {
+        "id": 17,
+        "name": "CHILLANES ",
+        "province_id": 2
+    },
+    {
+        "id": 18,
+        "name": "CHIMBO ",
+        "province_id": 2
+    },
+    {
+        "id": 19,
+        "name": "ECHEANDÍA ",
+        "province_id": 2
+    },
+    {
+        "id": 20,
+        "name": "SAN MIGUEL ",
+        "province_id": 2
+    },
+    {
+        "id": 21,
+        "name": "CALUMA ",
+        "province_id": 2
+    },
+    {
+        "id": 22,
+        "name": "LAS NAVES ",
+        "province_id": 2
+    },
+    {
+        "id": 23,
+        "name": "AZOGUES ",
+        "province_id": 3
+    },
+    {
+        "id": 24,
+        "name": "BIBLIÁN ",
+        "province_id": 3
+    },
+    {
+        "id": 25,
+        "name": "CAÑAR ",
+        "province_id": 3
+    },
+    {
+        "id": 26,
+        "name": "LA TRONCAL ",
+        "province_id": 3
+    },
+    {
+        "id": 27,
+        "name": "EL TAMBO ",
+        "province_id": 3
+    },
+    {
+        "id": 28,
+        "name": "DÉLEG ",
+        "province_id": 3
+    },
+    {
+        "id": 29,
+        "name": "SUSCAL ",
+        "province_id": 3
+    },
+    {
+        "id": 30,
+        "name": "TULCÁN ",
+        "province_id": 4
+    },
+    {
+        "id": 31,
+        "name": "BOLÍVAR ",
+        "province_id": 4
+    },
+    {
+        "id": 32,
+        "name": "ESPEJO ",
+        "province_id": 4
+    },
+    {
+        "id": 33,
+        "name": "MIRA ",
+        "province_id": 4
+    },
+    {
+        "id": 34,
+        "name": "MONTÚFAR ",
+        "province_id": 4
+    },
+    {
+        "id": 35,
+        "name": "SAN PEDRO DE HUACA ",
+        "province_id": 4
+    },
+    {
+        "id": 36,
+        "name": "LATACUNGA ",
+        "province_id": 5
+    },
+    {
+        "id": 37,
+        "name": "LA MANÁ ",
+        "province_id": 5
+    },
+    {
+        "id": 38,
+        "name": "PANGUA ",
+        "province_id": 5
+    },
+    {
+        "id": 39,
+        "name": "PUJILI ",
+        "province_id": 5
+    },
+    {
+        "id": 40,
+        "name": "SALCEDO ",
+        "province_id": 5
+    },
+    {
+        "id": 41,
+        "name": "SAQUISILÍ ",
+        "province_id": 5
+    },
+    {
+        "id": 42,
+        "name": "SIGCHOS ",
+        "province_id": 5
+    },
+    {
+        "id": 43,
+        "name": "RIOBAMBA ",
+        "province_id": 6
+    },
+    {
+        "id": 44,
+        "name": "ALAUSI ",
+        "province_id": 6
+    },
+    {
+        "id": 45,
+        "name": "COLTA ",
+        "province_id": 6
+    },
+    {
+        "id": 46,
+        "name": "CHAMBO ",
+        "province_id": 6
+    },
+    {
+        "id": 47,
+        "name": "CHUNCHI ",
+        "province_id": 6
+    },
+    {
+        "id": 48,
+        "name": "GUAMOTE ",
+        "province_id": 6
+    },
+    {
+        "id": 49,
+        "name": "GUANO ",
+        "province_id": 6
+    },
+    {
+        "id": 50,
+        "name": "PALLATANGA ",
+        "province_id": 6
+    },
+    {
+        "id": 51,
+        "name": "PENIPE ",
+        "province_id": 6
+    },
+    {
+        "id": 52,
+        "name": "CUMANDÁ ",
+        "province_id": 6
+    },
+    {
+        "id": 53,
+        "name": "MACHALA ",
+        "province_id": 7
+    },
+    {
+        "id": 54,
+        "name": "ARENILLAS ",
+        "province_id": 7
+    },
+    {
+        "id": 55,
+        "name": "ATAHUALPA ",
+        "province_id": 7
+    },
+    {
+        "id": 56,
+        "name": "BALSAS ",
+        "province_id": 7
+    },
+    {
+        "id": 57,
+        "name": "CHILLA ",
+        "province_id": 7
+    },
+    {
+        "id": 58,
+        "name": "EL GUABO ",
+        "province_id": 7
+    },
+    {
+        "id": 59,
+        "name": "HUAQUILLAS ",
+        "province_id": 7
+    },
+    {
+        "id": 60,
+        "name": "MARCABELÍ ",
+        "province_id": 7
+    },
+    {
+        "id": 61,
+        "name": "PASAJE ",
+        "province_id": 7
+    },
+    {
+        "id": 62,
+        "name": "PIÑAS ",
+        "province_id": 7
+    },
+    {
+        "id": 63,
+        "name": "PORTOVELO ",
+        "province_id": 7
+    },
+    {
+        "id": 64,
+        "name": "SANTA ROSA ",
+        "province_id": 7
+    },
+    {
+        "id": 65,
+        "name": "ZARUMA ",
+        "province_id": 7
+    },
+    {
+        "id": 66,
+        "name": "LAS LAJAS ",
+        "province_id": 7
+    },
+    {
+        "id": 67,
+        "name": "ESMERALDAS ",
+        "province_id": 8
+    },
+    {
+        "id": 68,
+        "name": "ELOY ALFARO ",
+        "province_id": 8
+    },
+    {
+        "id": 69,
+        "name": "MUISNE ",
+        "province_id": 8
+    },
+    {
+        "id": 70,
+        "name": "QUININDÉ ",
+        "province_id": 8
+    },
+    {
+        "id": 71,
+        "name": "SAN LORENZO ",
+        "province_id": 8
+    },
+    {
+        "id": 72,
+        "name": "ATACAMES ",
+        "province_id": 8
+    },
+    {
+        "id": 73,
+        "name": "RIOVERDE ",
+        "province_id": 8
+    },
+    {
+        "id": 74,
+        "name": "LA CONCORDIA ",
+        "province_id": 8
+    },
+    {
+        "id": 75,
+        "name": "GUAYAQUIL ",
+        "province_id": 9
+    },
+    {
+        "id": 76,
+        "name": "ALFREDO BAQUERIZO MORENO (JUJÁN) ",
+        "province_id": 9
+    },
+    {
+        "id": 77,
+        "name": "BALAO ",
+        "province_id": 9
+    },
+    {
+        "id": 78,
+        "name": "BALZAR ",
+        "province_id": 9
+    },
+    {
+        "id": 79,
+        "name": "COLIMES ",
+        "province_id": 9
+    },
+    {
+        "id": 80,
+        "name": "DAULE ",
+        "province_id": 9
+    },
+    {
+        "id": 81,
+        "name": "DURÁN ",
+        "province_id": 9
+    },
+    {
+        "id": 82,
+        "name": "EL EMPALME ",
+        "province_id": 9
+    },
+    {
+        "id": 83,
+        "name": "EL TRIUNFO ",
+        "province_id": 9
+    },
+    {
+        "id": 84,
+        "name": "MILAGRO ",
+        "province_id": 9
+    },
+    {
+        "id": 85,
+        "name": "NARANJAL ",
+        "province_id": 9
+    },
+    {
+        "id": 86,
+        "name": "NARANJITO ",
+        "province_id": 9
+    },
+    {
+        "id": 87,
+        "name": "PALESTINA ",
+        "province_id": 9
+    },
+    {
+        "id": 88,
+        "name": "PEDRO CARBO ",
+        "province_id": 9
+    },
+    {
+        "id": 89,
+        "name": "SAMBORONDÓN ",
+        "province_id": 9
+    },
+    {
+        "id": 90,
+        "name": "SANTA LUCÍA ",
+        "province_id": 9
+    },
+    {
+        "id": 91,
+        "name": "SALITRE (URBINA JADO) ",
+        "province_id": 9
+    },
+    {
+        "id": 92,
+        "name": "SAN JACINTO DE YAGUACHI ",
+        "province_id": 9
+    },
+    {
+        "id": 93,
+        "name": "PLAYAS ",
+        "province_id": 9
+    },
+    {
+        "id": 94,
+        "name": "SIMÓN BOLÍVAR ",
+        "province_id": 9
+    },
+    {
+        "id": 95,
+        "name": "CORONEL MARCELINO MARIDUEÑA ",
+        "province_id": 9
+    },
+    {
+        "id": 96,
+        "name": "LOMAS DE SARGENTILLO ",
+        "province_id": 9
+    },
+    {
+        "id": 97,
+        "name": "NOBOL ",
+        "province_id": 9
+    },
+    {
+        "id": 98,
+        "name": "GENERAL ANTONIO ELIZALDE ",
+        "province_id": 9
+    },
+    {
+        "id": 99,
+        "name": "ISIDRO AYORA ",
+        "province_id": 9
+    },
+    {
+        "id": 100,
+        "name": "IBARRA ",
+        "province_id": 10
+    },
+    {
+        "id": 101,
+        "name": "ANTONIO ANTE ",
+        "province_id": 10
+    },
+    {
+        "id": 102,
+        "name": "COTACACHI ",
+        "province_id": 10
+    },
+    {
+        "id": 103,
+        "name": "OTAVALO ",
+        "province_id": 10
+    },
+    {
+        "id": 104,
+        "name": "PIMAMPIRO ",
+        "province_id": 10
+    },
+    {
+        "id": 105,
+        "name": "SAN MIGUEL DE URCUQUÍ ",
+        "province_id": 10
+    },
+    {
+        "id": 106,
+        "name": "LOJA ",
+        "province_id": 11
+    },
+    {
+        "id": 107,
+        "name": "CALVAS ",
+        "province_id": 11
+    },
+    {
+        "id": 108,
+        "name": "CATAMAYO ",
+        "province_id": 11
+    },
+    {
+        "id": 109,
+        "name": "CELICA ",
+        "province_id": 11
+    },
+    {
+        "id": 110,
+        "name": "CHAGUARPAMBA ",
+        "province_id": 11
+    },
+    {
+        "id": 111,
+        "name": "ESPÍNDOLA ",
+        "province_id": 11
+    },
+    {
+        "id": 112,
+        "name": "GONZANAMÁ ",
+        "province_id": 11
+    },
+    {
+        "id": 113,
+        "name": "MACARÁ ",
+        "province_id": 11
+    },
+    {
+        "id": 114,
+        "name": "PALTAS ",
+        "province_id": 11
+    },
+    {
+        "id": 115,
+        "name": "PUYANGO ",
+        "province_id": 11
+    },
+    {
+        "id": 116,
+        "name": "SARAGURO ",
+        "province_id": 11
+    },
+    {
+        "id": 117,
+        "name": "SOZORANGA ",
+        "province_id": 11
+    },
+    {
+        "id": 118,
+        "name": "ZAPOTILLO ",
+        "province_id": 11
+    },
+    {
+        "id": 119,
+        "name": "PINDAL ",
+        "province_id": 11
+    },
+    {
+        "id": 120,
+        "name": "QUILANGA ",
+        "province_id": 11
+    },
+    {
+        "id": 121,
+        "name": "OLMEDO ",
+        "province_id": 11
+    },
+    {
+        "id": 122,
+        "name": "BABAHOYO ",
+        "province_id": 12
+    },
+    {
+        "id": 123,
+        "name": "BABA ",
+        "province_id": 12
+    },
+    {
+        "id": 124,
+        "name": "MONTALVO ",
+        "province_id": 12
+    },
+    {
+        "id": 125,
+        "name": "PUEBLOVIEJO ",
+        "province_id": 12
+    },
+    {
+        "id": 126,
+        "name": "QUEVEDO ",
+        "province_id": 12
+    },
+    {
+        "id": 127,
+        "name": "URDANETA ",
+        "province_id": 12
+    },
+    {
+        "id": 128,
+        "name": "VENTANAS ",
+        "province_id": 12
+    },
+    {
+        "id": 129,
+        "name": "VÍNCES ",
+        "province_id": 12
+    },
+    {
+        "id": 130,
+        "name": "PALENQUE ",
+        "province_id": 12
+    },
+    {
+        "id": 131,
+        "name": "BUENA FÉ ",
+        "province_id": 12
+    },
+    {
+        "id": 132,
+        "name": "VALENCIA ",
+        "province_id": 12
+    },
+    {
+        "id": 133,
+        "name": "MOCACHE ",
+        "province_id": 12
+    },
+    {
+        "id": 134,
+        "name": "QUINSALOMA ",
+        "province_id": 12
+    },
+    {
+        "id": 135,
+        "name": "PORTOVIEJO ",
+        "province_id": 13
+    },
+    {
+        "id": 136,
+        "name": "BOLÍVAR ",
+        "province_id": 13
+    },
+    {
+        "id": 137,
+        "name": "CHONE ",
+        "province_id": 13
+    },
+    {
+        "id": 138,
+        "name": "EL CARMEN ",
+        "province_id": 13
+    },
+    {
+        "id": 139,
+        "name": "FLAVIO ALFARO ",
+        "province_id": 13
+    },
+    {
+        "id": 140,
+        "name": "JIPIJAPA ",
+        "province_id": 13
+    },
+    {
+        "id": 141,
+        "name": "JUNÍN ",
+        "province_id": 13
+    },
+    {
+        "id": 142,
+        "name": "MANTA ",
+        "province_id": 13
+    },
+    {
+        "id": 143,
+        "name": "MONTECRISTI ",
+        "province_id": 13
+    },
+    {
+        "id": 144,
+        "name": "PAJÁN ",
+        "province_id": 13
+    },
+    {
+        "id": 145,
+        "name": "PICHINCHA ",
+        "province_id": 13
+    },
+    {
+        "id": 146,
+        "name": "ROCAFUERTE ",
+        "province_id": 13
+    },
+    {
+        "id": 147,
+        "name": "SANTA ANA ",
+        "province_id": 13
+    },
+    {
+        "id": 148,
+        "name": "SUCRE ",
+        "province_id": 13
+    },
+    {
+        "id": 149,
+        "name": "TOSAGUA ",
+        "province_id": 13
+    },
+    {
+        "id": 150,
+        "name": "24 DE MAYO ",
+        "province_id": 13
+    },
+    {
+        "id": 151,
+        "name": "PEDERNALES ",
+        "province_id": 13
+    },
+    {
+        "id": 152,
+        "name": "OLMEDO ",
+        "province_id": 13
+    },
+    {
+        "id": 153,
+        "name": "PUERTO LÓPEZ ",
+        "province_id": 13
+    },
+    {
+        "id": 154,
+        "name": "JAMA ",
+        "province_id": 13
+    },
+    {
+        "id": 155,
+        "name": "JARAMIJÓ ",
+        "province_id": 13
+    },
+    {
+        "id": 156,
+        "name": "SAN VICENTE ",
+        "province_id": 13
+    },
+    {
+        "id": 157,
+        "name": "MORONA ",
+        "province_id": 14
+    },
+    {
+        "id": 158,
+        "name": "GUALAQUIZA ",
+        "province_id": 14
+    },
+    {
+        "id": 159,
+        "name": "LIMÓN INDANZA ",
+        "province_id": 14
+    },
+    {
+        "id": 160,
+        "name": "PALORA ",
+        "province_id": 14
+    },
+    {
+        "id": 161,
+        "name": "SANTIAGO ",
+        "province_id": 14
+    },
+    {
+        "id": 162,
+        "name": "SUCÚA ",
+        "province_id": 14
+    },
+    {
+        "id": 163,
+        "name": "HUAMBOYA ",
+        "province_id": 14
+    },
+    {
+        "id": 164,
+        "name": "SAN JUAN BOSCO ",
+        "province_id": 14
+    },
+    {
+        "id": 165,
+        "name": "TAISHA ",
+        "province_id": 14
+    },
+    {
+        "id": 166,
+        "name": "LOGROÑO ",
+        "province_id": 14
+    },
+    {
+        "id": 167,
+        "name": "PABLO SEXTO ",
+        "province_id": 14
+    },
+    {
+        "id": 168,
+        "name": "TIWINTZA ",
+        "province_id": 14
+    },
+    {
+        "id": 169,
+        "name": "TENA ",
+        "province_id": 15
+    },
+    {
+        "id": 170,
+        "name": "ARCHIDONA ",
+        "province_id": 15
+    },
+    {
+        "id": 171,
+        "name": "EL CHACO ",
+        "province_id": 15
+    },
+    {
+        "id": 172,
+        "name": "QUIJOS ",
+        "province_id": 15
+    },
+    {
+        "id": 173,
+        "name": "CARLOS JULIO AROSEMENA TOLA ",
+        "province_id": 15
+    },
+    {
+        "id": 174,
+        "name": "PASTAZA ",
+        "province_id": 16
+    },
+    {
+        "id": 175,
+        "name": "MERA ",
+        "province_id": 16
+    },
+    {
+        "id": 176,
+        "name": "SANTA CLARA ",
+        "province_id": 16
+    },
+    {
+        "id": 177,
+        "name": "ARAJUNO ",
+        "province_id": 16
+    },
+    {
+        "id": 178,
+        "name": "QUITO ",
+        "province_id": 17
+    },
+    {
+        "id": 179,
+        "name": "CAYAMBE ",
+        "province_id": 17
+    },
+    {
+        "id": 180,
+        "name": "MEJIA ",
+        "province_id": 17
+    },
+    {
+        "id": 181,
+        "name": "PEDRO MONCAYO ",
+        "province_id": 17
+    },
+    {
+        "id": 182,
+        "name": "RUMIÑAHUI ",
+        "province_id": 17
+    },
+    {
+        "id": 183,
+        "name": "SAN MIGUEL DE LOS BANCOS ",
+        "province_id": 17
+    },
+    {
+        "id": 184,
+        "name": "PEDRO VICENTE MALDONADO ",
+        "province_id": 17
+    },
+    {
+        "id": 185,
+        "name": "PUERTO QUITO ",
+        "province_id": 17
+    },
+    {
+        "id": 186,
+        "name": "AMBATO ",
+        "province_id": 18
+    },
+    {
+        "id": 187,
+        "name": "BAÑOS DE AGUA SANTA ",
+        "province_id": 18
+    },
+    {
+        "id": 188,
+        "name": "CEVALLOS ",
+        "province_id": 18
+    },
+    {
+        "id": 189,
+        "name": "MOCHA ",
+        "province_id": 18
+    },
+    {
+        "id": 190,
+        "name": "PATATE ",
+        "province_id": 18
+    },
+    {
+        "id": 191,
+        "name": "QUERO ",
+        "province_id": 18
+    },
+    {
+        "id": 192,
+        "name": "SAN PEDRO DE PELILEO ",
+        "province_id": 18
+    },
+    {
+        "id": 193,
+        "name": "SANTIAGO DE PÍLLARO ",
+        "province_id": 18
+    },
+    {
+        "id": 194,
+        "name": "TISALEO ",
+        "province_id": 18
+    },
+    {
+        "id": 195,
+        "name": "ZAMORA ",
+        "province_id": 19
+    },
+    {
+        "id": 196,
+        "name": "CHINCHIPE ",
+        "province_id": 19
+    },
+    {
+        "id": 197,
+        "name": "NANGARITZA ",
+        "province_id": 19
+    },
+    {
+        "id": 198,
+        "name": "YACUAMBI ",
+        "province_id": 19
+    },
+    {
+        "id": 199,
+        "name": "YANTZAZA (YANZATZA) ",
+        "province_id": 19
+    },
+    {
+        "id": 200,
+        "name": "EL PANGUI ",
+        "province_id": 19
+    },
+    {
+        "id": 201,
+        "name": "CENTINELA DEL CÓNDOR ",
+        "province_id": 19
+    },
+    {
+        "id": 202,
+        "name": "PALANDA ",
+        "province_id": 19
+    },
+    {
+        "id": 203,
+        "name": "PAQUISHA ",
+        "province_id": 19
+    },
+    {
+        "id": 204,
+        "name": "SAN CRISTÓBAL ",
+        "province_id": 20
+    },
+    {
+        "id": 205,
+        "name": "ISABELA ",
+        "province_id": 20
+    },
+    {
+        "id": 206,
+        "name": "SANTA CRUZ ",
+        "province_id": 20
+    },
+    {
+        "id": 207,
+        "name": "LAGO AGRIO ",
+        "province_id": 21
+    },
+    {
+        "id": 208,
+        "name": "GONZALO PIZARRO ",
+        "province_id": 21
+    },
+    {
+        "id": 209,
+        "name": "PUTUMAYO ",
+        "province_id": 21
+    },
+    {
+        "id": 210,
+        "name": "SHUSHUFINDI ",
+        "province_id": 21
+    },
+    {
+        "id": 211,
+        "name": "SUCUMBÍOS ",
+        "province_id": 21
+    },
+    {
+        "id": 212,
+        "name": "CASCALES ",
+        "province_id": 21
+    },
+    {
+        "id": 213,
+        "name": "CUYABENO ",
+        "province_id": 21
+    },
+    {
+        "id": 214,
+        "name": "ORELLANA ",
+        "province_id": 22
+    },
+    {
+        "id": 215,
+        "name": "AGUARICO ",
+        "province_id": 22
+    },
+    {
+        "id": 216,
+        "name": "LA JOYA DE LOS SACHAS ",
+        "province_id": 22
+    },
+    {
+        "id": 217,
+        "name": "LORETO ",
+        "province_id": 22
+    },
+    {
+        "id": 218,
+        "name": "SANTO DOMINGO ",
+        "province_id": 23
+    },
+    {
+        "id": 219,
+        "name": "SANTA ELENA ",
+        "province_id": 24
+    },
+    {
+        "id": 220,
+        "name": "LA LIBERTAD ",
+        "province_id": 24
+    },
+    {
+        "id": 221,
+        "name": "SALINAS ",
+        "province_id": 24
+    }
+]

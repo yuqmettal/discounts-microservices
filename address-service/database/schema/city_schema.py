@@ -8,6 +8,12 @@ class CityBase(BaseModel):
     province_id: Optional[int] = None
 
 
+class CityInsert(CityBase):
+    id: int
+    name: str
+    province_id: int
+
+
 class CityCreate(CityBase):
     name: str
     province_id: int

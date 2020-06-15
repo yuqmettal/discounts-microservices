@@ -9,6 +9,13 @@ class ProvinceBase(BaseModel):
     country_id: Optional[int] = None
 
 
+class ProvinceInsert(ProvinceBase):
+    id: int
+    name: str
+    region: str
+    country_id: int
+
+
 class ProvinceCreate(ProvinceBase):
     name: str
     region: str

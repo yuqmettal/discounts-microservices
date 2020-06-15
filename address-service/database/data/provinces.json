@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "AZUAY ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 2,
+        "name": "BOLIVAR ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 3,
+        "name": "CAÑAR ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 4,
+        "name": "CARCHI ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 5,
+        "name": "COTOPAXI ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 6,
+        "name": "CHIMBORAZO ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 7,
+        "name": "EL ORO ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 8,
+        "name": "ESMERALDAS ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 9,
+        "name": "GUAYAS ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 10,
+        "name": "IMBABURA ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 11,
+        "name": "LOJA ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 12,
+        "name": "LOS RIOS ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 13,
+        "name": "MANABI ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 14,
+        "name": "MORONA SANTIAGO ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 15,
+        "name": "NAPO ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 16,
+        "name": "PASTAZA ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 17,
+        "name": "PICHINCHA ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 18,
+        "name": "TUNGURAHUA ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 19,
+        "name": "ZAMORA CHINCHIPE ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 20,
+        "name": "GALAPAGOS ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 21,
+        "name": "SUCUMBIOS ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 22,
+        "name": "ORELLANA ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 23,
+        "name": "SANTO DOMINGO DE LOS TSACHILAS ",
+        "country_id": 1,
+        "region": "SIERRA"
+    },
+    {
+        "id": 24,
+        "name": "SANTA ELENA ",
+        "country_id": 1,
+        "region": "SIERRA"
+    }
+]
