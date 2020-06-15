@@ -6,9 +6,12 @@ from py_eureka_client import eureka_client
 load_dotenv()
 
 import settings
+from api.health import api_router as health_router
 
 
 app = FastAPI(title="Partners service")
+
+app.include_router(health_router)
 
 
 eureka_client.init(
