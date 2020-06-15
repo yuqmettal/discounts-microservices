@@ -31,3 +31,17 @@ class Province(Base):
     country = relationship("Country", back_populates="provinces")
     name = Column(String, index=True, nullable=False)
     region = Column(String, nullable=False)
+    cities = relationship("City", back_populates="province")
+
+
+class City(Base):
+    __tablename__ = "city"
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
+
+    id = Column(Integer, primary_key=True, index=True)
+    province_id = Column(Integer, ForeignKey('province.id'))
+    province = relationship("Province", back_populates="cities")
+    name = Column(String, index=True, nullable=False)
