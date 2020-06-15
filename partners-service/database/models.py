@@ -1,4 +1,5 @@
-from sqlalchemy import Column, Integer, String, Sequence
+from sqlalchemy import Column, Integer, String, Sequence, ForeignKey
+from sqlalchemy.orm import relationship
 
 from .setup import Base
 
@@ -14,3 +15,19 @@ class Category(Base):
                 primary_key=True, index=True)
     name = Column(String, unique=True, index=True, nullable=False)
     description = Column(String)
+    subcategories = relationship("Subcategory", back_populates="category")
+
+
+class Subcategory(Base):
+    __tablename__ = "subcategory"
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
+
+    id = Column(Integer, Sequence('subcategory_id_seq'),
+                primary_key=True, index=True)
+    name = Column(String, index=True, nullable=False)
+    description = Column(String)
+    category_id = Column(Integer, ForeignKey('category.id'))
+    category = relationship("Category", back_populates="subcategories")

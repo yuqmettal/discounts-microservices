@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "name": "Test",
+        "description": "Test Subcategory",
+        "category_id": 1
+    }
+]

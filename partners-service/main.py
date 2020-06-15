@@ -6,8 +6,14 @@ from fastapi import FastAPI, Depends
 from dotenv import load_dotenv
 from py_eureka_client import eureka_client
 
+from database.data.seed_data import seed_data
+from database import models, engine
+
 load_dotenv()
 
+models.Base.metadata.create_all(bind=engine)
+
+seed_data()
 
 app = FastAPI(title="Partners service", openapi_url="/api/v1/openapi.json")
 
