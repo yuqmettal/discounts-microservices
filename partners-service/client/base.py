@@ -9,14 +9,17 @@ class EurekaClient():
     def _call_post_service(self, url: str, data, /) -> 'EurekaResponse':
         response = requests.post(url, data)
         content = response.json()
-        return EurekaResponse(response.status, content)
+        return EurekaResponse(response.status_code, content)
 
     def _call_get_service(self, url: str, /) -> 'EurekaResponse':
-        response = requests.get(url)
-        content = response.json()
-        return EurekaResponse(response.status, content)
+        try:
+            response = requests.get(url)
+            content = response.json()
+            return EurekaResponse(response.status_code, content)
+        except Exception as e:
+            return EurekaResponse(404, {})
 
-    def remote_service(self, uri: str, method: str, /):
+    def call_remote_service(self, uri: str, method: str, /):
         MAP_METHODS = {
             'POST': self._call_post_service,
             'GET': self._call_get_service,

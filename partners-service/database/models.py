@@ -31,3 +31,17 @@ class Subcategory(Base):
     description = Column(String)
     category_id = Column(Integer, ForeignKey('category.id'))
     category = relationship("Category", back_populates="subcategories")
+
+
+class Retailer(Base):
+    __tablename__ = "retailer"
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
+
+    id = Column(Integer, Sequence('retailer_id_seq'),
+                primary_key=True, index=True)
+    name = Column(String, index=True, nullable=False)
+    description = Column(String)
+    city_id = Column(Integer, nullable=False)
