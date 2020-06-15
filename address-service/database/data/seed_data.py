@@ -7,10 +7,10 @@ from sqlalchemy.orm import Session
 import settings
 from database import crud, SessionLocal
 from api import get_db
-from database.schema.country_schema import CountryInsert
-from database.schema.province_schema import ProvinceInsert
-from database.schema.city_schema import CityInsert
-from database.schema.sector_schema import SectorInsert
+from database.schema.country_schema import CountryCreate
+from database.schema.province_schema import ProvinceCreate
+from database.schema.city_schema import CityCreate
+from database.schema.sector_schema import SectorCreate
 
 
 def seed_data():
@@ -34,7 +34,7 @@ def seed_country_data():
         for country_data in data:
             country = crud.country.get_by_id(db=db, id=country_data['id'])
             if not country:
-                country = CountryInsert(**country_data)
+                country = CountryCreate(**country_data)
                 crud.country.create(db, object_to_create=country)
 
 
@@ -52,7 +52,7 @@ def seed_province_data():
         for province_data in data:
             province = crud.province.get_by_id(db=db, id=province_data['id'])
             if not province:
-                province = ProvinceInsert(**province_data)
+                province = ProvinceCreate(**province_data)
                 crud.province.create(db, object_to_create=province)
 
 
@@ -70,7 +70,7 @@ def seed_city_data():
         for city_data in data:
             city = crud.city.get_by_id(db=db, id=city_data['id'])
             if not city:
-                city = CityInsert(**city_data)
+                city = CityCreate(**city_data)
                 crud.city.create(db, object_to_create=city)
 
 
@@ -88,5 +88,5 @@ def seed_sector_data():
         for sector_data in data:
             sector = crud.sector.get_by_id(db=db, id=sector_data['id'])
             if not sector:
-                sector = SectorInsert(**sector_data)
+                sector = SectorCreate(**sector_data)
                 crud.sector.create(db, object_to_create=sector)

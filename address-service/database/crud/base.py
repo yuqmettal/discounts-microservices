@@ -19,8 +19,11 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
     def get_by_id(self, db: Session, id: int) -> Optional[ModelType]:
         return db.query(self.model).filter(self.model.id == id).first()
 
-    def filter(self, db: Session, *, skip: int = 0, limit: int = 100) -> List[ModelType]:
-        return db.query(self.model).offset(skip).limit(limit).all()
+    def filter(self, db: Session, *, skip: int = None, limit: int = None) -> List[ModelType]:
+        main_query = db.query(self.model)
+        if None not in [skip, limit]:
+            main_query = main_query.offset(skip).limit(limit)
+        return main_query.all()
 
     def create(self, db: Session, object_to_create: CreateSchemaType) -> ModelType:
         object_data = jsonable_encoder(object_to_create)
