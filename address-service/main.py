@@ -7,9 +7,12 @@ load_dotenv()
 from database import engine, models
 from api.v1 import api_router as v1_router
 from api.health import api_router as health_router
+from database.data.seed_data import seed_data
 
 
 models.Base.metadata.create_all(bind=engine)
+
+seed_data()
 
 app = FastAPI(title="Address service", openapi_url="/api/v1/openapi.json")
 
