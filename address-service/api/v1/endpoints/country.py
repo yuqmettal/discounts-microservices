@@ -54,7 +54,7 @@ async def get_country_by_id(
 
 
 @router.put("/{country_id}", response_model=Country)
-def update_user(
+def update_country(
     *,
     db: Session = Depends(get_db),
     country_id: int,
@@ -71,7 +71,7 @@ def update_user(
 
 
 @router.delete("/{country_id}", response_model=Country)
-def delete_item(
+def delete_country(
     *,
     db: Session = Depends(get_db),
     country_id: int,
