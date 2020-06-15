@@ -28,3 +28,8 @@ def delete_city(db: Session, city: City):
     crud.city.remove(db, id=city.id)
     crud.province.remove(db, id=city.province_id)
     crud.country.remove(db, id=province.country_id)
+
+
+def delete_city_by_id(db: Session, id: int):
+    city = crud.city.get_by_id(db, id=id)
+    delete_city(db, city)

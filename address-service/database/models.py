@@ -45,3 +45,17 @@ class City(Base):
     province_id = Column(Integer, ForeignKey('province.id'))
     province = relationship("Province", back_populates="cities")
     name = Column(String, index=True, nullable=False)
+    sectors = relationship("Sector", back_populates="city")
+
+
+class Sector(Base):
+    __tablename__ = "sector"
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
+
+    id = Column(Integer, primary_key=True, index=True)
+    city_id = Column(Integer, ForeignKey('city.id'))
+    city = relationship("City", back_populates="sectors")
+    name = Column(String, index=True, nullable=False)
