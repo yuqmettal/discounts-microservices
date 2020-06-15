@@ -23,7 +23,6 @@ def seed_data():
 def seed_country_data():
     country_file = os.path.join(
         settings.BASE_DIR,
-        'address-service',
         'database',
         'data',
         'countries.json'
@@ -41,7 +40,6 @@ def seed_country_data():
 def seed_province_data():
     json_file = os.path.join(
         settings.BASE_DIR,
-        'address-service',
         'database',
         'data',
         'provinces.json'
@@ -59,7 +57,6 @@ def seed_province_data():
 def seed_city_data():
     json_file = os.path.join(
         settings.BASE_DIR,
-        'address-service',
         'database',
         'data',
         'cities.json'
@@ -77,7 +74,6 @@ def seed_city_data():
 def seed_sector_data():
     json_file = os.path.join(
         settings.BASE_DIR,
-        'address-service',
         'database',
         'data',
         'sectors.json'

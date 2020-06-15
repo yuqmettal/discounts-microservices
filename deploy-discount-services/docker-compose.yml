@@ -6,6 +6,17 @@ services:
     ports:
       - 8761:8761
 
+  address_service:
+    build: ../address-service
+    restart: always
+    ports:
+      - 8001:8000
+    depends_on:
+      - discount_database
+      - eureka_server
+    env_file:
+      - ./address_service/.env
+
   discount_database:
     image: postgres
     volumes:
