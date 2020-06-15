@@ -1,3 +1,6 @@
+from api.v1 import api_router as v1_router
+from api.health import api_router as health_router
+import settings
 import uvicorn
 from fastapi import FastAPI, Depends
 from dotenv import load_dotenv
@@ -5,13 +8,11 @@ from py_eureka_client import eureka_client
 
 load_dotenv()
 
-import settings
-from api.health import api_router as health_router
 
-
-app = FastAPI(title="Partners service")
+app = FastAPI(title="Partners service", openapi_url="/api/v1/openapi.json")
 
 app.include_router(health_router)
+app.include_router(v1_router, prefix='/api/v1')
 
 
 eureka_client.init(
