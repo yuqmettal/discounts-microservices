@@ -66,3 +66,17 @@ class RetailerSector(Base):
     
     retailer_id = Column(Integer, ForeignKey('retailer.id'), nullable=False)
     retailer = relationship("Retailer", back_populates="retailer_sectors")
+
+
+class Client(Base):
+    __tablename__ = "client"
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
+
+    id = Column(Integer, Sequence('client_id_seq'),
+                primary_key=True, index=True)
+    name = Column(String, index=True, nullable=False)
+    last_name = Column(String, index=True, nullable=False)
+    email = Column(String, index=True, nullable=False)
