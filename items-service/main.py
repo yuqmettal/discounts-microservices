@@ -14,7 +14,7 @@ models.Base.metadata.create_all(bind=engine)
 seed_data()
 
 
-app = FastAPI(title="Partners service", openapi_url="/api/v1/openapi.json")
+app = FastAPI(title="Items service", openapi_url="/api/v1/openapi.json")
 
 app.include_router(health_router)
 app.include_router(v1_router, prefix='/api/v1')
