@@ -5,6 +5,7 @@ import settings
 from database import crud, SessionLocal
 from database.schema.brand_schema import BrandCreate
 from database.schema.product_schema import ProductCreate
+from database.schema.item_schema import ItemCreate
 
 
 def seed_data():
@@ -44,3 +45,20 @@ def seed_product_data():
             if not product:
                 product = ProductCreate(**product_data)
                 crud.product.create(db, object_to_create=product)
+
+
+def seed_item_data():
+    json_file = os.path.join(
+        settings.BASE_DIR,
+        'database',
+        'data',
+        'items.json'
+    )
+    with open(json_file) as json_file:
+        data = json.load(json_file)
+        db = SessionLocal()
+        for item_data in data:
+            item = crud.item.get_by_id(db=db, id=item_data['id'])
+            if not item:
+                item = ItemCreate(**item_data)
+                crud.item.create(db, object_to_create=item)

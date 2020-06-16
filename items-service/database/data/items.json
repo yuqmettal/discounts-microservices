@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "retailer_id": 1,
+        "product_id": 1,
+        "category_id": 1,
+        "pvp": 100,
+        "margin": 12
+    }
+]
