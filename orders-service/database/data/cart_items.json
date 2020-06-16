@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "cart_id": 1,
+        "quantity": 12,
+        "notes": "Test notes",
+        "item_id": 1
+    }
+]

@@ -32,3 +32,15 @@ class OrderItem(Base):
 class Cart(Base):
     id = Column(Integer, Sequence('cart_id_seq'), primary_key=True, index=True)
     name = Column(String, index=True, nullable=False)
+    cart_items = relationship("CartItem", back_populates="cart")
+
+
+class CartItem(Base):
+    __tablename__ = 'cart_item'
+
+    id = Column(Integer, Sequence('cart_item_id_seq'), primary_key=True, index=True)
+    cart_id = Column(Integer, ForeignKey('cart.id'), nullable=False)
+    cart = relationship("Cart", back_populates="cart_items")
+    quantity = Column(Float(asdecimal=True), nullable=False)
+    notes = Column(Text)
+    item_id = Column(Integer, nullable=False)
