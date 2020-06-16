@@ -1,6 +1,15 @@
 version: "3.7"
 
 services:
+  discount_database:
+    image: postgres
+    volumes:
+      - pg_discount_data:/var/lib/postgresql/data/
+    env_file:
+      - ./discount_service/.env.database
+    ports:
+      - 5432:5432
+
   eureka_server:
     build: ../eureka-server
     ports:
@@ -17,14 +26,17 @@ services:
     env_file:
       - ./address_service/.env
 
-  discount_database:
-    image: postgres
-    volumes:
-      - pg_discount_data:/var/lib/postgresql/data/
-    env_file:
-      - ./discount_service/.env.database
+  partners_service:
+    build: ../partners-service
+    restart: always
     ports:
-      - 5432:5432
+      - 8002:8000
+    depends_on:
+      - discount_database
+      - address_service
+      - eureka_server
+    env_file:
+      - ./partners_service/.env
 
 
 volumes:
