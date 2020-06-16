@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "order_id": 1,
+        "item_id": 1,
+        "pvp": 50.63,
+        "quantity": 20,
+        "notes": "This is a note",
+        "pvp_with_discount": 50
+    }
+]
