@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Test",
+        "validity": 1,
+        "validity_type": "Test Type",
+        "enabled": true
+    }
+]

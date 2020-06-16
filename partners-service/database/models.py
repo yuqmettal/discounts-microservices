@@ -80,3 +80,18 @@ class Client(Base):
     name = Column(String, index=True, nullable=False)
     last_name = Column(String, index=True, nullable=False)
     email = Column(String, index=True, nullable=False)
+
+
+class PrimeSubscription(Base):
+    __tablename__ = "prime_subscription"
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
+
+    id = Column(Integer, Sequence('prime_subscription_id_seq'),
+                primary_key=True, index=True)
+    name = Column(String, index=True, nullable=False)
+    validity = Column(Integer)
+    validity_type = Column(String)
+    enabled = Column(Boolean, nullable=False, default=True)
