@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "retailer_id": 1,
+        "address_id": 1,
+        "client_id": 1,
+        "total_cost": 350.88,
+        "shipping_cost": 2.56,
+        "delivery_date": "2020-06-16"
+    }
+]
