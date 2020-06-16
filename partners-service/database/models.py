@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Sequence, ForeignKey
+from sqlalchemy import Column, Integer, String, Sequence, ForeignKey, Boolean
 from sqlalchemy.orm import relationship
 
 from .setup import Base
@@ -16,6 +16,7 @@ class Category(Base):
     name = Column(String, unique=True, index=True, nullable=False)
     description = Column(String)
     subcategories = relationship("Subcategory", back_populates="category")
+    retailers = relationship("Retailer", back_populates="category")
 
 
 class Subcategory(Base):
@@ -29,7 +30,7 @@ class Subcategory(Base):
                 primary_key=True, index=True)
     name = Column(String, index=True, nullable=False)
     description = Column(String)
-    category_id = Column(Integer, ForeignKey('category.id'))
+    category_id = Column(Integer, ForeignKey('category.id'), nullable=False)
     category = relationship("Category", back_populates="subcategories")
 
 
@@ -45,3 +46,6 @@ class Retailer(Base):
     name = Column(String, index=True, nullable=False)
     description = Column(String)
     city_id = Column(Integer, nullable=False)
+    category_id = Column(Integer, ForeignKey('category.id'), nullable=False)
+    category = relationship("Category", back_populates="retailers",)
+    category_enabled = Column(Boolean, nullable=False, default=True)

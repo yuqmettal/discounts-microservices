@@ -74,7 +74,9 @@ def test_POST_existing_retailer_name(db: Session) -> None:
     retailer_data = {
         'name': created.name,
         'description': random_upper_string(),
-        'city_id': 1
+        'city_id': 1,
+        'category_id': 1,
+        'category_enabled': True,
     }
     response = client.post('/api/v1/retailer/', json=retailer_data)
 
