@@ -38,6 +38,19 @@ services:
     env_file:
       - ./partners_service/.env
 
+  items_service:
+    build: ../items-service
+    restart: always
+    ports:
+      - 8003:8000
+    depends_on:
+      - discount_database
+      - eureka_server
+      - address_service
+      - partners_service
+    env_file:
+      - ./items_service/.env
+
 
 volumes:
   pg_discount_data:
