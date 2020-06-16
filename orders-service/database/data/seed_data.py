@@ -5,6 +5,7 @@ import settings
 from database import crud, SessionLocal
 from database.schema.order_schema import OrderCreate
 from database.schema.order_item_schema import OrderItemCreate
+from database.schema.cart_schema import CartCreate
 
 
 def seed_data():
@@ -44,3 +45,20 @@ def seed_order_item_data():
             if not order_item:
                 order_item = OrderItemCreate(**order_item_data)
                 crud.order_item.create(db, object_to_create=order_item)
+
+
+def seed_cart_data():
+    order_file = os.path.join(
+        settings.BASE_DIR,
+        'database',
+        'data',
+        'carts.json'
+    )
+    with open(order_file) as json_file:
+        data = json.load(json_file)
+        db = SessionLocal()
+        for cart_data in data:
+            cart = crud.cart.get_by_id(db=db, id=cart_data['id'])
+            if not cart:
+                cart = CartCreate(**cart_data)
+                crud.cart.create(db, object_to_create=cart)

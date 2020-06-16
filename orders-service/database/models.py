@@ -27,3 +27,8 @@ class OrderItem(Base):
     quantity = Column(Float(asdecimal=True), nullable=False)
     notes = Column(Text)
     pvp_with_discount = Column(Float(asdecimal=True), nullable=False)
+
+
+class Cart(Base):
+    id = Column(Integer, Sequence('cart_id_seq'), primary_key=True, index=True)
+    name = Column(String, index=True, nullable=False)
