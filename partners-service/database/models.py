@@ -47,5 +47,22 @@ class Retailer(Base):
     description = Column(String)
     city_id = Column(Integer, nullable=False)
     category_id = Column(Integer, ForeignKey('category.id'), nullable=False)
-    category = relationship("Category", back_populates="retailers",)
+    category = relationship("Category", back_populates="retailers")
     category_enabled = Column(Boolean, nullable=False, default=True)
+    retailer_sectors = relationship("RetailerSector", back_populates="retailer")
+
+
+class RetailerSector(Base):
+    __tablename__ = "retailer_sector"
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
+
+    id = Column(Integer, Sequence('retailer_sector_id_seq'),
+                primary_key=True, index=True)
+    enabled = Column(Boolean, nullable=False, default=True)
+    sector_id = Column(Integer, nullable=False)
+    
+    retailer_id = Column(Integer, ForeignKey('retailer.id'), nullable=False)
+    retailer = relationship("Retailer", back_populates="retailer_sectors")
