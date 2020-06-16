@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Test Product",
+        "description": "Test Product",
+        "tax_rate": 12,
+        "brand_id": 1
+    }
+]
