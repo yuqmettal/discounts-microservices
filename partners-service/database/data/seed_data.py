@@ -7,6 +7,7 @@ from database.schema.category_schema import CategoryCreate
 from database.schema.subcategory_schema import SubcategoryCreate
 from database.schema.retailer_schema import RetailerCreate
 from database.schema.prime_subscription_schema import PrimeSubscriptionCreate
+from database.schema.client_schema import ClientCreate
 
 
 def seed_data():
@@ -14,6 +15,7 @@ def seed_data():
     seed_subcategory_data()
     seed_retailer_data()
     seed_prime_subscription_data()
+    seed_client_data()
 
 
 def seed_category_data():
@@ -82,3 +84,19 @@ def seed_prime_subscription_data():
             if not prime_subscription:
                 prime_subscription = PrimeSubscriptionCreate(**prime_subscription_data)
                 crud.prime_subscription.create(db, object_to_create=prime_subscription)
+
+def seed_client_data():
+    json_file = os.path.join(
+        settings.BASE_DIR,
+        'database',
+        'data',
+        'clients.json'
+    )
+    with open(json_file, encoding='utf8') as json_file:
+        data = json.load(json_file)
+        db = SessionLocal()
+        for client_data in data:
+            client = crud.client.get_by_id(db=db, id=client_data['id'])
+            if not client:
+                client = ClientCreate(**client_data)
+                crud.client.create(db, object_to_create=client)

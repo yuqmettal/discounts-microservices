@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Sequence, ForeignKey, Boolean
+from sqlalchemy import Column, Integer, String, Sequence, ForeignKey, Boolean, Date
 from sqlalchemy.orm import relationship
 
 from .setup import Base
@@ -80,6 +80,7 @@ class Client(Base):
     name = Column(String, index=True, nullable=False)
     last_name = Column(String, index=True, nullable=False)
     email = Column(String, index=True, nullable=False)
+    client_prime_subscriptions = relationship("ClientPrimeSubscription", back_populates="client")
 
 
 class PrimeSubscription(Base):
@@ -95,3 +96,21 @@ class PrimeSubscription(Base):
     validity = Column(Integer)
     validity_type = Column(String)
     enabled = Column(Boolean, nullable=False, default=True)
+    client_prime_subscriptions = relationship("ClientPrimeSubscription", back_populates="prime_subscription")
+
+
+class ClientPrimeSubscription(Base):
+    __tablename__ = "client_prime_subscription"
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
+
+    id = Column(Integer, Sequence('prime_subscription_id_seq'),
+                primary_key=True, index=True)
+    activation_date = Column(Date)
+    subscription_state = Column(String)
+    client_id = Column(Integer, ForeignKey('client.id'), nullable=False)
+    client = relationship("Client", back_populates="client_prime_subscriptions")
+    prime_subscription_id = Column(Integer, ForeignKey('prime_subscription.id'), nullable=False)
+    prime_subscription = relationship("PrimeSubscription", back_populates="client_prime_subscriptions")
