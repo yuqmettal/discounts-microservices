@@ -28,3 +28,13 @@ class Item(Base):
     margin = Column(Float(asdecimal=True), nullable=False)
     product_id = Column(Integer, ForeignKey('product.id'), nullable=False)
     product = relationship("Product", back_populates="items") 
+
+
+class Discount(Base):
+    id = Column(Integer, Sequence('discount_id_seq'), primary_key=True, index=True)
+    start_date = Column(Date, nullable=False)
+    end_date = Column(Date, nullable=False)
+    calendarized = Column(Boolean, nullable=False, default=False)
+    priority = Column(Integer, nullable=False)
+    discount = Column(Float(asdecimal=True), nullable=False)
+    retailer_id = Column(Integer, index=True, nullable=False)
