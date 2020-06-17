@@ -13,7 +13,18 @@ def _create_discount_data():
         "calendarized": False,
         "priority": 1,
         "discount": 10,
-        "retailer_id": 1
+        "retailer_id": 1,
+        "category_id": 1,
+        "brand_id": 1,
+        "subcategory_id": 1,
+        "by_products": False,
+        "by_clients": False,
+        "to_prime_clients": False,
+        "free_shipping": False,
+        "free_shipping_amount": False,
+        "according_deliver_day": False,
+        "according_order_day": False,
+        "order_and_deliver_same_day": False,
     }
 
 
