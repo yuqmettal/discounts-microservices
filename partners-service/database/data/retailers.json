@@ -1,10 +1,7958 @@
 [
     {
         "id": 1,
-        "name": "Test",
-        "description": "Test Subcategory",
-        "city_id": 1,
-        "category_id": 1,
-        "category_enabled": true
+        "name": "retailer 1 city1",
+        "description": "retailer 1 city1",
+        "city_id": 1
+    },
+    {
+        "id": 2,
+        "name": "retailer 2 city2",
+        "description": "retailer 2 city2",
+        "city_id": 2
+    },
+    {
+        "id": 3,
+        "name": "retailer 3 city3",
+        "description": "retailer 3 city3",
+        "city_id": 3
+    },
+    {
+        "id": 4,
+        "name": "retailer 4 city4",
+        "description": "retailer 4 city4",
+        "city_id": 4
+    },
+    {
+        "id": 5,
+        "name": "retailer 5 city5",
+        "description": "retailer 5 city5",
+        "city_id": 5
+    },
+    {
+        "id": 6,
+        "name": "retailer 6 city6",
+        "description": "retailer 6 city6",
+        "city_id": 6
+    },
+    {
+        "id": 7,
+        "name": "retailer 7 city7",
+        "description": "retailer 7 city7",
+        "city_id": 7
+    },
+    {
+        "id": 8,
+        "name": "retailer 8 city8",
+        "description": "retailer 8 city8",
+        "city_id": 8
+    },
+    {
+        "id": 9,
+        "name": "retailer 9 city9",
+        "description": "retailer 9 city9",
+        "city_id": 9
+    },
+    {
+        "id": 10,
+        "name": "retailer 10 city10",
+        "description": "retailer 10 city10",
+        "city_id": 10
+    },
+    {
+        "id": 11,
+        "name": "retailer 11 city11",
+        "description": "retailer 11 city11",
+        "city_id": 11
+    },
+    {
+        "id": 12,
+        "name": "retailer 12 city12",
+        "description": "retailer 12 city12",
+        "city_id": 12
+    },
+    {
+        "id": 13,
+        "name": "retailer 13 city13",
+        "description": "retailer 13 city13",
+        "city_id": 13
+    },
+    {
+        "id": 14,
+        "name": "retailer 14 city14",
+        "description": "retailer 14 city14",
+        "city_id": 14
+    },
+    {
+        "id": 15,
+        "name": "retailer 15 city15",
+        "description": "retailer 15 city15",
+        "city_id": 15
+    },
+    {
+        "id": 16,
+        "name": "retailer 16 city16",
+        "description": "retailer 16 city16",
+        "city_id": 16
+    },
+    {
+        "id": 17,
+        "name": "retailer 17 city17",
+        "description": "retailer 17 city17",
+        "city_id": 17
+    },
+    {
+        "id": 18,
+        "name": "retailer 18 city18",
+        "description": "retailer 18 city18",
+        "city_id": 18
+    },
+    {
+        "id": 19,
+        "name": "retailer 19 city19",
+        "description": "retailer 19 city19",
+        "city_id": 19
+    },
+    {
+        "id": 20,
+        "name": "retailer 20 city20",
+        "description": "retailer 20 city20",
+        "city_id": 20
+    },
+    {
+        "id": 21,
+        "name": "retailer 21 city21",
+        "description": "retailer 21 city21",
+        "city_id": 21
+    },
+    {
+        "id": 22,
+        "name": "retailer 22 city22",
+        "description": "retailer 22 city22",
+        "city_id": 22
+    },
+    {
+        "id": 23,
+        "name": "retailer 23 city23",
+        "description": "retailer 23 city23",
+        "city_id": 23
+    },
+    {
+        "id": 24,
+        "name": "retailer 24 city24",
+        "description": "retailer 24 city24",
+        "city_id": 24
+    },
+    {
+        "id": 25,
+        "name": "retailer 25 city25",
+        "description": "retailer 25 city25",
+        "city_id": 25
+    },
+    {
+        "id": 26,
+        "name": "retailer 26 city26",
+        "description": "retailer 26 city26",
+        "city_id": 26
+    },
+    {
+        "id": 27,
+        "name": "retailer 27 city27",
+        "description": "retailer 27 city27",
+        "city_id": 27
+    },
+    {
+        "id": 28,
+        "name": "retailer 28 city28",
+        "description": "retailer 28 city28",
+        "city_id": 28
+    },
+    {
+        "id": 29,
+        "name": "retailer 29 city29",
+        "description": "retailer 29 city29",
+        "city_id": 29
+    },
+    {
+        "id": 30,
+        "name": "retailer 30 city30",
+        "description": "retailer 30 city30",
+        "city_id": 30
+    },
+    {
+        "id": 31,
+        "name": "retailer 31 city31",
+        "description": "retailer 31 city31",
+        "city_id": 31
+    },
+    {
+        "id": 32,
+        "name": "retailer 32 city32",
+        "description": "retailer 32 city32",
+        "city_id": 32
+    },
+    {
+        "id": 33,
+        "name": "retailer 33 city33",
+        "description": "retailer 33 city33",
+        "city_id": 33
+    },
+    {
+        "id": 34,
+        "name": "retailer 34 city34",
+        "description": "retailer 34 city34",
+        "city_id": 34
+    },
+    {
+        "id": 35,
+        "name": "retailer 35 city35",
+        "description": "retailer 35 city35",
+        "city_id": 35
+    },
+    {
+        "id": 36,
+        "name": "retailer 36 city36",
+        "description": "retailer 36 city36",
+        "city_id": 36
+    },
+    {
+        "id": 37,
+        "name": "retailer 37 city37",
+        "description": "retailer 37 city37",
+        "city_id": 37
+    },
+    {
+        "id": 38,
+        "name": "retailer 38 city38",
+        "description": "retailer 38 city38",
+        "city_id": 38
+    },
+    {
+        "id": 39,
+        "name": "retailer 39 city39",
+        "description": "retailer 39 city39",
+        "city_id": 39
+    },
+    {
+        "id": 40,
+        "name": "retailer 40 city40",
+        "description": "retailer 40 city40",
+        "city_id": 40
+    },
+    {
+        "id": 41,
+        "name": "retailer 41 city41",
+        "description": "retailer 41 city41",
+        "city_id": 41
+    },
+    {
+        "id": 42,
+        "name": "retailer 42 city42",
+        "description": "retailer 42 city42",
+        "city_id": 42
+    },
+    {
+        "id": 43,
+        "name": "retailer 43 city43",
+        "description": "retailer 43 city43",
+        "city_id": 43
+    },
+    {
+        "id": 44,
+        "name": "retailer 44 city44",
+        "description": "retailer 44 city44",
+        "city_id": 44
+    },
+    {
+        "id": 45,
+        "name": "retailer 45 city45",
+        "description": "retailer 45 city45",
+        "city_id": 45
+    },
+    {
+        "id": 46,
+        "name": "retailer 46 city46",
+        "description": "retailer 46 city46",
+        "city_id": 46
+    },
+    {
+        "id": 47,
+        "name": "retailer 47 city47",
+        "description": "retailer 47 city47",
+        "city_id": 47
+    },
+    {
+        "id": 48,
+        "name": "retailer 48 city48",
+        "description": "retailer 48 city48",
+        "city_id": 48
+    },
+    {
+        "id": 49,
+        "name": "retailer 49 city49",
+        "description": "retailer 49 city49",
+        "city_id": 49
+    },
+    {
+        "id": 50,
+        "name": "retailer 50 city50",
+        "description": "retailer 50 city50",
+        "city_id": 50
+    },
+    {
+        "id": 51,
+        "name": "retailer 51 city51",
+        "description": "retailer 51 city51",
+        "city_id": 51
+    },
+    {
+        "id": 52,
+        "name": "retailer 52 city52",
+        "description": "retailer 52 city52",
+        "city_id": 52
+    },
+    {
+        "id": 53,
+        "name": "retailer 53 city53",
+        "description": "retailer 53 city53",
+        "city_id": 53
+    },
+    {
+        "id": 54,
+        "name": "retailer 54 city54",
+        "description": "retailer 54 city54",
+        "city_id": 54
+    },
+    {
+        "id": 55,
+        "name": "retailer 55 city55",
+        "description": "retailer 55 city55",
+        "city_id": 55
+    },
+    {
+        "id": 56,
+        "name": "retailer 56 city56",
+        "description": "retailer 56 city56",
+        "city_id": 56
+    },
+    {
+        "id": 57,
+        "name": "retailer 57 city57",
+        "description": "retailer 57 city57",
+        "city_id": 57
+    },
+    {
+        "id": 58,
+        "name": "retailer 58 city58",
+        "description": "retailer 58 city58",
+        "city_id": 58
+    },
+    {
+        "id": 59,
+        "name": "retailer 59 city59",
+        "description": "retailer 59 city59",
+        "city_id": 59
+    },
+    {
+        "id": 60,
+        "name": "retailer 60 city60",
+        "description": "retailer 60 city60",
+        "city_id": 60
+    },
+    {
+        "id": 61,
+        "name": "retailer 61 city61",
+        "description": "retailer 61 city61",
+        "city_id": 61
+    },
+    {
+        "id": 62,
+        "name": "retailer 62 city62",
+        "description": "retailer 62 city62",
+        "city_id": 62
+    },
+    {
+        "id": 63,
+        "name": "retailer 63 city63",
+        "description": "retailer 63 city63",
+        "city_id": 63
+    },
+    {
+        "id": 64,
+        "name": "retailer 64 city64",
+        "description": "retailer 64 city64",
+        "city_id": 64
+    },
+    {
+        "id": 65,
+        "name": "retailer 65 city65",
+        "description": "retailer 65 city65",
+        "city_id": 65
+    },
+    {
+        "id": 66,
+        "name": "retailer 66 city66",
+        "description": "retailer 66 city66",
+        "city_id": 66
+    },
+    {
+        "id": 67,
+        "name": "retailer 67 city67",
+        "description": "retailer 67 city67",
+        "city_id": 67
+    },
+    {
+        "id": 68,
+        "name": "retailer 68 city68",
+        "description": "retailer 68 city68",
+        "city_id": 68
+    },
+    {
+        "id": 69,
+        "name": "retailer 69 city69",
+        "description": "retailer 69 city69",
+        "city_id": 69
+    },
+    {
+        "id": 70,
+        "name": "retailer 70 city70",
+        "description": "retailer 70 city70",
+        "city_id": 70
+    },
+    {
+        "id": 71,
+        "name": "retailer 71 city71",
+        "description": "retailer 71 city71",
+        "city_id": 71
+    },
+    {
+        "id": 72,
+        "name": "retailer 72 city72",
+        "description": "retailer 72 city72",
+        "city_id": 72
+    },
+    {
+        "id": 73,
+        "name": "retailer 73 city73",
+        "description": "retailer 73 city73",
+        "city_id": 73
+    },
+    {
+        "id": 74,
+        "name": "retailer 74 city74",
+        "description": "retailer 74 city74",
+        "city_id": 74
+    },
+    {
+        "id": 75,
+        "name": "retailer 75 city75",
+        "description": "retailer 75 city75",
+        "city_id": 75
+    },
+    {
+        "id": 76,
+        "name": "retailer 76 city76",
+        "description": "retailer 76 city76",
+        "city_id": 76
+    },
+    {
+        "id": 77,
+        "name": "retailer 77 city77",
+        "description": "retailer 77 city77",
+        "city_id": 77
+    },
+    {
+        "id": 78,
+        "name": "retailer 78 city78",
+        "description": "retailer 78 city78",
+        "city_id": 78
+    },
+    {
+        "id": 79,
+        "name": "retailer 79 city79",
+        "description": "retailer 79 city79",
+        "city_id": 79
+    },
+    {
+        "id": 80,
+        "name": "retailer 80 city80",
+        "description": "retailer 80 city80",
+        "city_id": 80
+    },
+    {
+        "id": 81,
+        "name": "retailer 81 city81",
+        "description": "retailer 81 city81",
+        "city_id": 81
+    },
+    {
+        "id": 82,
+        "name": "retailer 82 city82",
+        "description": "retailer 82 city82",
+        "city_id": 82
+    },
+    {
+        "id": 83,
+        "name": "retailer 83 city83",
+        "description": "retailer 83 city83",
+        "city_id": 83
+    },
+    {
+        "id": 84,
+        "name": "retailer 84 city84",
+        "description": "retailer 84 city84",
+        "city_id": 84
+    },
+    {
+        "id": 85,
+        "name": "retailer 85 city85",
+        "description": "retailer 85 city85",
+        "city_id": 85
+    },
+    {
+        "id": 86,
+        "name": "retailer 86 city86",
+        "description": "retailer 86 city86",
+        "city_id": 86
+    },
+    {
+        "id": 87,
+        "name": "retailer 87 city87",
+        "description": "retailer 87 city87",
+        "city_id": 87
+    },
+    {
+        "id": 88,
+        "name": "retailer 88 city88",
+        "description": "retailer 88 city88",
+        "city_id": 88
+    },
+    {
+        "id": 89,
+        "name": "retailer 89 city89",
+        "description": "retailer 89 city89",
+        "city_id": 89
+    },
+    {
+        "id": 90,
+        "name": "retailer 90 city90",
+        "description": "retailer 90 city90",
+        "city_id": 90
+    },
+    {
+        "id": 91,
+        "name": "retailer 91 city91",
+        "description": "retailer 91 city91",
+        "city_id": 91
+    },
+    {
+        "id": 92,
+        "name": "retailer 92 city92",
+        "description": "retailer 92 city92",
+        "city_id": 92
+    },
+    {
+        "id": 93,
+        "name": "retailer 93 city93",
+        "description": "retailer 93 city93",
+        "city_id": 93
+    },
+    {
+        "id": 94,
+        "name": "retailer 94 city94",
+        "description": "retailer 94 city94",
+        "city_id": 94
+    },
+    {
+        "id": 95,
+        "name": "retailer 95 city95",
+        "description": "retailer 95 city95",
+        "city_id": 95
+    },
+    {
+        "id": 96,
+        "name": "retailer 96 city96",
+        "description": "retailer 96 city96",
+        "city_id": 96
+    },
+    {
+        "id": 97,
+        "name": "retailer 97 city97",
+        "description": "retailer 97 city97",
+        "city_id": 97
+    },
+    {
+        "id": 98,
+        "name": "retailer 98 city98",
+        "description": "retailer 98 city98",
+        "city_id": 98
+    },
+    {
+        "id": 99,
+        "name": "retailer 99 city99",
+        "description": "retailer 99 city99",
+        "city_id": 99
+    },
+    {
+        "id": 100,
+        "name": "retailer 100 city100",
+        "description": "retailer 100 city100",
+        "city_id": 100
+    },
+    {
+        "id": 101,
+        "name": "retailer 101 city101",
+        "description": "retailer 101 city101",
+        "city_id": 101
+    },
+    {
+        "id": 102,
+        "name": "retailer 102 city102",
+        "description": "retailer 102 city102",
+        "city_id": 102
+    },
+    {
+        "id": 103,
+        "name": "retailer 103 city103",
+        "description": "retailer 103 city103",
+        "city_id": 103
+    },
+    {
+        "id": 104,
+        "name": "retailer 104 city104",
+        "description": "retailer 104 city104",
+        "city_id": 104
+    },
+    {
+        "id": 105,
+        "name": "retailer 105 city105",
+        "description": "retailer 105 city105",
+        "city_id": 105
+    },
+    {
+        "id": 106,
+        "name": "retailer 106 city106",
+        "description": "retailer 106 city106",
+        "city_id": 106
+    },
+    {
+        "id": 107,
+        "name": "retailer 107 city107",
+        "description": "retailer 107 city107",
+        "city_id": 107
+    },
+    {
+        "id": 108,
+        "name": "retailer 108 city108",
+        "description": "retailer 108 city108",
+        "city_id": 108
+    },
+    {
+        "id": 109,
+        "name": "retailer 109 city109",
+        "description": "retailer 109 city109",
+        "city_id": 109
+    },
+    {
+        "id": 110,
+        "name": "retailer 110 city110",
+        "description": "retailer 110 city110",
+        "city_id": 110
+    },
+    {
+        "id": 111,
+        "name": "retailer 111 city111",
+        "description": "retailer 111 city111",
+        "city_id": 111
+    },
+    {
+        "id": 112,
+        "name": "retailer 112 city112",
+        "description": "retailer 112 city112",
+        "city_id": 112
+    },
+    {
+        "id": 113,
+        "name": "retailer 113 city113",
+        "description": "retailer 113 city113",
+        "city_id": 113
+    },
+    {
+        "id": 114,
+        "name": "retailer 114 city114",
+        "description": "retailer 114 city114",
+        "city_id": 114
+    },
+    {
+        "id": 115,
+        "name": "retailer 115 city115",
+        "description": "retailer 115 city115",
+        "city_id": 115
+    },
+    {
+        "id": 116,
+        "name": "retailer 116 city116",
+        "description": "retailer 116 city116",
+        "city_id": 116
+    },
+    {
+        "id": 117,
+        "name": "retailer 117 city117",
+        "description": "retailer 117 city117",
+        "city_id": 117
+    },
+    {
+        "id": 118,
+        "name": "retailer 118 city118",
+        "description": "retailer 118 city118",
+        "city_id": 118
+    },
+    {
+        "id": 119,
+        "name": "retailer 119 city119",
+        "description": "retailer 119 city119",
+        "city_id": 119
+    },
+    {
+        "id": 120,
+        "name": "retailer 120 city120",
+        "description": "retailer 120 city120",
+        "city_id": 120
+    },
+    {
+        "id": 121,
+        "name": "retailer 121 city121",
+        "description": "retailer 121 city121",
+        "city_id": 121
+    },
+    {
+        "id": 122,
+        "name": "retailer 122 city122",
+        "description": "retailer 122 city122",
+        "city_id": 122
+    },
+    {
+        "id": 123,
+        "name": "retailer 123 city123",
+        "description": "retailer 123 city123",
+        "city_id": 123
+    },
+    {
+        "id": 124,
+        "name": "retailer 124 city124",
+        "description": "retailer 124 city124",
+        "city_id": 124
+    },
+    {
+        "id": 125,
+        "name": "retailer 125 city125",
+        "description": "retailer 125 city125",
+        "city_id": 125
+    },
+    {
+        "id": 126,
+        "name": "retailer 126 city126",
+        "description": "retailer 126 city126",
+        "city_id": 126
+    },
+    {
+        "id": 127,
+        "name": "retailer 127 city127",
+        "description": "retailer 127 city127",
+        "city_id": 127
+    },
+    {
+        "id": 128,
+        "name": "retailer 128 city128",
+        "description": "retailer 128 city128",
+        "city_id": 128
+    },
+    {
+        "id": 129,
+        "name": "retailer 129 city129",
+        "description": "retailer 129 city129",
+        "city_id": 129
+    },
+    {
+        "id": 130,
+        "name": "retailer 130 city130",
+        "description": "retailer 130 city130",
+        "city_id": 130
+    },
+    {
+        "id": 131,
+        "name": "retailer 131 city131",
+        "description": "retailer 131 city131",
+        "city_id": 131
+    },
+    {
+        "id": 132,
+        "name": "retailer 132 city132",
+        "description": "retailer 132 city132",
+        "city_id": 132
+    },
+    {
+        "id": 133,
+        "name": "retailer 133 city133",
+        "description": "retailer 133 city133",
+        "city_id": 133
+    },
+    {
+        "id": 134,
+        "name": "retailer 134 city134",
+        "description": "retailer 134 city134",
+        "city_id": 134
+    },
+    {
+        "id": 135,
+        "name": "retailer 135 city135",
+        "description": "retailer 135 city135",
+        "city_id": 135
+    },
+    {
+        "id": 136,
+        "name": "retailer 136 city136",
+        "description": "retailer 136 city136",
+        "city_id": 136
+    },
+    {
+        "id": 137,
+        "name": "retailer 137 city137",
+        "description": "retailer 137 city137",
+        "city_id": 137
+    },
+    {
+        "id": 138,
+        "name": "retailer 138 city138",
+        "description": "retailer 138 city138",
+        "city_id": 138
+    },
+    {
+        "id": 139,
+        "name": "retailer 139 city139",
+        "description": "retailer 139 city139",
+        "city_id": 139
+    },
+    {
+        "id": 140,
+        "name": "retailer 140 city140",
+        "description": "retailer 140 city140",
+        "city_id": 140
+    },
+    {
+        "id": 141,
+        "name": "retailer 141 city141",
+        "description": "retailer 141 city141",
+        "city_id": 141
+    },
+    {
+        "id": 142,
+        "name": "retailer 142 city142",
+        "description": "retailer 142 city142",
+        "city_id": 142
+    },
+    {
+        "id": 143,
+        "name": "retailer 143 city143",
+        "description": "retailer 143 city143",
+        "city_id": 143
+    },
+    {
+        "id": 144,
+        "name": "retailer 144 city144",
+        "description": "retailer 144 city144",
+        "city_id": 144
+    },
+    {
+        "id": 145,
+        "name": "retailer 145 city145",
+        "description": "retailer 145 city145",
+        "city_id": 145
+    },
+    {
+        "id": 146,
+        "name": "retailer 146 city146",
+        "description": "retailer 146 city146",
+        "city_id": 146
+    },
+    {
+        "id": 147,
+        "name": "retailer 147 city147",
+        "description": "retailer 147 city147",
+        "city_id": 147
+    },
+    {
+        "id": 148,
+        "name": "retailer 148 city148",
+        "description": "retailer 148 city148",
+        "city_id": 148
+    },
+    {
+        "id": 149,
+        "name": "retailer 149 city149",
+        "description": "retailer 149 city149",
+        "city_id": 149
+    },
+    {
+        "id": 150,
+        "name": "retailer 150 city150",
+        "description": "retailer 150 city150",
+        "city_id": 150
+    },
+    {
+        "id": 151,
+        "name": "retailer 151 city151",
+        "description": "retailer 151 city151",
+        "city_id": 151
+    },
+    {
+        "id": 152,
+        "name": "retailer 152 city152",
+        "description": "retailer 152 city152",
+        "city_id": 152
+    },
+    {
+        "id": 153,
+        "name": "retailer 153 city153",
+        "description": "retailer 153 city153",
+        "city_id": 153
+    },
+    {
+        "id": 154,
+        "name": "retailer 154 city154",
+        "description": "retailer 154 city154",
+        "city_id": 154
+    },
+    {
+        "id": 155,
+        "name": "retailer 155 city155",
+        "description": "retailer 155 city155",
+        "city_id": 155
+    },
+    {
+        "id": 156,
+        "name": "retailer 156 city156",
+        "description": "retailer 156 city156",
+        "city_id": 156
+    },
+    {
+        "id": 157,
+        "name": "retailer 157 city157",
+        "description": "retailer 157 city157",
+        "city_id": 157
+    },
+    {
+        "id": 158,
+        "name": "retailer 158 city158",
+        "description": "retailer 158 city158",
+        "city_id": 158
+    },
+    {
+        "id": 159,
+        "name": "retailer 159 city159",
+        "description": "retailer 159 city159",
+        "city_id": 159
+    },
+    {
+        "id": 160,
+        "name": "retailer 160 city160",
+        "description": "retailer 160 city160",
+        "city_id": 160
+    },
+    {
+        "id": 161,
+        "name": "retailer 161 city161",
+        "description": "retailer 161 city161",
+        "city_id": 161
+    },
+    {
+        "id": 162,
+        "name": "retailer 162 city162",
+        "description": "retailer 162 city162",
+        "city_id": 162
+    },
+    {
+        "id": 163,
+        "name": "retailer 163 city163",
+        "description": "retailer 163 city163",
+        "city_id": 163
+    },
+    {
+        "id": 164,
+        "name": "retailer 164 city164",
+        "description": "retailer 164 city164",
+        "city_id": 164
+    },
+    {
+        "id": 165,
+        "name": "retailer 165 city165",
+        "description": "retailer 165 city165",
+        "city_id": 165
+    },
+    {
+        "id": 166,
+        "name": "retailer 166 city166",
+        "description": "retailer 166 city166",
+        "city_id": 166
+    },
+    {
+        "id": 167,
+        "name": "retailer 167 city167",
+        "description": "retailer 167 city167",
+        "city_id": 167
+    },
+    {
+        "id": 168,
+        "name": "retailer 168 city168",
+        "description": "retailer 168 city168",
+        "city_id": 168
+    },
+    {
+        "id": 169,
+        "name": "retailer 169 city169",
+        "description": "retailer 169 city169",
+        "city_id": 169
+    },
+    {
+        "id": 170,
+        "name": "retailer 170 city170",
+        "description": "retailer 170 city170",
+        "city_id": 170
+    },
+    {
+        "id": 171,
+        "name": "retailer 171 city171",
+        "description": "retailer 171 city171",
+        "city_id": 171
+    },
+    {
+        "id": 172,
+        "name": "retailer 172 city172",
+        "description": "retailer 172 city172",
+        "city_id": 172
+    },
+    {
+        "id": 173,
+        "name": "retailer 173 city173",
+        "description": "retailer 173 city173",
+        "city_id": 173
+    },
+    {
+        "id": 174,
+        "name": "retailer 174 city174",
+        "description": "retailer 174 city174",
+        "city_id": 174
+    },
+    {
+        "id": 175,
+        "name": "retailer 175 city175",
+        "description": "retailer 175 city175",
+        "city_id": 175
+    },
+    {
+        "id": 176,
+        "name": "retailer 176 city176",
+        "description": "retailer 176 city176",
+        "city_id": 176
+    },
+    {
+        "id": 177,
+        "name": "retailer 177 city177",
+        "description": "retailer 177 city177",
+        "city_id": 177
+    },
+    {
+        "id": 178,
+        "name": "retailer 178 city178",
+        "description": "retailer 178 city178",
+        "city_id": 178
+    },
+    {
+        "id": 179,
+        "name": "retailer 179 city179",
+        "description": "retailer 179 city179",
+        "city_id": 179
+    },
+    {
+        "id": 180,
+        "name": "retailer 180 city180",
+        "description": "retailer 180 city180",
+        "city_id": 180
+    },
+    {
+        "id": 181,
+        "name": "retailer 181 city181",
+        "description": "retailer 181 city181",
+        "city_id": 181
+    },
+    {
+        "id": 182,
+        "name": "retailer 182 city182",
+        "description": "retailer 182 city182",
+        "city_id": 182
+    },
+    {
+        "id": 183,
+        "name": "retailer 183 city183",
+        "description": "retailer 183 city183",
+        "city_id": 183
+    },
+    {
+        "id": 184,
+        "name": "retailer 184 city184",
+        "description": "retailer 184 city184",
+        "city_id": 184
+    },
+    {
+        "id": 185,
+        "name": "retailer 185 city185",
+        "description": "retailer 185 city185",
+        "city_id": 185
+    },
+    {
+        "id": 186,
+        "name": "retailer 186 city186",
+        "description": "retailer 186 city186",
+        "city_id": 186
+    },
+    {
+        "id": 187,
+        "name": "retailer 187 city187",
+        "description": "retailer 187 city187",
+        "city_id": 187
+    },
+    {
+        "id": 188,
+        "name": "retailer 188 city188",
+        "description": "retailer 188 city188",
+        "city_id": 188
+    },
+    {
+        "id": 189,
+        "name": "retailer 189 city189",
+        "description": "retailer 189 city189",
+        "city_id": 189
+    },
+    {
+        "id": 190,
+        "name": "retailer 190 city190",
+        "description": "retailer 190 city190",
+        "city_id": 190
+    },
+    {
+        "id": 191,
+        "name": "retailer 191 city191",
+        "description": "retailer 191 city191",
+        "city_id": 191
+    },
+    {
+        "id": 192,
+        "name": "retailer 192 city192",
+        "description": "retailer 192 city192",
+        "city_id": 192
+    },
+    {
+        "id": 193,
+        "name": "retailer 193 city193",
+        "description": "retailer 193 city193",
+        "city_id": 193
+    },
+    {
+        "id": 194,
+        "name": "retailer 194 city194",
+        "description": "retailer 194 city194",
+        "city_id": 194
+    },
+    {
+        "id": 195,
+        "name": "retailer 195 city195",
+        "description": "retailer 195 city195",
+        "city_id": 195
+    },
+    {
+        "id": 196,
+        "name": "retailer 196 city196",
+        "description": "retailer 196 city196",
+        "city_id": 196
+    },
+    {
+        "id": 197,
+        "name": "retailer 197 city197",
+        "description": "retailer 197 city197",
+        "city_id": 197
+    },
+    {
+        "id": 198,
+        "name": "retailer 198 city198",
+        "description": "retailer 198 city198",
+        "city_id": 198
+    },
+    {
+        "id": 199,
+        "name": "retailer 199 city199",
+        "description": "retailer 199 city199",
+        "city_id": 199
+    },
+    {
+        "id": 200,
+        "name": "retailer 200 city200",
+        "description": "retailer 200 city200",
+        "city_id": 200
+    },
+    {
+        "id": 201,
+        "name": "retailer 201 city201",
+        "description": "retailer 201 city201",
+        "city_id": 201
+    },
+    {
+        "id": 202,
+        "name": "retailer 202 city202",
+        "description": "retailer 202 city202",
+        "city_id": 202
+    },
+    {
+        "id": 203,
+        "name": "retailer 203 city203",
+        "description": "retailer 203 city203",
+        "city_id": 203
+    },
+    {
+        "id": 204,
+        "name": "retailer 204 city204",
+        "description": "retailer 204 city204",
+        "city_id": 204
+    },
+    {
+        "id": 205,
+        "name": "retailer 205 city205",
+        "description": "retailer 205 city205",
+        "city_id": 205
+    },
+    {
+        "id": 206,
+        "name": "retailer 206 city206",
+        "description": "retailer 206 city206",
+        "city_id": 206
+    },
+    {
+        "id": 207,
+        "name": "retailer 207 city207",
+        "description": "retailer 207 city207",
+        "city_id": 207
+    },
+    {
+        "id": 208,
+        "name": "retailer 208 city208",
+        "description": "retailer 208 city208",
+        "city_id": 208
+    },
+    {
+        "id": 209,
+        "name": "retailer 209 city209",
+        "description": "retailer 209 city209",
+        "city_id": 209
+    },
+    {
+        "id": 210,
+        "name": "retailer 210 city210",
+        "description": "retailer 210 city210",
+        "city_id": 210
+    },
+    {
+        "id": 211,
+        "name": "retailer 211 city211",
+        "description": "retailer 211 city211",
+        "city_id": 211
+    },
+    {
+        "id": 212,
+        "name": "retailer 212 city212",
+        "description": "retailer 212 city212",
+        "city_id": 212
+    },
+    {
+        "id": 213,
+        "name": "retailer 213 city213",
+        "description": "retailer 213 city213",
+        "city_id": 213
+    },
+    {
+        "id": 214,
+        "name": "retailer 214 city214",
+        "description": "retailer 214 city214",
+        "city_id": 214
+    },
+    {
+        "id": 215,
+        "name": "retailer 215 city215",
+        "description": "retailer 215 city215",
+        "city_id": 215
+    },
+    {
+        "id": 216,
+        "name": "retailer 216 city216",
+        "description": "retailer 216 city216",
+        "city_id": 216
+    },
+    {
+        "id": 217,
+        "name": "retailer 217 city217",
+        "description": "retailer 217 city217",
+        "city_id": 217
+    },
+    {
+        "id": 218,
+        "name": "retailer 218 city218",
+        "description": "retailer 218 city218",
+        "city_id": 218
+    },
+    {
+        "id": 219,
+        "name": "retailer 219 city219",
+        "description": "retailer 219 city219",
+        "city_id": 219
+    },
+    {
+        "id": 220,
+        "name": "retailer 220 city220",
+        "description": "retailer 220 city220",
+        "city_id": 220
+    },
+    {
+        "id": 221,
+        "name": "retailer 221 city221",
+        "description": "retailer 221 city221",
+        "city_id": 221
+    },
+    {
+        "id": 222,
+        "name": "retailer 222 city1",
+        "description": "retailer 222 city1",
+        "city_id": 1
+    },
+    {
+        "id": 223,
+        "name": "retailer 223 city2",
+        "description": "retailer 223 city2",
+        "city_id": 2
+    },
+    {
+        "id": 224,
+        "name": "retailer 224 city3",
+        "description": "retailer 224 city3",
+        "city_id": 3
+    },
+    {
+        "id": 225,
+        "name": "retailer 225 city4",
+        "description": "retailer 225 city4",
+        "city_id": 4
+    },
+    {
+        "id": 226,
+        "name": "retailer 226 city5",
+        "description": "retailer 226 city5",
+        "city_id": 5
+    },
+    {
+        "id": 227,
+        "name": "retailer 227 city6",
+        "description": "retailer 227 city6",
+        "city_id": 6
+    },
+    {
+        "id": 228,
+        "name": "retailer 228 city7",
+        "description": "retailer 228 city7",
+        "city_id": 7
+    },
+    {
+        "id": 229,
+        "name": "retailer 229 city8",
+        "description": "retailer 229 city8",
+        "city_id": 8
+    },
+    {
+        "id": 230,
+        "name": "retailer 230 city9",
+        "description": "retailer 230 city9",
+        "city_id": 9
+    },
+    {
+        "id": 231,
+        "name": "retailer 231 city10",
+        "description": "retailer 231 city10",
+        "city_id": 10
+    },
+    {
+        "id": 232,
+        "name": "retailer 232 city11",
+        "description": "retailer 232 city11",
+        "city_id": 11
+    },
+    {
+        "id": 233,
+        "name": "retailer 233 city12",
+        "description": "retailer 233 city12",
+        "city_id": 12
+    },
+    {
+        "id": 234,
+        "name": "retailer 234 city13",
+        "description": "retailer 234 city13",
+        "city_id": 13
+    },
+    {
+        "id": 235,
+        "name": "retailer 235 city14",
+        "description": "retailer 235 city14",
+        "city_id": 14
+    },
+    {
+        "id": 236,
+        "name": "retailer 236 city15",
+        "description": "retailer 236 city15",
+        "city_id": 15
+    },
+    {
+        "id": 237,
+        "name": "retailer 237 city16",
+        "description": "retailer 237 city16",
+        "city_id": 16
+    },
+    {
+        "id": 238,
+        "name": "retailer 238 city17",
+        "description": "retailer 238 city17",
+        "city_id": 17
+    },
+    {
+        "id": 239,
+        "name": "retailer 239 city18",
+        "description": "retailer 239 city18",
+        "city_id": 18
+    },
+    {
+        "id": 240,
+        "name": "retailer 240 city19",
+        "description": "retailer 240 city19",
+        "city_id": 19
+    },
+    {
+        "id": 241,
+        "name": "retailer 241 city20",
+        "description": "retailer 241 city20",
+        "city_id": 20
+    },
+    {
+        "id": 242,
+        "name": "retailer 242 city21",
+        "description": "retailer 242 city21",
+        "city_id": 21
+    },
+    {
+        "id": 243,
+        "name": "retailer 243 city22",
+        "description": "retailer 243 city22",
+        "city_id": 22
+    },
+    {
+        "id": 244,
+        "name": "retailer 244 city23",
+        "description": "retailer 244 city23",
+        "city_id": 23
+    },
+    {
+        "id": 245,
+        "name": "retailer 245 city24",
+        "description": "retailer 245 city24",
+        "city_id": 24
+    },
+    {
+        "id": 246,
+        "name": "retailer 246 city25",
+        "description": "retailer 246 city25",
+        "city_id": 25
+    },
+    {
+        "id": 247,
+        "name": "retailer 247 city26",
+        "description": "retailer 247 city26",
+        "city_id": 26
+    },
+    {
+        "id": 248,
+        "name": "retailer 248 city27",
+        "description": "retailer 248 city27",
+        "city_id": 27
+    },
+    {
+        "id": 249,
+        "name": "retailer 249 city28",
+        "description": "retailer 249 city28",
+        "city_id": 28
+    },
+    {
+        "id": 250,
+        "name": "retailer 250 city29",
+        "description": "retailer 250 city29",
+        "city_id": 29
+    },
+    {
+        "id": 251,
+        "name": "retailer 251 city30",
+        "description": "retailer 251 city30",
+        "city_id": 30
+    },
+    {
+        "id": 252,
+        "name": "retailer 252 city31",
+        "description": "retailer 252 city31",
+        "city_id": 31
+    },
+    {
+        "id": 253,
+        "name": "retailer 253 city32",
+        "description": "retailer 253 city32",
+        "city_id": 32
+    },
+    {
+        "id": 254,
+        "name": "retailer 254 city33",
+        "description": "retailer 254 city33",
+        "city_id": 33
+    },
+    {
+        "id": 255,
+        "name": "retailer 255 city34",
+        "description": "retailer 255 city34",
+        "city_id": 34
+    },
+    {
+        "id": 256,
+        "name": "retailer 256 city35",
+        "description": "retailer 256 city35",
+        "city_id": 35
+    },
+    {
+        "id": 257,
+        "name": "retailer 257 city36",
+        "description": "retailer 257 city36",
+        "city_id": 36
+    },
+    {
+        "id": 258,
+        "name": "retailer 258 city37",
+        "description": "retailer 258 city37",
+        "city_id": 37
+    },
+    {
+        "id": 259,
+        "name": "retailer 259 city38",
+        "description": "retailer 259 city38",
+        "city_id": 38
+    },
+    {
+        "id": 260,
+        "name": "retailer 260 city39",
+        "description": "retailer 260 city39",
+        "city_id": 39
+    },
+    {
+        "id": 261,
+        "name": "retailer 261 city40",
+        "description": "retailer 261 city40",
+        "city_id": 40
+    },
+    {
+        "id": 262,
+        "name": "retailer 262 city41",
+        "description": "retailer 262 city41",
+        "city_id": 41
+    },
+    {
+        "id": 263,
+        "name": "retailer 263 city42",
+        "description": "retailer 263 city42",
+        "city_id": 42
+    },
+    {
+        "id": 264,
+        "name": "retailer 264 city43",
+        "description": "retailer 264 city43",
+        "city_id": 43
+    },
+    {
+        "id": 265,
+        "name": "retailer 265 city44",
+        "description": "retailer 265 city44",
+        "city_id": 44
+    },
+    {
+        "id": 266,
+        "name": "retailer 266 city45",
+        "description": "retailer 266 city45",
+        "city_id": 45
+    },
+    {
+        "id": 267,
+        "name": "retailer 267 city46",
+        "description": "retailer 267 city46",
+        "city_id": 46
+    },
+    {
+        "id": 268,
+        "name": "retailer 268 city47",
+        "description": "retailer 268 city47",
+        "city_id": 47
+    },
+    {
+        "id": 269,
+        "name": "retailer 269 city48",
+        "description": "retailer 269 city48",
+        "city_id": 48
+    },
+    {
+        "id": 270,
+        "name": "retailer 270 city49",
+        "description": "retailer 270 city49",
+        "city_id": 49
+    },
+    {
+        "id": 271,
+        "name": "retailer 271 city50",
+        "description": "retailer 271 city50",
+        "city_id": 50
+    },
+    {
+        "id": 272,
+        "name": "retailer 272 city51",
+        "description": "retailer 272 city51",
+        "city_id": 51
+    },
+    {
+        "id": 273,
+        "name": "retailer 273 city52",
+        "description": "retailer 273 city52",
+        "city_id": 52
+    },
+    {
+        "id": 274,
+        "name": "retailer 274 city53",
+        "description": "retailer 274 city53",
+        "city_id": 53
+    },
+    {
+        "id": 275,
+        "name": "retailer 275 city54",
+        "description": "retailer 275 city54",
+        "city_id": 54
+    },
+    {
+        "id": 276,
+        "name": "retailer 276 city55",
+        "description": "retailer 276 city55",
+        "city_id": 55
+    },
+    {
+        "id": 277,
+        "name": "retailer 277 city56",
+        "description": "retailer 277 city56",
+        "city_id": 56
+    },
+    {
+        "id": 278,
+        "name": "retailer 278 city57",
+        "description": "retailer 278 city57",
+        "city_id": 57
+    },
+    {
+        "id": 279,
+        "name": "retailer 279 city58",
+        "description": "retailer 279 city58",
+        "city_id": 58
+    },
+    {
+        "id": 280,
+        "name": "retailer 280 city59",
+        "description": "retailer 280 city59",
+        "city_id": 59
+    },
+    {
+        "id": 281,
+        "name": "retailer 281 city60",
+        "description": "retailer 281 city60",
+        "city_id": 60
+    },
+    {
+        "id": 282,
+        "name": "retailer 282 city61",
+        "description": "retailer 282 city61",
+        "city_id": 61
+    },
+    {
+        "id": 283,
+        "name": "retailer 283 city62",
+        "description": "retailer 283 city62",
+        "city_id": 62
+    },
+    {
+        "id": 284,
+        "name": "retailer 284 city63",
+        "description": "retailer 284 city63",
+        "city_id": 63
+    },
+    {
+        "id": 285,
+        "name": "retailer 285 city64",
+        "description": "retailer 285 city64",
+        "city_id": 64
+    },
+    {
+        "id": 286,
+        "name": "retailer 286 city65",
+        "description": "retailer 286 city65",
+        "city_id": 65
+    },
+    {
+        "id": 287,
+        "name": "retailer 287 city66",
+        "description": "retailer 287 city66",
+        "city_id": 66
+    },
+    {
+        "id": 288,
+        "name": "retailer 288 city67",
+        "description": "retailer 288 city67",
+        "city_id": 67
+    },
+    {
+        "id": 289,
+        "name": "retailer 289 city68",
+        "description": "retailer 289 city68",
+        "city_id": 68
+    },
+    {
+        "id": 290,
+        "name": "retailer 290 city69",
+        "description": "retailer 290 city69",
+        "city_id": 69
+    },
+    {
+        "id": 291,
+        "name": "retailer 291 city70",
+        "description": "retailer 291 city70",
+        "city_id": 70
+    },
+    {
+        "id": 292,
+        "name": "retailer 292 city71",
+        "description": "retailer 292 city71",
+        "city_id": 71
+    },
+    {
+        "id": 293,
+        "name": "retailer 293 city72",
+        "description": "retailer 293 city72",
+        "city_id": 72
+    },
+    {
+        "id": 294,
+        "name": "retailer 294 city73",
+        "description": "retailer 294 city73",
+        "city_id": 73
+    },
+    {
+        "id": 295,
+        "name": "retailer 295 city74",
+        "description": "retailer 295 city74",
+        "city_id": 74
+    },
+    {
+        "id": 296,
+        "name": "retailer 296 city75",
+        "description": "retailer 296 city75",
+        "city_id": 75
+    },
+    {
+        "id": 297,
+        "name": "retailer 297 city76",
+        "description": "retailer 297 city76",
+        "city_id": 76
+    },
+    {
+        "id": 298,
+        "name": "retailer 298 city77",
+        "description": "retailer 298 city77",
+        "city_id": 77
+    },
+    {
+        "id": 299,
+        "name": "retailer 299 city78",
+        "description": "retailer 299 city78",
+        "city_id": 78
+    },
+    {
+        "id": 300,
+        "name": "retailer 300 city79",
+        "description": "retailer 300 city79",
+        "city_id": 79
+    },
+    {
+        "id": 301,
+        "name": "retailer 301 city80",
+        "description": "retailer 301 city80",
+        "city_id": 80
+    },
+    {
+        "id": 302,
+        "name": "retailer 302 city81",
+        "description": "retailer 302 city81",
+        "city_id": 81
+    },
+    {
+        "id": 303,
+        "name": "retailer 303 city82",
+        "description": "retailer 303 city82",
+        "city_id": 82
+    },
+    {
+        "id": 304,
+        "name": "retailer 304 city83",
+        "description": "retailer 304 city83",
+        "city_id": 83
+    },
+    {
+        "id": 305,
+        "name": "retailer 305 city84",
+        "description": "retailer 305 city84",
+        "city_id": 84
+    },
+    {
+        "id": 306,
+        "name": "retailer 306 city85",
+        "description": "retailer 306 city85",
+        "city_id": 85
+    },
+    {
+        "id": 307,
+        "name": "retailer 307 city86",
+        "description": "retailer 307 city86",
+        "city_id": 86
+    },
+    {
+        "id": 308,
+        "name": "retailer 308 city87",
+        "description": "retailer 308 city87",
+        "city_id": 87
+    },
+    {
+        "id": 309,
+        "name": "retailer 309 city88",
+        "description": "retailer 309 city88",
+        "city_id": 88
+    },
+    {
+        "id": 310,
+        "name": "retailer 310 city89",
+        "description": "retailer 310 city89",
+        "city_id": 89
+    },
+    {
+        "id": 311,
+        "name": "retailer 311 city90",
+        "description": "retailer 311 city90",
+        "city_id": 90
+    },
+    {
+        "id": 312,
+        "name": "retailer 312 city91",
+        "description": "retailer 312 city91",
+        "city_id": 91
+    },
+    {
+        "id": 313,
+        "name": "retailer 313 city92",
+        "description": "retailer 313 city92",
+        "city_id": 92
+    },
+    {
+        "id": 314,
+        "name": "retailer 314 city93",
+        "description": "retailer 314 city93",
+        "city_id": 93
+    },
+    {
+        "id": 315,
+        "name": "retailer 315 city94",
+        "description": "retailer 315 city94",
+        "city_id": 94
+    },
+    {
+        "id": 316,
+        "name": "retailer 316 city95",
+        "description": "retailer 316 city95",
+        "city_id": 95
+    },
+    {
+        "id": 317,
+        "name": "retailer 317 city96",
+        "description": "retailer 317 city96",
+        "city_id": 96
+    },
+    {
+        "id": 318,
+        "name": "retailer 318 city97",
+        "description": "retailer 318 city97",
+        "city_id": 97
+    },
+    {
+        "id": 319,
+        "name": "retailer 319 city98",
+        "description": "retailer 319 city98",
+        "city_id": 98
+    },
+    {
+        "id": 320,
+        "name": "retailer 320 city99",
+        "description": "retailer 320 city99",
+        "city_id": 99
+    },
+    {
+        "id": 321,
+        "name": "retailer 321 city100",
+        "description": "retailer 321 city100",
+        "city_id": 100
+    },
+    {
+        "id": 322,
+        "name": "retailer 322 city101",
+        "description": "retailer 322 city101",
+        "city_id": 101
+    },
+    {
+        "id": 323,
+        "name": "retailer 323 city102",
+        "description": "retailer 323 city102",
+        "city_id": 102
+    },
+    {
+        "id": 324,
+        "name": "retailer 324 city103",
+        "description": "retailer 324 city103",
+        "city_id": 103
+    },
+    {
+        "id": 325,
+        "name": "retailer 325 city104",
+        "description": "retailer 325 city104",
+        "city_id": 104
+    },
+    {
+        "id": 326,
+        "name": "retailer 326 city105",
+        "description": "retailer 326 city105",
+        "city_id": 105
+    },
+    {
+        "id": 327,
+        "name": "retailer 327 city106",
+        "description": "retailer 327 city106",
+        "city_id": 106
+    },
+    {
+        "id": 328,
+        "name": "retailer 328 city107",
+        "description": "retailer 328 city107",
+        "city_id": 107
+    },
+    {
+        "id": 329,
+        "name": "retailer 329 city108",
+        "description": "retailer 329 city108",
+        "city_id": 108
+    },
+    {
+        "id": 330,
+        "name": "retailer 330 city109",
+        "description": "retailer 330 city109",
+        "city_id": 109
+    },
+    {
+        "id": 331,
+        "name": "retailer 331 city110",
+        "description": "retailer 331 city110",
+        "city_id": 110
+    },
+    {
+        "id": 332,
+        "name": "retailer 332 city111",
+        "description": "retailer 332 city111",
+        "city_id": 111
+    },
+    {
+        "id": 333,
+        "name": "retailer 333 city112",
+        "description": "retailer 333 city112",
+        "city_id": 112
+    },
+    {
+        "id": 334,
+        "name": "retailer 334 city113",
+        "description": "retailer 334 city113",
+        "city_id": 113
+    },
+    {
+        "id": 335,
+        "name": "retailer 335 city114",
+        "description": "retailer 335 city114",
+        "city_id": 114
+    },
+    {
+        "id": 336,
+        "name": "retailer 336 city115",
+        "description": "retailer 336 city115",
+        "city_id": 115
+    },
+    {
+        "id": 337,
+        "name": "retailer 337 city116",
+        "description": "retailer 337 city116",
+        "city_id": 116
+    },
+    {
+        "id": 338,
+        "name": "retailer 338 city117",
+        "description": "retailer 338 city117",
+        "city_id": 117
+    },
+    {
+        "id": 339,
+        "name": "retailer 339 city118",
+        "description": "retailer 339 city118",
+        "city_id": 118
+    },
+    {
+        "id": 340,
+        "name": "retailer 340 city119",
+        "description": "retailer 340 city119",
+        "city_id": 119
+    },
+    {
+        "id": 341,
+        "name": "retailer 341 city120",
+        "description": "retailer 341 city120",
+        "city_id": 120
+    },
+    {
+        "id": 342,
+        "name": "retailer 342 city121",
+        "description": "retailer 342 city121",
+        "city_id": 121
+    },
+    {
+        "id": 343,
+        "name": "retailer 343 city122",
+        "description": "retailer 343 city122",
+        "city_id": 122
+    },
+    {
+        "id": 344,
+        "name": "retailer 344 city123",
+        "description": "retailer 344 city123",
+        "city_id": 123
+    },
+    {
+        "id": 345,
+        "name": "retailer 345 city124",
+        "description": "retailer 345 city124",
+        "city_id": 124
+    },
+    {
+        "id": 346,
+        "name": "retailer 346 city125",
+        "description": "retailer 346 city125",
+        "city_id": 125
+    },
+    {
+        "id": 347,
+        "name": "retailer 347 city126",
+        "description": "retailer 347 city126",
+        "city_id": 126
+    },
+    {
+        "id": 348,
+        "name": "retailer 348 city127",
+        "description": "retailer 348 city127",
+        "city_id": 127
+    },
+    {
+        "id": 349,
+        "name": "retailer 349 city128",
+        "description": "retailer 349 city128",
+        "city_id": 128
+    },
+    {
+        "id": 350,
+        "name": "retailer 350 city129",
+        "description": "retailer 350 city129",
+        "city_id": 129
+    },
+    {
+        "id": 351,
+        "name": "retailer 351 city130",
+        "description": "retailer 351 city130",
+        "city_id": 130
+    },
+    {
+        "id": 352,
+        "name": "retailer 352 city131",
+        "description": "retailer 352 city131",
+        "city_id": 131
+    },
+    {
+        "id": 353,
+        "name": "retailer 353 city132",
+        "description": "retailer 353 city132",
+        "city_id": 132
+    },
+    {
+        "id": 354,
+        "name": "retailer 354 city133",
+        "description": "retailer 354 city133",
+        "city_id": 133
+    },
+    {
+        "id": 355,
+        "name": "retailer 355 city134",
+        "description": "retailer 355 city134",
+        "city_id": 134
+    },
+    {
+        "id": 356,
+        "name": "retailer 356 city135",
+        "description": "retailer 356 city135",
+        "city_id": 135
+    },
+    {
+        "id": 357,
+        "name": "retailer 357 city136",
+        "description": "retailer 357 city136",
+        "city_id": 136
+    },
+    {
+        "id": 358,
+        "name": "retailer 358 city137",
+        "description": "retailer 358 city137",
+        "city_id": 137
+    },
+    {
+        "id": 359,
+        "name": "retailer 359 city138",
+        "description": "retailer 359 city138",
+        "city_id": 138
+    },
+    {
+        "id": 360,
+        "name": "retailer 360 city139",
+        "description": "retailer 360 city139",
+        "city_id": 139
+    },
+    {
+        "id": 361,
+        "name": "retailer 361 city140",
+        "description": "retailer 361 city140",
+        "city_id": 140
+    },
+    {
+        "id": 362,
+        "name": "retailer 362 city141",
+        "description": "retailer 362 city141",
+        "city_id": 141
+    },
+    {
+        "id": 363,
+        "name": "retailer 363 city142",
+        "description": "retailer 363 city142",
+        "city_id": 142
+    },
+    {
+        "id": 364,
+        "name": "retailer 364 city143",
+        "description": "retailer 364 city143",
+        "city_id": 143
+    },
+    {
+        "id": 365,
+        "name": "retailer 365 city144",
+        "description": "retailer 365 city144",
+        "city_id": 144
+    },
+    {
+        "id": 366,
+        "name": "retailer 366 city145",
+        "description": "retailer 366 city145",
+        "city_id": 145
+    },
+    {
+        "id": 367,
+        "name": "retailer 367 city146",
+        "description": "retailer 367 city146",
+        "city_id": 146
+    },
+    {
+        "id": 368,
+        "name": "retailer 368 city147",
+        "description": "retailer 368 city147",
+        "city_id": 147
+    },
+    {
+        "id": 369,
+        "name": "retailer 369 city148",
+        "description": "retailer 369 city148",
+        "city_id": 148
+    },
+    {
+        "id": 370,
+        "name": "retailer 370 city149",
+        "description": "retailer 370 city149",
+        "city_id": 149
+    },
+    {
+        "id": 371,
+        "name": "retailer 371 city150",
+        "description": "retailer 371 city150",
+        "city_id": 150
+    },
+    {
+        "id": 372,
+        "name": "retailer 372 city151",
+        "description": "retailer 372 city151",
+        "city_id": 151
+    },
+    {
+        "id": 373,
+        "name": "retailer 373 city152",
+        "description": "retailer 373 city152",
+        "city_id": 152
+    },
+    {
+        "id": 374,
+        "name": "retailer 374 city153",
+        "description": "retailer 374 city153",
+        "city_id": 153
+    },
+    {
+        "id": 375,
+        "name": "retailer 375 city154",
+        "description": "retailer 375 city154",
+        "city_id": 154
+    },
+    {
+        "id": 376,
+        "name": "retailer 376 city155",
+        "description": "retailer 376 city155",
+        "city_id": 155
+    },
+    {
+        "id": 377,
+        "name": "retailer 377 city156",
+        "description": "retailer 377 city156",
+        "city_id": 156
+    },
+    {
+        "id": 378,
+        "name": "retailer 378 city157",
+        "description": "retailer 378 city157",
+        "city_id": 157
+    },
+    {
+        "id": 379,
+        "name": "retailer 379 city158",
+        "description": "retailer 379 city158",
+        "city_id": 158
+    },
+    {
+        "id": 380,
+        "name": "retailer 380 city159",
+        "description": "retailer 380 city159",
+        "city_id": 159
+    },
+    {
+        "id": 381,
+        "name": "retailer 381 city160",
+        "description": "retailer 381 city160",
+        "city_id": 160
+    },
+    {
+        "id": 382,
+        "name": "retailer 382 city161",
+        "description": "retailer 382 city161",
+        "city_id": 161
+    },
+    {
+        "id": 383,
+        "name": "retailer 383 city162",
+        "description": "retailer 383 city162",
+        "city_id": 162
+    },
+    {
+        "id": 384,
+        "name": "retailer 384 city163",
+        "description": "retailer 384 city163",
+        "city_id": 163
+    },
+    {
+        "id": 385,
+        "name": "retailer 385 city164",
+        "description": "retailer 385 city164",
+        "city_id": 164
+    },
+    {
+        "id": 386,
+        "name": "retailer 386 city165",
+        "description": "retailer 386 city165",
+        "city_id": 165
+    },
+    {
+        "id": 387,
+        "name": "retailer 387 city166",
+        "description": "retailer 387 city166",
+        "city_id": 166
+    },
+    {
+        "id": 388,
+        "name": "retailer 388 city167",
+        "description": "retailer 388 city167",
+        "city_id": 167
+    },
+    {
+        "id": 389,
+        "name": "retailer 389 city168",
+        "description": "retailer 389 city168",
+        "city_id": 168
+    },
+    {
+        "id": 390,
+        "name": "retailer 390 city169",
+        "description": "retailer 390 city169",
+        "city_id": 169
+    },
+    {
+        "id": 391,
+        "name": "retailer 391 city170",
+        "description": "retailer 391 city170",
+        "city_id": 170
+    },
+    {
+        "id": 392,
+        "name": "retailer 392 city171",
+        "description": "retailer 392 city171",
+        "city_id": 171
+    },
+    {
+        "id": 393,
+        "name": "retailer 393 city172",
+        "description": "retailer 393 city172",
+        "city_id": 172
+    },
+    {
+        "id": 394,
+        "name": "retailer 394 city173",
+        "description": "retailer 394 city173",
+        "city_id": 173
+    },
+    {
+        "id": 395,
+        "name": "retailer 395 city174",
+        "description": "retailer 395 city174",
+        "city_id": 174
+    },
+    {
+        "id": 396,
+        "name": "retailer 396 city175",
+        "description": "retailer 396 city175",
+        "city_id": 175
+    },
+    {
+        "id": 397,
+        "name": "retailer 397 city176",
+        "description": "retailer 397 city176",
+        "city_id": 176
+    },
+    {
+        "id": 398,
+        "name": "retailer 398 city177",
+        "description": "retailer 398 city177",
+        "city_id": 177
+    },
+    {
+        "id": 399,
+        "name": "retailer 399 city178",
+        "description": "retailer 399 city178",
+        "city_id": 178
+    },
+    {
+        "id": 400,
+        "name": "retailer 400 city179",
+        "description": "retailer 400 city179",
+        "city_id": 179
+    },
+    {
+        "id": 401,
+        "name": "retailer 401 city180",
+        "description": "retailer 401 city180",
+        "city_id": 180
+    },
+    {
+        "id": 402,
+        "name": "retailer 402 city181",
+        "description": "retailer 402 city181",
+        "city_id": 181
+    },
+    {
+        "id": 403,
+        "name": "retailer 403 city182",
+        "description": "retailer 403 city182",
+        "city_id": 182
+    },
+    {
+        "id": 404,
+        "name": "retailer 404 city183",
+        "description": "retailer 404 city183",
+        "city_id": 183
+    },
+    {
+        "id": 405,
+        "name": "retailer 405 city184",
+        "description": "retailer 405 city184",
+        "city_id": 184
+    },
+    {
+        "id": 406,
+        "name": "retailer 406 city185",
+        "description": "retailer 406 city185",
+        "city_id": 185
+    },
+    {
+        "id": 407,
+        "name": "retailer 407 city186",
+        "description": "retailer 407 city186",
+        "city_id": 186
+    },
+    {
+        "id": 408,
+        "name": "retailer 408 city187",
+        "description": "retailer 408 city187",
+        "city_id": 187
+    },
+    {
+        "id": 409,
+        "name": "retailer 409 city188",
+        "description": "retailer 409 city188",
+        "city_id": 188
+    },
+    {
+        "id": 410,
+        "name": "retailer 410 city189",
+        "description": "retailer 410 city189",
+        "city_id": 189
+    },
+    {
+        "id": 411,
+        "name": "retailer 411 city190",
+        "description": "retailer 411 city190",
+        "city_id": 190
+    },
+    {
+        "id": 412,
+        "name": "retailer 412 city191",
+        "description": "retailer 412 city191",
+        "city_id": 191
+    },
+    {
+        "id": 413,
+        "name": "retailer 413 city192",
+        "description": "retailer 413 city192",
+        "city_id": 192
+    },
+    {
+        "id": 414,
+        "name": "retailer 414 city193",
+        "description": "retailer 414 city193",
+        "city_id": 193
+    },
+    {
+        "id": 415,
+        "name": "retailer 415 city194",
+        "description": "retailer 415 city194",
+        "city_id": 194
+    },
+    {
+        "id": 416,
+        "name": "retailer 416 city195",
+        "description": "retailer 416 city195",
+        "city_id": 195
+    },
+    {
+        "id": 417,
+        "name": "retailer 417 city196",
+        "description": "retailer 417 city196",
+        "city_id": 196
+    },
+    {
+        "id": 418,
+        "name": "retailer 418 city197",
+        "description": "retailer 418 city197",
+        "city_id": 197
+    },
+    {
+        "id": 419,
+        "name": "retailer 419 city198",
+        "description": "retailer 419 city198",
+        "city_id": 198
+    },
+    {
+        "id": 420,
+        "name": "retailer 420 city199",
+        "description": "retailer 420 city199",
+        "city_id": 199
+    },
+    {
+        "id": 421,
+        "name": "retailer 421 city200",
+        "description": "retailer 421 city200",
+        "city_id": 200
+    },
+    {
+        "id": 422,
+        "name": "retailer 422 city201",
+        "description": "retailer 422 city201",
+        "city_id": 201
+    },
+    {
+        "id": 423,
+        "name": "retailer 423 city202",
+        "description": "retailer 423 city202",
+        "city_id": 202
+    },
+    {
+        "id": 424,
+        "name": "retailer 424 city203",
+        "description": "retailer 424 city203",
+        "city_id": 203
+    },
+    {
+        "id": 425,
+        "name": "retailer 425 city204",
+        "description": "retailer 425 city204",
+        "city_id": 204
+    },
+    {
+        "id": 426,
+        "name": "retailer 426 city205",
+        "description": "retailer 426 city205",
+        "city_id": 205
+    },
+    {
+        "id": 427,
+        "name": "retailer 427 city206",
+        "description": "retailer 427 city206",
+        "city_id": 206
+    },
+    {
+        "id": 428,
+        "name": "retailer 428 city207",
+        "description": "retailer 428 city207",
+        "city_id": 207
+    },
+    {
+        "id": 429,
+        "name": "retailer 429 city208",
+        "description": "retailer 429 city208",
+        "city_id": 208
+    },
+    {
+        "id": 430,
+        "name": "retailer 430 city209",
+        "description": "retailer 430 city209",
+        "city_id": 209
+    },
+    {
+        "id": 431,
+        "name": "retailer 431 city210",
+        "description": "retailer 431 city210",
+        "city_id": 210
+    },
+    {
+        "id": 432,
+        "name": "retailer 432 city211",
+        "description": "retailer 432 city211",
+        "city_id": 211
+    },
+    {
+        "id": 433,
+        "name": "retailer 433 city212",
+        "description": "retailer 433 city212",
+        "city_id": 212
+    },
+    {
+        "id": 434,
+        "name": "retailer 434 city213",
+        "description": "retailer 434 city213",
+        "city_id": 213
+    },
+    {
+        "id": 435,
+        "name": "retailer 435 city214",
+        "description": "retailer 435 city214",
+        "city_id": 214
+    },
+    {
+        "id": 436,
+        "name": "retailer 436 city215",
+        "description": "retailer 436 city215",
+        "city_id": 215
+    },
+    {
+        "id": 437,
+        "name": "retailer 437 city216",
+        "description": "retailer 437 city216",
+        "city_id": 216
+    },
+    {
+        "id": 438,
+        "name": "retailer 438 city217",
+        "description": "retailer 438 city217",
+        "city_id": 217
+    },
+    {
+        "id": 439,
+        "name": "retailer 439 city218",
+        "description": "retailer 439 city218",
+        "city_id": 218
+    },
+    {
+        "id": 440,
+        "name": "retailer 440 city219",
+        "description": "retailer 440 city219",
+        "city_id": 219
+    },
+    {
+        "id": 441,
+        "name": "retailer 441 city220",
+        "description": "retailer 441 city220",
+        "city_id": 220
+    },
+    {
+        "id": 442,
+        "name": "retailer 442 city221",
+        "description": "retailer 442 city221",
+        "city_id": 221
+    },
+    {
+        "id": 443,
+        "name": "retailer 443 city1",
+        "description": "retailer 443 city1",
+        "city_id": 1
+    },
+    {
+        "id": 444,
+        "name": "retailer 444 city2",
+        "description": "retailer 444 city2",
+        "city_id": 2
+    },
+    {
+        "id": 445,
+        "name": "retailer 445 city3",
+        "description": "retailer 445 city3",
+        "city_id": 3
+    },
+    {
+        "id": 446,
+        "name": "retailer 446 city4",
+        "description": "retailer 446 city4",
+        "city_id": 4
+    },
+    {
+        "id": 447,
+        "name": "retailer 447 city5",
+        "description": "retailer 447 city5",
+        "city_id": 5
+    },
+    {
+        "id": 448,
+        "name": "retailer 448 city6",
+        "description": "retailer 448 city6",
+        "city_id": 6
+    },
+    {
+        "id": 449,
+        "name": "retailer 449 city7",
+        "description": "retailer 449 city7",
+        "city_id": 7
+    },
+    {
+        "id": 450,
+        "name": "retailer 450 city8",
+        "description": "retailer 450 city8",
+        "city_id": 8
+    },
+    {
+        "id": 451,
+        "name": "retailer 451 city9",
+        "description": "retailer 451 city9",
+        "city_id": 9
+    },
+    {
+        "id": 452,
+        "name": "retailer 452 city10",
+        "description": "retailer 452 city10",
+        "city_id": 10
+    },
+    {
+        "id": 453,
+        "name": "retailer 453 city11",
+        "description": "retailer 453 city11",
+        "city_id": 11
+    },
+    {
+        "id": 454,
+        "name": "retailer 454 city12",
+        "description": "retailer 454 city12",
+        "city_id": 12
+    },
+    {
+        "id": 455,
+        "name": "retailer 455 city13",
+        "description": "retailer 455 city13",
+        "city_id": 13
+    },
+    {
+        "id": 456,
+        "name": "retailer 456 city14",
+        "description": "retailer 456 city14",
+        "city_id": 14
+    },
+    {
+        "id": 457,
+        "name": "retailer 457 city15",
+        "description": "retailer 457 city15",
+        "city_id": 15
+    },
+    {
+        "id": 458,
+        "name": "retailer 458 city16",
+        "description": "retailer 458 city16",
+        "city_id": 16
+    },
+    {
+        "id": 459,
+        "name": "retailer 459 city17",
+        "description": "retailer 459 city17",
+        "city_id": 17
+    },
+    {
+        "id": 460,
+        "name": "retailer 460 city18",
+        "description": "retailer 460 city18",
+        "city_id": 18
+    },
+    {
+        "id": 461,
+        "name": "retailer 461 city19",
+        "description": "retailer 461 city19",
+        "city_id": 19
+    },
+    {
+        "id": 462,
+        "name": "retailer 462 city20",
+        "description": "retailer 462 city20",
+        "city_id": 20
+    },
+    {
+        "id": 463,
+        "name": "retailer 463 city21",
+        "description": "retailer 463 city21",
+        "city_id": 21
+    },
+    {
+        "id": 464,
+        "name": "retailer 464 city22",
+        "description": "retailer 464 city22",
+        "city_id": 22
+    },
+    {
+        "id": 465,
+        "name": "retailer 465 city23",
+        "description": "retailer 465 city23",
+        "city_id": 23
+    },
+    {
+        "id": 466,
+        "name": "retailer 466 city24",
+        "description": "retailer 466 city24",
+        "city_id": 24
+    },
+    {
+        "id": 467,
+        "name": "retailer 467 city25",
+        "description": "retailer 467 city25",
+        "city_id": 25
+    },
+    {
+        "id": 468,
+        "name": "retailer 468 city26",
+        "description": "retailer 468 city26",
+        "city_id": 26
+    },
+    {
+        "id": 469,
+        "name": "retailer 469 city27",
+        "description": "retailer 469 city27",
+        "city_id": 27
+    },
+    {
+        "id": 470,
+        "name": "retailer 470 city28",
+        "description": "retailer 470 city28",
+        "city_id": 28
+    },
+    {
+        "id": 471,
+        "name": "retailer 471 city29",
+        "description": "retailer 471 city29",
+        "city_id": 29
+    },
+    {
+        "id": 472,
+        "name": "retailer 472 city30",
+        "description": "retailer 472 city30",
+        "city_id": 30
+    },
+    {
+        "id": 473,
+        "name": "retailer 473 city31",
+        "description": "retailer 473 city31",
+        "city_id": 31
+    },
+    {
+        "id": 474,
+        "name": "retailer 474 city32",
+        "description": "retailer 474 city32",
+        "city_id": 32
+    },
+    {
+        "id": 475,
+        "name": "retailer 475 city33",
+        "description": "retailer 475 city33",
+        "city_id": 33
+    },
+    {
+        "id": 476,
+        "name": "retailer 476 city34",
+        "description": "retailer 476 city34",
+        "city_id": 34
+    },
+    {
+        "id": 477,
+        "name": "retailer 477 city35",
+        "description": "retailer 477 city35",
+        "city_id": 35
+    },
+    {
+        "id": 478,
+        "name": "retailer 478 city36",
+        "description": "retailer 478 city36",
+        "city_id": 36
+    },
+    {
+        "id": 479,
+        "name": "retailer 479 city37",
+        "description": "retailer 479 city37",
+        "city_id": 37
+    },
+    {
+        "id": 480,
+        "name": "retailer 480 city38",
+        "description": "retailer 480 city38",
+        "city_id": 38
+    },
+    {
+        "id": 481,
+        "name": "retailer 481 city39",
+        "description": "retailer 481 city39",
+        "city_id": 39
+    },
+    {
+        "id": 482,
+        "name": "retailer 482 city40",
+        "description": "retailer 482 city40",
+        "city_id": 40
+    },
+    {
+        "id": 483,
+        "name": "retailer 483 city41",
+        "description": "retailer 483 city41",
+        "city_id": 41
+    },
+    {
+        "id": 484,
+        "name": "retailer 484 city42",
+        "description": "retailer 484 city42",
+        "city_id": 42
+    },
+    {
+        "id": 485,
+        "name": "retailer 485 city43",
+        "description": "retailer 485 city43",
+        "city_id": 43
+    },
+    {
+        "id": 486,
+        "name": "retailer 486 city44",
+        "description": "retailer 486 city44",
+        "city_id": 44
+    },
+    {
+        "id": 487,
+        "name": "retailer 487 city45",
+        "description": "retailer 487 city45",
+        "city_id": 45
+    },
+    {
+        "id": 488,
+        "name": "retailer 488 city46",
+        "description": "retailer 488 city46",
+        "city_id": 46
+    },
+    {
+        "id": 489,
+        "name": "retailer 489 city47",
+        "description": "retailer 489 city47",
+        "city_id": 47
+    },
+    {
+        "id": 490,
+        "name": "retailer 490 city48",
+        "description": "retailer 490 city48",
+        "city_id": 48
+    },
+    {
+        "id": 491,
+        "name": "retailer 491 city49",
+        "description": "retailer 491 city49",
+        "city_id": 49
+    },
+    {
+        "id": 492,
+        "name": "retailer 492 city50",
+        "description": "retailer 492 city50",
+        "city_id": 50
+    },
+    {
+        "id": 493,
+        "name": "retailer 493 city51",
+        "description": "retailer 493 city51",
+        "city_id": 51
+    },
+    {
+        "id": 494,
+        "name": "retailer 494 city52",
+        "description": "retailer 494 city52",
+        "city_id": 52
+    },
+    {
+        "id": 495,
+        "name": "retailer 495 city53",
+        "description": "retailer 495 city53",
+        "city_id": 53
+    },
+    {
+        "id": 496,
+        "name": "retailer 496 city54",
+        "description": "retailer 496 city54",
+        "city_id": 54
+    },
+    {
+        "id": 497,
+        "name": "retailer 497 city55",
+        "description": "retailer 497 city55",
+        "city_id": 55
+    },
+    {
+        "id": 498,
+        "name": "retailer 498 city56",
+        "description": "retailer 498 city56",
+        "city_id": 56
+    },
+    {
+        "id": 499,
+        "name": "retailer 499 city57",
+        "description": "retailer 499 city57",
+        "city_id": 57
+    },
+    {
+        "id": 500,
+        "name": "retailer 500 city58",
+        "description": "retailer 500 city58",
+        "city_id": 58
+    },
+    {
+        "id": 501,
+        "name": "retailer 501 city59",
+        "description": "retailer 501 city59",
+        "city_id": 59
+    },
+    {
+        "id": 502,
+        "name": "retailer 502 city60",
+        "description": "retailer 502 city60",
+        "city_id": 60
+    },
+    {
+        "id": 503,
+        "name": "retailer 503 city61",
+        "description": "retailer 503 city61",
+        "city_id": 61
+    },
+    {
+        "id": 504,
+        "name": "retailer 504 city62",
+        "description": "retailer 504 city62",
+        "city_id": 62
+    },
+    {
+        "id": 505,
+        "name": "retailer 505 city63",
+        "description": "retailer 505 city63",
+        "city_id": 63
+    },
+    {
+        "id": 506,
+        "name": "retailer 506 city64",
+        "description": "retailer 506 city64",
+        "city_id": 64
+    },
+    {
+        "id": 507,
+        "name": "retailer 507 city65",
+        "description": "retailer 507 city65",
+        "city_id": 65
+    },
+    {
+        "id": 508,
+        "name": "retailer 508 city66",
+        "description": "retailer 508 city66",
+        "city_id": 66
+    },
+    {
+        "id": 509,
+        "name": "retailer 509 city67",
+        "description": "retailer 509 city67",
+        "city_id": 67
+    },
+    {
+        "id": 510,
+        "name": "retailer 510 city68",
+        "description": "retailer 510 city68",
+        "city_id": 68
+    },
+    {
+        "id": 511,
+        "name": "retailer 511 city69",
+        "description": "retailer 511 city69",
+        "city_id": 69
+    },
+    {
+        "id": 512,
+        "name": "retailer 512 city70",
+        "description": "retailer 512 city70",
+        "city_id": 70
+    },
+    {
+        "id": 513,
+        "name": "retailer 513 city71",
+        "description": "retailer 513 city71",
+        "city_id": 71
+    },
+    {
+        "id": 514,
+        "name": "retailer 514 city72",
+        "description": "retailer 514 city72",
+        "city_id": 72
+    },
+    {
+        "id": 515,
+        "name": "retailer 515 city73",
+        "description": "retailer 515 city73",
+        "city_id": 73
+    },
+    {
+        "id": 516,
+        "name": "retailer 516 city74",
+        "description": "retailer 516 city74",
+        "city_id": 74
+    },
+    {
+        "id": 517,
+        "name": "retailer 517 city75",
+        "description": "retailer 517 city75",
+        "city_id": 75
+    },
+    {
+        "id": 518,
+        "name": "retailer 518 city76",
+        "description": "retailer 518 city76",
+        "city_id": 76
+    },
+    {
+        "id": 519,
+        "name": "retailer 519 city77",
+        "description": "retailer 519 city77",
+        "city_id": 77
+    },
+    {
+        "id": 520,
+        "name": "retailer 520 city78",
+        "description": "retailer 520 city78",
+        "city_id": 78
+    },
+    {
+        "id": 521,
+        "name": "retailer 521 city79",
+        "description": "retailer 521 city79",
+        "city_id": 79
+    },
+    {
+        "id": 522,
+        "name": "retailer 522 city80",
+        "description": "retailer 522 city80",
+        "city_id": 80
+    },
+    {
+        "id": 523,
+        "name": "retailer 523 city81",
+        "description": "retailer 523 city81",
+        "city_id": 81
+    },
+    {
+        "id": 524,
+        "name": "retailer 524 city82",
+        "description": "retailer 524 city82",
+        "city_id": 82
+    },
+    {
+        "id": 525,
+        "name": "retailer 525 city83",
+        "description": "retailer 525 city83",
+        "city_id": 83
+    },
+    {
+        "id": 526,
+        "name": "retailer 526 city84",
+        "description": "retailer 526 city84",
+        "city_id": 84
+    },
+    {
+        "id": 527,
+        "name": "retailer 527 city85",
+        "description": "retailer 527 city85",
+        "city_id": 85
+    },
+    {
+        "id": 528,
+        "name": "retailer 528 city86",
+        "description": "retailer 528 city86",
+        "city_id": 86
+    },
+    {
+        "id": 529,
+        "name": "retailer 529 city87",
+        "description": "retailer 529 city87",
+        "city_id": 87
+    },
+    {
+        "id": 530,
+        "name": "retailer 530 city88",
+        "description": "retailer 530 city88",
+        "city_id": 88
+    },
+    {
+        "id": 531,
+        "name": "retailer 531 city89",
+        "description": "retailer 531 city89",
+        "city_id": 89
+    },
+    {
+        "id": 532,
+        "name": "retailer 532 city90",
+        "description": "retailer 532 city90",
+        "city_id": 90
+    },
+    {
+        "id": 533,
+        "name": "retailer 533 city91",
+        "description": "retailer 533 city91",
+        "city_id": 91
+    },
+    {
+        "id": 534,
+        "name": "retailer 534 city92",
+        "description": "retailer 534 city92",
+        "city_id": 92
+    },
+    {
+        "id": 535,
+        "name": "retailer 535 city93",
+        "description": "retailer 535 city93",
+        "city_id": 93
+    },
+    {
+        "id": 536,
+        "name": "retailer 536 city94",
+        "description": "retailer 536 city94",
+        "city_id": 94
+    },
+    {
+        "id": 537,
+        "name": "retailer 537 city95",
+        "description": "retailer 537 city95",
+        "city_id": 95
+    },
+    {
+        "id": 538,
+        "name": "retailer 538 city96",
+        "description": "retailer 538 city96",
+        "city_id": 96
+    },
+    {
+        "id": 539,
+        "name": "retailer 539 city97",
+        "description": "retailer 539 city97",
+        "city_id": 97
+    },
+    {
+        "id": 540,
+        "name": "retailer 540 city98",
+        "description": "retailer 540 city98",
+        "city_id": 98
+    },
+    {
+        "id": 541,
+        "name": "retailer 541 city99",
+        "description": "retailer 541 city99",
+        "city_id": 99
+    },
+    {
+        "id": 542,
+        "name": "retailer 542 city100",
+        "description": "retailer 542 city100",
+        "city_id": 100
+    },
+    {
+        "id": 543,
+        "name": "retailer 543 city101",
+        "description": "retailer 543 city101",
+        "city_id": 101
+    },
+    {
+        "id": 544,
+        "name": "retailer 544 city102",
+        "description": "retailer 544 city102",
+        "city_id": 102
+    },
+    {
+        "id": 545,
+        "name": "retailer 545 city103",
+        "description": "retailer 545 city103",
+        "city_id": 103
+    },
+    {
+        "id": 546,
+        "name": "retailer 546 city104",
+        "description": "retailer 546 city104",
+        "city_id": 104
+    },
+    {
+        "id": 547,
+        "name": "retailer 547 city105",
+        "description": "retailer 547 city105",
+        "city_id": 105
+    },
+    {
+        "id": 548,
+        "name": "retailer 548 city106",
+        "description": "retailer 548 city106",
+        "city_id": 106
+    },
+    {
+        "id": 549,
+        "name": "retailer 549 city107",
+        "description": "retailer 549 city107",
+        "city_id": 107
+    },
+    {
+        "id": 550,
+        "name": "retailer 550 city108",
+        "description": "retailer 550 city108",
+        "city_id": 108
+    },
+    {
+        "id": 551,
+        "name": "retailer 551 city109",
+        "description": "retailer 551 city109",
+        "city_id": 109
+    },
+    {
+        "id": 552,
+        "name": "retailer 552 city110",
+        "description": "retailer 552 city110",
+        "city_id": 110
+    },
+    {
+        "id": 553,
+        "name": "retailer 553 city111",
+        "description": "retailer 553 city111",
+        "city_id": 111
+    },
+    {
+        "id": 554,
+        "name": "retailer 554 city112",
+        "description": "retailer 554 city112",
+        "city_id": 112
+    },
+    {
+        "id": 555,
+        "name": "retailer 555 city113",
+        "description": "retailer 555 city113",
+        "city_id": 113
+    },
+    {
+        "id": 556,
+        "name": "retailer 556 city114",
+        "description": "retailer 556 city114",
+        "city_id": 114
+    },
+    {
+        "id": 557,
+        "name": "retailer 557 city115",
+        "description": "retailer 557 city115",
+        "city_id": 115
+    },
+    {
+        "id": 558,
+        "name": "retailer 558 city116",
+        "description": "retailer 558 city116",
+        "city_id": 116
+    },
+    {
+        "id": 559,
+        "name": "retailer 559 city117",
+        "description": "retailer 559 city117",
+        "city_id": 117
+    },
+    {
+        "id": 560,
+        "name": "retailer 560 city118",
+        "description": "retailer 560 city118",
+        "city_id": 118
+    },
+    {
+        "id": 561,
+        "name": "retailer 561 city119",
+        "description": "retailer 561 city119",
+        "city_id": 119
+    },
+    {
+        "id": 562,
+        "name": "retailer 562 city120",
+        "description": "retailer 562 city120",
+        "city_id": 120
+    },
+    {
+        "id": 563,
+        "name": "retailer 563 city121",
+        "description": "retailer 563 city121",
+        "city_id": 121
+    },
+    {
+        "id": 564,
+        "name": "retailer 564 city122",
+        "description": "retailer 564 city122",
+        "city_id": 122
+    },
+    {
+        "id": 565,
+        "name": "retailer 565 city123",
+        "description": "retailer 565 city123",
+        "city_id": 123
+    },
+    {
+        "id": 566,
+        "name": "retailer 566 city124",
+        "description": "retailer 566 city124",
+        "city_id": 124
+    },
+    {
+        "id": 567,
+        "name": "retailer 567 city125",
+        "description": "retailer 567 city125",
+        "city_id": 125
+    },
+    {
+        "id": 568,
+        "name": "retailer 568 city126",
+        "description": "retailer 568 city126",
+        "city_id": 126
+    },
+    {
+        "id": 569,
+        "name": "retailer 569 city127",
+        "description": "retailer 569 city127",
+        "city_id": 127
+    },
+    {
+        "id": 570,
+        "name": "retailer 570 city128",
+        "description": "retailer 570 city128",
+        "city_id": 128
+    },
+    {
+        "id": 571,
+        "name": "retailer 571 city129",
+        "description": "retailer 571 city129",
+        "city_id": 129
+    },
+    {
+        "id": 572,
+        "name": "retailer 572 city130",
+        "description": "retailer 572 city130",
+        "city_id": 130
+    },
+    {
+        "id": 573,
+        "name": "retailer 573 city131",
+        "description": "retailer 573 city131",
+        "city_id": 131
+    },
+    {
+        "id": 574,
+        "name": "retailer 574 city132",
+        "description": "retailer 574 city132",
+        "city_id": 132
+    },
+    {
+        "id": 575,
+        "name": "retailer 575 city133",
+        "description": "retailer 575 city133",
+        "city_id": 133
+    },
+    {
+        "id": 576,
+        "name": "retailer 576 city134",
+        "description": "retailer 576 city134",
+        "city_id": 134
+    },
+    {
+        "id": 577,
+        "name": "retailer 577 city135",
+        "description": "retailer 577 city135",
+        "city_id": 135
+    },
+    {
+        "id": 578,
+        "name": "retailer 578 city136",
+        "description": "retailer 578 city136",
+        "city_id": 136
+    },
+    {
+        "id": 579,
+        "name": "retailer 579 city137",
+        "description": "retailer 579 city137",
+        "city_id": 137
+    },
+    {
+        "id": 580,
+        "name": "retailer 580 city138",
+        "description": "retailer 580 city138",
+        "city_id": 138
+    },
+    {
+        "id": 581,
+        "name": "retailer 581 city139",
+        "description": "retailer 581 city139",
+        "city_id": 139
+    },
+    {
+        "id": 582,
+        "name": "retailer 582 city140",
+        "description": "retailer 582 city140",
+        "city_id": 140
+    },
+    {
+        "id": 583,
+        "name": "retailer 583 city141",
+        "description": "retailer 583 city141",
+        "city_id": 141
+    },
+    {
+        "id": 584,
+        "name": "retailer 584 city142",
+        "description": "retailer 584 city142",
+        "city_id": 142
+    },
+    {
+        "id": 585,
+        "name": "retailer 585 city143",
+        "description": "retailer 585 city143",
+        "city_id": 143
+    },
+    {
+        "id": 586,
+        "name": "retailer 586 city144",
+        "description": "retailer 586 city144",
+        "city_id": 144
+    },
+    {
+        "id": 587,
+        "name": "retailer 587 city145",
+        "description": "retailer 587 city145",
+        "city_id": 145
+    },
+    {
+        "id": 588,
+        "name": "retailer 588 city146",
+        "description": "retailer 588 city146",
+        "city_id": 146
+    },
+    {
+        "id": 589,
+        "name": "retailer 589 city147",
+        "description": "retailer 589 city147",
+        "city_id": 147
+    },
+    {
+        "id": 590,
+        "name": "retailer 590 city148",
+        "description": "retailer 590 city148",
+        "city_id": 148
+    },
+    {
+        "id": 591,
+        "name": "retailer 591 city149",
+        "description": "retailer 591 city149",
+        "city_id": 149
+    },
+    {
+        "id": 592,
+        "name": "retailer 592 city150",
+        "description": "retailer 592 city150",
+        "city_id": 150
+    },
+    {
+        "id": 593,
+        "name": "retailer 593 city151",
+        "description": "retailer 593 city151",
+        "city_id": 151
+    },
+    {
+        "id": 594,
+        "name": "retailer 594 city152",
+        "description": "retailer 594 city152",
+        "city_id": 152
+    },
+    {
+        "id": 595,
+        "name": "retailer 595 city153",
+        "description": "retailer 595 city153",
+        "city_id": 153
+    },
+    {
+        "id": 596,
+        "name": "retailer 596 city154",
+        "description": "retailer 596 city154",
+        "city_id": 154
+    },
+    {
+        "id": 597,
+        "name": "retailer 597 city155",
+        "description": "retailer 597 city155",
+        "city_id": 155
+    },
+    {
+        "id": 598,
+        "name": "retailer 598 city156",
+        "description": "retailer 598 city156",
+        "city_id": 156
+    },
+    {
+        "id": 599,
+        "name": "retailer 599 city157",
+        "description": "retailer 599 city157",
+        "city_id": 157
+    },
+    {
+        "id": 600,
+        "name": "retailer 600 city158",
+        "description": "retailer 600 city158",
+        "city_id": 158
+    },
+    {
+        "id": 601,
+        "name": "retailer 601 city159",
+        "description": "retailer 601 city159",
+        "city_id": 159
+    },
+    {
+        "id": 602,
+        "name": "retailer 602 city160",
+        "description": "retailer 602 city160",
+        "city_id": 160
+    },
+    {
+        "id": 603,
+        "name": "retailer 603 city161",
+        "description": "retailer 603 city161",
+        "city_id": 161
+    },
+    {
+        "id": 604,
+        "name": "retailer 604 city162",
+        "description": "retailer 604 city162",
+        "city_id": 162
+    },
+    {
+        "id": 605,
+        "name": "retailer 605 city163",
+        "description": "retailer 605 city163",
+        "city_id": 163
+    },
+    {
+        "id": 606,
+        "name": "retailer 606 city164",
+        "description": "retailer 606 city164",
+        "city_id": 164
+    },
+    {
+        "id": 607,
+        "name": "retailer 607 city165",
+        "description": "retailer 607 city165",
+        "city_id": 165
+    },
+    {
+        "id": 608,
+        "name": "retailer 608 city166",
+        "description": "retailer 608 city166",
+        "city_id": 166
+    },
+    {
+        "id": 609,
+        "name": "retailer 609 city167",
+        "description": "retailer 609 city167",
+        "city_id": 167
+    },
+    {
+        "id": 610,
+        "name": "retailer 610 city168",
+        "description": "retailer 610 city168",
+        "city_id": 168
+    },
+    {
+        "id": 611,
+        "name": "retailer 611 city169",
+        "description": "retailer 611 city169",
+        "city_id": 169
+    },
+    {
+        "id": 612,
+        "name": "retailer 612 city170",
+        "description": "retailer 612 city170",
+        "city_id": 170
+    },
+    {
+        "id": 613,
+        "name": "retailer 613 city171",
+        "description": "retailer 613 city171",
+        "city_id": 171
+    },
+    {
+        "id": 614,
+        "name": "retailer 614 city172",
+        "description": "retailer 614 city172",
+        "city_id": 172
+    },
+    {
+        "id": 615,
+        "name": "retailer 615 city173",
+        "description": "retailer 615 city173",
+        "city_id": 173
+    },
+    {
+        "id": 616,
+        "name": "retailer 616 city174",
+        "description": "retailer 616 city174",
+        "city_id": 174
+    },
+    {
+        "id": 617,
+        "name": "retailer 617 city175",
+        "description": "retailer 617 city175",
+        "city_id": 175
+    },
+    {
+        "id": 618,
+        "name": "retailer 618 city176",
+        "description": "retailer 618 city176",
+        "city_id": 176
+    },
+    {
+        "id": 619,
+        "name": "retailer 619 city177",
+        "description": "retailer 619 city177",
+        "city_id": 177
+    },
+    {
+        "id": 620,
+        "name": "retailer 620 city178",
+        "description": "retailer 620 city178",
+        "city_id": 178
+    },
+    {
+        "id": 621,
+        "name": "retailer 621 city179",
+        "description": "retailer 621 city179",
+        "city_id": 179
+    },
+    {
+        "id": 622,
+        "name": "retailer 622 city180",
+        "description": "retailer 622 city180",
+        "city_id": 180
+    },
+    {
+        "id": 623,
+        "name": "retailer 623 city181",
+        "description": "retailer 623 city181",
+        "city_id": 181
+    },
+    {
+        "id": 624,
+        "name": "retailer 624 city182",
+        "description": "retailer 624 city182",
+        "city_id": 182
+    },
+    {
+        "id": 625,
+        "name": "retailer 625 city183",
+        "description": "retailer 625 city183",
+        "city_id": 183
+    },
+    {
+        "id": 626,
+        "name": "retailer 626 city184",
+        "description": "retailer 626 city184",
+        "city_id": 184
+    },
+    {
+        "id": 627,
+        "name": "retailer 627 city185",
+        "description": "retailer 627 city185",
+        "city_id": 185
+    },
+    {
+        "id": 628,
+        "name": "retailer 628 city186",
+        "description": "retailer 628 city186",
+        "city_id": 186
+    },
+    {
+        "id": 629,
+        "name": "retailer 629 city187",
+        "description": "retailer 629 city187",
+        "city_id": 187
+    },
+    {
+        "id": 630,
+        "name": "retailer 630 city188",
+        "description": "retailer 630 city188",
+        "city_id": 188
+    },
+    {
+        "id": 631,
+        "name": "retailer 631 city189",
+        "description": "retailer 631 city189",
+        "city_id": 189
+    },
+    {
+        "id": 632,
+        "name": "retailer 632 city190",
+        "description": "retailer 632 city190",
+        "city_id": 190
+    },
+    {
+        "id": 633,
+        "name": "retailer 633 city191",
+        "description": "retailer 633 city191",
+        "city_id": 191
+    },
+    {
+        "id": 634,
+        "name": "retailer 634 city192",
+        "description": "retailer 634 city192",
+        "city_id": 192
+    },
+    {
+        "id": 635,
+        "name": "retailer 635 city193",
+        "description": "retailer 635 city193",
+        "city_id": 193
+    },
+    {
+        "id": 636,
+        "name": "retailer 636 city194",
+        "description": "retailer 636 city194",
+        "city_id": 194
+    },
+    {
+        "id": 637,
+        "name": "retailer 637 city195",
+        "description": "retailer 637 city195",
+        "city_id": 195
+    },
+    {
+        "id": 638,
+        "name": "retailer 638 city196",
+        "description": "retailer 638 city196",
+        "city_id": 196
+    },
+    {
+        "id": 639,
+        "name": "retailer 639 city197",
+        "description": "retailer 639 city197",
+        "city_id": 197
+    },
+    {
+        "id": 640,
+        "name": "retailer 640 city198",
+        "description": "retailer 640 city198",
+        "city_id": 198
+    },
+    {
+        "id": 641,
+        "name": "retailer 641 city199",
+        "description": "retailer 641 city199",
+        "city_id": 199
+    },
+    {
+        "id": 642,
+        "name": "retailer 642 city200",
+        "description": "retailer 642 city200",
+        "city_id": 200
+    },
+    {
+        "id": 643,
+        "name": "retailer 643 city201",
+        "description": "retailer 643 city201",
+        "city_id": 201
+    },
+    {
+        "id": 644,
+        "name": "retailer 644 city202",
+        "description": "retailer 644 city202",
+        "city_id": 202
+    },
+    {
+        "id": 645,
+        "name": "retailer 645 city203",
+        "description": "retailer 645 city203",
+        "city_id": 203
+    },
+    {
+        "id": 646,
+        "name": "retailer 646 city204",
+        "description": "retailer 646 city204",
+        "city_id": 204
+    },
+    {
+        "id": 647,
+        "name": "retailer 647 city205",
+        "description": "retailer 647 city205",
+        "city_id": 205
+    },
+    {
+        "id": 648,
+        "name": "retailer 648 city206",
+        "description": "retailer 648 city206",
+        "city_id": 206
+    },
+    {
+        "id": 649,
+        "name": "retailer 649 city207",
+        "description": "retailer 649 city207",
+        "city_id": 207
+    },
+    {
+        "id": 650,
+        "name": "retailer 650 city208",
+        "description": "retailer 650 city208",
+        "city_id": 208
+    },
+    {
+        "id": 651,
+        "name": "retailer 651 city209",
+        "description": "retailer 651 city209",
+        "city_id": 209
+    },
+    {
+        "id": 652,
+        "name": "retailer 652 city210",
+        "description": "retailer 652 city210",
+        "city_id": 210
+    },
+    {
+        "id": 653,
+        "name": "retailer 653 city211",
+        "description": "retailer 653 city211",
+        "city_id": 211
+    },
+    {
+        "id": 654,
+        "name": "retailer 654 city212",
+        "description": "retailer 654 city212",
+        "city_id": 212
+    },
+    {
+        "id": 655,
+        "name": "retailer 655 city213",
+        "description": "retailer 655 city213",
+        "city_id": 213
+    },
+    {
+        "id": 656,
+        "name": "retailer 656 city214",
+        "description": "retailer 656 city214",
+        "city_id": 214
+    },
+    {
+        "id": 657,
+        "name": "retailer 657 city215",
+        "description": "retailer 657 city215",
+        "city_id": 215
+    },
+    {
+        "id": 658,
+        "name": "retailer 658 city216",
+        "description": "retailer 658 city216",
+        "city_id": 216
+    },
+    {
+        "id": 659,
+        "name": "retailer 659 city217",
+        "description": "retailer 659 city217",
+        "city_id": 217
+    },
+    {
+        "id": 660,
+        "name": "retailer 660 city218",
+        "description": "retailer 660 city218",
+        "city_id": 218
+    },
+    {
+        "id": 661,
+        "name": "retailer 661 city219",
+        "description": "retailer 661 city219",
+        "city_id": 219
+    },
+    {
+        "id": 662,
+        "name": "retailer 662 city220",
+        "description": "retailer 662 city220",
+        "city_id": 220
+    },
+    {
+        "id": 663,
+        "name": "retailer 663 city221",
+        "description": "retailer 663 city221",
+        "city_id": 221
+    },
+    {
+        "id": 664,
+        "name": "retailer 664 city1",
+        "description": "retailer 664 city1",
+        "city_id": 1
+    },
+    {
+        "id": 665,
+        "name": "retailer 665 city2",
+        "description": "retailer 665 city2",
+        "city_id": 2
+    },
+    {
+        "id": 666,
+        "name": "retailer 666 city3",
+        "description": "retailer 666 city3",
+        "city_id": 3
+    },
+    {
+        "id": 667,
+        "name": "retailer 667 city4",
+        "description": "retailer 667 city4",
+        "city_id": 4
+    },
+    {
+        "id": 668,
+        "name": "retailer 668 city5",
+        "description": "retailer 668 city5",
+        "city_id": 5
+    },
+    {
+        "id": 669,
+        "name": "retailer 669 city6",
+        "description": "retailer 669 city6",
+        "city_id": 6
+    },
+    {
+        "id": 670,
+        "name": "retailer 670 city7",
+        "description": "retailer 670 city7",
+        "city_id": 7
+    },
+    {
+        "id": 671,
+        "name": "retailer 671 city8",
+        "description": "retailer 671 city8",
+        "city_id": 8
+    },
+    {
+        "id": 672,
+        "name": "retailer 672 city9",
+        "description": "retailer 672 city9",
+        "city_id": 9
+    },
+    {
+        "id": 673,
+        "name": "retailer 673 city10",
+        "description": "retailer 673 city10",
+        "city_id": 10
+    },
+    {
+        "id": 674,
+        "name": "retailer 674 city11",
+        "description": "retailer 674 city11",
+        "city_id": 11
+    },
+    {
+        "id": 675,
+        "name": "retailer 675 city12",
+        "description": "retailer 675 city12",
+        "city_id": 12
+    },
+    {
+        "id": 676,
+        "name": "retailer 676 city13",
+        "description": "retailer 676 city13",
+        "city_id": 13
+    },
+    {
+        "id": 677,
+        "name": "retailer 677 city14",
+        "description": "retailer 677 city14",
+        "city_id": 14
+    },
+    {
+        "id": 678,
+        "name": "retailer 678 city15",
+        "description": "retailer 678 city15",
+        "city_id": 15
+    },
+    {
+        "id": 679,
+        "name": "retailer 679 city16",
+        "description": "retailer 679 city16",
+        "city_id": 16
+    },
+    {
+        "id": 680,
+        "name": "retailer 680 city17",
+        "description": "retailer 680 city17",
+        "city_id": 17
+    },
+    {
+        "id": 681,
+        "name": "retailer 681 city18",
+        "description": "retailer 681 city18",
+        "city_id": 18
+    },
+    {
+        "id": 682,
+        "name": "retailer 682 city19",
+        "description": "retailer 682 city19",
+        "city_id": 19
+    },
+    {
+        "id": 683,
+        "name": "retailer 683 city20",
+        "description": "retailer 683 city20",
+        "city_id": 20
+    },
+    {
+        "id": 684,
+        "name": "retailer 684 city21",
+        "description": "retailer 684 city21",
+        "city_id": 21
+    },
+    {
+        "id": 685,
+        "name": "retailer 685 city22",
+        "description": "retailer 685 city22",
+        "city_id": 22
+    },
+    {
+        "id": 686,
+        "name": "retailer 686 city23",
+        "description": "retailer 686 city23",
+        "city_id": 23
+    },
+    {
+        "id": 687,
+        "name": "retailer 687 city24",
+        "description": "retailer 687 city24",
+        "city_id": 24
+    },
+    {
+        "id": 688,
+        "name": "retailer 688 city25",
+        "description": "retailer 688 city25",
+        "city_id": 25
+    },
+    {
+        "id": 689,
+        "name": "retailer 689 city26",
+        "description": "retailer 689 city26",
+        "city_id": 26
+    },
+    {
+        "id": 690,
+        "name": "retailer 690 city27",
+        "description": "retailer 690 city27",
+        "city_id": 27
+    },
+    {
+        "id": 691,
+        "name": "retailer 691 city28",
+        "description": "retailer 691 city28",
+        "city_id": 28
+    },
+    {
+        "id": 692,
+        "name": "retailer 692 city29",
+        "description": "retailer 692 city29",
+        "city_id": 29
+    },
+    {
+        "id": 693,
+        "name": "retailer 693 city30",
+        "description": "retailer 693 city30",
+        "city_id": 30
+    },
+    {
+        "id": 694,
+        "name": "retailer 694 city31",
+        "description": "retailer 694 city31",
+        "city_id": 31
+    },
+    {
+        "id": 695,
+        "name": "retailer 695 city32",
+        "description": "retailer 695 city32",
+        "city_id": 32
+    },
+    {
+        "id": 696,
+        "name": "retailer 696 city33",
+        "description": "retailer 696 city33",
+        "city_id": 33
+    },
+    {
+        "id": 697,
+        "name": "retailer 697 city34",
+        "description": "retailer 697 city34",
+        "city_id": 34
+    },
+    {
+        "id": 698,
+        "name": "retailer 698 city35",
+        "description": "retailer 698 city35",
+        "city_id": 35
+    },
+    {
+        "id": 699,
+        "name": "retailer 699 city36",
+        "description": "retailer 699 city36",
+        "city_id": 36
+    },
+    {
+        "id": 700,
+        "name": "retailer 700 city37",
+        "description": "retailer 700 city37",
+        "city_id": 37
+    },
+    {
+        "id": 701,
+        "name": "retailer 701 city38",
+        "description": "retailer 701 city38",
+        "city_id": 38
+    },
+    {
+        "id": 702,
+        "name": "retailer 702 city39",
+        "description": "retailer 702 city39",
+        "city_id": 39
+    },
+    {
+        "id": 703,
+        "name": "retailer 703 city40",
+        "description": "retailer 703 city40",
+        "city_id": 40
+    },
+    {
+        "id": 704,
+        "name": "retailer 704 city41",
+        "description": "retailer 704 city41",
+        "city_id": 41
+    },
+    {
+        "id": 705,
+        "name": "retailer 705 city42",
+        "description": "retailer 705 city42",
+        "city_id": 42
+    },
+    {
+        "id": 706,
+        "name": "retailer 706 city43",
+        "description": "retailer 706 city43",
+        "city_id": 43
+    },
+    {
+        "id": 707,
+        "name": "retailer 707 city44",
+        "description": "retailer 707 city44",
+        "city_id": 44
+    },
+    {
+        "id": 708,
+        "name": "retailer 708 city45",
+        "description": "retailer 708 city45",
+        "city_id": 45
+    },
+    {
+        "id": 709,
+        "name": "retailer 709 city46",
+        "description": "retailer 709 city46",
+        "city_id": 46
+    },
+    {
+        "id": 710,
+        "name": "retailer 710 city47",
+        "description": "retailer 710 city47",
+        "city_id": 47
+    },
+    {
+        "id": 711,
+        "name": "retailer 711 city48",
+        "description": "retailer 711 city48",
+        "city_id": 48
+    },
+    {
+        "id": 712,
+        "name": "retailer 712 city49",
+        "description": "retailer 712 city49",
+        "city_id": 49
+    },
+    {
+        "id": 713,
+        "name": "retailer 713 city50",
+        "description": "retailer 713 city50",
+        "city_id": 50
+    },
+    {
+        "id": 714,
+        "name": "retailer 714 city51",
+        "description": "retailer 714 city51",
+        "city_id": 51
+    },
+    {
+        "id": 715,
+        "name": "retailer 715 city52",
+        "description": "retailer 715 city52",
+        "city_id": 52
+    },
+    {
+        "id": 716,
+        "name": "retailer 716 city53",
+        "description": "retailer 716 city53",
+        "city_id": 53
+    },
+    {
+        "id": 717,
+        "name": "retailer 717 city54",
+        "description": "retailer 717 city54",
+        "city_id": 54
+    },
+    {
+        "id": 718,
+        "name": "retailer 718 city55",
+        "description": "retailer 718 city55",
+        "city_id": 55
+    },
+    {
+        "id": 719,
+        "name": "retailer 719 city56",
+        "description": "retailer 719 city56",
+        "city_id": 56
+    },
+    {
+        "id": 720,
+        "name": "retailer 720 city57",
+        "description": "retailer 720 city57",
+        "city_id": 57
+    },
+    {
+        "id": 721,
+        "name": "retailer 721 city58",
+        "description": "retailer 721 city58",
+        "city_id": 58
+    },
+    {
+        "id": 722,
+        "name": "retailer 722 city59",
+        "description": "retailer 722 city59",
+        "city_id": 59
+    },
+    {
+        "id": 723,
+        "name": "retailer 723 city60",
+        "description": "retailer 723 city60",
+        "city_id": 60
+    },
+    {
+        "id": 724,
+        "name": "retailer 724 city61",
+        "description": "retailer 724 city61",
+        "city_id": 61
+    },
+    {
+        "id": 725,
+        "name": "retailer 725 city62",
+        "description": "retailer 725 city62",
+        "city_id": 62
+    },
+    {
+        "id": 726,
+        "name": "retailer 726 city63",
+        "description": "retailer 726 city63",
+        "city_id": 63
+    },
+    {
+        "id": 727,
+        "name": "retailer 727 city64",
+        "description": "retailer 727 city64",
+        "city_id": 64
+    },
+    {
+        "id": 728,
+        "name": "retailer 728 city65",
+        "description": "retailer 728 city65",
+        "city_id": 65
+    },
+    {
+        "id": 729,
+        "name": "retailer 729 city66",
+        "description": "retailer 729 city66",
+        "city_id": 66
+    },
+    {
+        "id": 730,
+        "name": "retailer 730 city67",
+        "description": "retailer 730 city67",
+        "city_id": 67
+    },
+    {
+        "id": 731,
+        "name": "retailer 731 city68",
+        "description": "retailer 731 city68",
+        "city_id": 68
+    },
+    {
+        "id": 732,
+        "name": "retailer 732 city69",
+        "description": "retailer 732 city69",
+        "city_id": 69
+    },
+    {
+        "id": 733,
+        "name": "retailer 733 city70",
+        "description": "retailer 733 city70",
+        "city_id": 70
+    },
+    {
+        "id": 734,
+        "name": "retailer 734 city71",
+        "description": "retailer 734 city71",
+        "city_id": 71
+    },
+    {
+        "id": 735,
+        "name": "retailer 735 city72",
+        "description": "retailer 735 city72",
+        "city_id": 72
+    },
+    {
+        "id": 736,
+        "name": "retailer 736 city73",
+        "description": "retailer 736 city73",
+        "city_id": 73
+    },
+    {
+        "id": 737,
+        "name": "retailer 737 city74",
+        "description": "retailer 737 city74",
+        "city_id": 74
+    },
+    {
+        "id": 738,
+        "name": "retailer 738 city75",
+        "description": "retailer 738 city75",
+        "city_id": 75
+    },
+    {
+        "id": 739,
+        "name": "retailer 739 city76",
+        "description": "retailer 739 city76",
+        "city_id": 76
+    },
+    {
+        "id": 740,
+        "name": "retailer 740 city77",
+        "description": "retailer 740 city77",
+        "city_id": 77
+    },
+    {
+        "id": 741,
+        "name": "retailer 741 city78",
+        "description": "retailer 741 city78",
+        "city_id": 78
+    },
+    {
+        "id": 742,
+        "name": "retailer 742 city79",
+        "description": "retailer 742 city79",
+        "city_id": 79
+    },
+    {
+        "id": 743,
+        "name": "retailer 743 city80",
+        "description": "retailer 743 city80",
+        "city_id": 80
+    },
+    {
+        "id": 744,
+        "name": "retailer 744 city81",
+        "description": "retailer 744 city81",
+        "city_id": 81
+    },
+    {
+        "id": 745,
+        "name": "retailer 745 city82",
+        "description": "retailer 745 city82",
+        "city_id": 82
+    },
+    {
+        "id": 746,
+        "name": "retailer 746 city83",
+        "description": "retailer 746 city83",
+        "city_id": 83
+    },
+    {
+        "id": 747,
+        "name": "retailer 747 city84",
+        "description": "retailer 747 city84",
+        "city_id": 84
+    },
+    {
+        "id": 748,
+        "name": "retailer 748 city85",
+        "description": "retailer 748 city85",
+        "city_id": 85
+    },
+    {
+        "id": 749,
+        "name": "retailer 749 city86",
+        "description": "retailer 749 city86",
+        "city_id": 86
+    },
+    {
+        "id": 750,
+        "name": "retailer 750 city87",
+        "description": "retailer 750 city87",
+        "city_id": 87
+    },
+    {
+        "id": 751,
+        "name": "retailer 751 city88",
+        "description": "retailer 751 city88",
+        "city_id": 88
+    },
+    {
+        "id": 752,
+        "name": "retailer 752 city89",
+        "description": "retailer 752 city89",
+        "city_id": 89
+    },
+    {
+        "id": 753,
+        "name": "retailer 753 city90",
+        "description": "retailer 753 city90",
+        "city_id": 90
+    },
+    {
+        "id": 754,
+        "name": "retailer 754 city91",
+        "description": "retailer 754 city91",
+        "city_id": 91
+    },
+    {
+        "id": 755,
+        "name": "retailer 755 city92",
+        "description": "retailer 755 city92",
+        "city_id": 92
+    },
+    {
+        "id": 756,
+        "name": "retailer 756 city93",
+        "description": "retailer 756 city93",
+        "city_id": 93
+    },
+    {
+        "id": 757,
+        "name": "retailer 757 city94",
+        "description": "retailer 757 city94",
+        "city_id": 94
+    },
+    {
+        "id": 758,
+        "name": "retailer 758 city95",
+        "description": "retailer 758 city95",
+        "city_id": 95
+    },
+    {
+        "id": 759,
+        "name": "retailer 759 city96",
+        "description": "retailer 759 city96",
+        "city_id": 96
+    },
+    {
+        "id": 760,
+        "name": "retailer 760 city97",
+        "description": "retailer 760 city97",
+        "city_id": 97
+    },
+    {
+        "id": 761,
+        "name": "retailer 761 city98",
+        "description": "retailer 761 city98",
+        "city_id": 98
+    },
+    {
+        "id": 762,
+        "name": "retailer 762 city99",
+        "description": "retailer 762 city99",
+        "city_id": 99
+    },
+    {
+        "id": 763,
+        "name": "retailer 763 city100",
+        "description": "retailer 763 city100",
+        "city_id": 100
+    },
+    {
+        "id": 764,
+        "name": "retailer 764 city101",
+        "description": "retailer 764 city101",
+        "city_id": 101
+    },
+    {
+        "id": 765,
+        "name": "retailer 765 city102",
+        "description": "retailer 765 city102",
+        "city_id": 102
+    },
+    {
+        "id": 766,
+        "name": "retailer 766 city103",
+        "description": "retailer 766 city103",
+        "city_id": 103
+    },
+    {
+        "id": 767,
+        "name": "retailer 767 city104",
+        "description": "retailer 767 city104",
+        "city_id": 104
+    },
+    {
+        "id": 768,
+        "name": "retailer 768 city105",
+        "description": "retailer 768 city105",
+        "city_id": 105
+    },
+    {
+        "id": 769,
+        "name": "retailer 769 city106",
+        "description": "retailer 769 city106",
+        "city_id": 106
+    },
+    {
+        "id": 770,
+        "name": "retailer 770 city107",
+        "description": "retailer 770 city107",
+        "city_id": 107
+    },
+    {
+        "id": 771,
+        "name": "retailer 771 city108",
+        "description": "retailer 771 city108",
+        "city_id": 108
+    },
+    {
+        "id": 772,
+        "name": "retailer 772 city109",
+        "description": "retailer 772 city109",
+        "city_id": 109
+    },
+    {
+        "id": 773,
+        "name": "retailer 773 city110",
+        "description": "retailer 773 city110",
+        "city_id": 110
+    },
+    {
+        "id": 774,
+        "name": "retailer 774 city111",
+        "description": "retailer 774 city111",
+        "city_id": 111
+    },
+    {
+        "id": 775,
+        "name": "retailer 775 city112",
+        "description": "retailer 775 city112",
+        "city_id": 112
+    },
+    {
+        "id": 776,
+        "name": "retailer 776 city113",
+        "description": "retailer 776 city113",
+        "city_id": 113
+    },
+    {
+        "id": 777,
+        "name": "retailer 777 city114",
+        "description": "retailer 777 city114",
+        "city_id": 114
+    },
+    {
+        "id": 778,
+        "name": "retailer 778 city115",
+        "description": "retailer 778 city115",
+        "city_id": 115
+    },
+    {
+        "id": 779,
+        "name": "retailer 779 city116",
+        "description": "retailer 779 city116",
+        "city_id": 116
+    },
+    {
+        "id": 780,
+        "name": "retailer 780 city117",
+        "description": "retailer 780 city117",
+        "city_id": 117
+    },
+    {
+        "id": 781,
+        "name": "retailer 781 city118",
+        "description": "retailer 781 city118",
+        "city_id": 118
+    },
+    {
+        "id": 782,
+        "name": "retailer 782 city119",
+        "description": "retailer 782 city119",
+        "city_id": 119
+    },
+    {
+        "id": 783,
+        "name": "retailer 783 city120",
+        "description": "retailer 783 city120",
+        "city_id": 120
+    },
+    {
+        "id": 784,
+        "name": "retailer 784 city121",
+        "description": "retailer 784 city121",
+        "city_id": 121
+    },
+    {
+        "id": 785,
+        "name": "retailer 785 city122",
+        "description": "retailer 785 city122",
+        "city_id": 122
+    },
+    {
+        "id": 786,
+        "name": "retailer 786 city123",
+        "description": "retailer 786 city123",
+        "city_id": 123
+    },
+    {
+        "id": 787,
+        "name": "retailer 787 city124",
+        "description": "retailer 787 city124",
+        "city_id": 124
+    },
+    {
+        "id": 788,
+        "name": "retailer 788 city125",
+        "description": "retailer 788 city125",
+        "city_id": 125
+    },
+    {
+        "id": 789,
+        "name": "retailer 789 city126",
+        "description": "retailer 789 city126",
+        "city_id": 126
+    },
+    {
+        "id": 790,
+        "name": "retailer 790 city127",
+        "description": "retailer 790 city127",
+        "city_id": 127
+    },
+    {
+        "id": 791,
+        "name": "retailer 791 city128",
+        "description": "retailer 791 city128",
+        "city_id": 128
+    },
+    {
+        "id": 792,
+        "name": "retailer 792 city129",
+        "description": "retailer 792 city129",
+        "city_id": 129
+    },
+    {
+        "id": 793,
+        "name": "retailer 793 city130",
+        "description": "retailer 793 city130",
+        "city_id": 130
+    },
+    {
+        "id": 794,
+        "name": "retailer 794 city131",
+        "description": "retailer 794 city131",
+        "city_id": 131
+    },
+    {
+        "id": 795,
+        "name": "retailer 795 city132",
+        "description": "retailer 795 city132",
+        "city_id": 132
+    },
+    {
+        "id": 796,
+        "name": "retailer 796 city133",
+        "description": "retailer 796 city133",
+        "city_id": 133
+    },
+    {
+        "id": 797,
+        "name": "retailer 797 city134",
+        "description": "retailer 797 city134",
+        "city_id": 134
+    },
+    {
+        "id": 798,
+        "name": "retailer 798 city135",
+        "description": "retailer 798 city135",
+        "city_id": 135
+    },
+    {
+        "id": 799,
+        "name": "retailer 799 city136",
+        "description": "retailer 799 city136",
+        "city_id": 136
+    },
+    {
+        "id": 800,
+        "name": "retailer 800 city137",
+        "description": "retailer 800 city137",
+        "city_id": 137
+    },
+    {
+        "id": 801,
+        "name": "retailer 801 city138",
+        "description": "retailer 801 city138",
+        "city_id": 138
+    },
+    {
+        "id": 802,
+        "name": "retailer 802 city139",
+        "description": "retailer 802 city139",
+        "city_id": 139
+    },
+    {
+        "id": 803,
+        "name": "retailer 803 city140",
+        "description": "retailer 803 city140",
+        "city_id": 140
+    },
+    {
+        "id": 804,
+        "name": "retailer 804 city141",
+        "description": "retailer 804 city141",
+        "city_id": 141
+    },
+    {
+        "id": 805,
+        "name": "retailer 805 city142",
+        "description": "retailer 805 city142",
+        "city_id": 142
+    },
+    {
+        "id": 806,
+        "name": "retailer 806 city143",
+        "description": "retailer 806 city143",
+        "city_id": 143
+    },
+    {
+        "id": 807,
+        "name": "retailer 807 city144",
+        "description": "retailer 807 city144",
+        "city_id": 144
+    },
+    {
+        "id": 808,
+        "name": "retailer 808 city145",
+        "description": "retailer 808 city145",
+        "city_id": 145
+    },
+    {
+        "id": 809,
+        "name": "retailer 809 city146",
+        "description": "retailer 809 city146",
+        "city_id": 146
+    },
+    {
+        "id": 810,
+        "name": "retailer 810 city147",
+        "description": "retailer 810 city147",
+        "city_id": 147
+    },
+    {
+        "id": 811,
+        "name": "retailer 811 city148",
+        "description": "retailer 811 city148",
+        "city_id": 148
+    },
+    {
+        "id": 812,
+        "name": "retailer 812 city149",
+        "description": "retailer 812 city149",
+        "city_id": 149
+    },
+    {
+        "id": 813,
+        "name": "retailer 813 city150",
+        "description": "retailer 813 city150",
+        "city_id": 150
+    },
+    {
+        "id": 814,
+        "name": "retailer 814 city151",
+        "description": "retailer 814 city151",
+        "city_id": 151
+    },
+    {
+        "id": 815,
+        "name": "retailer 815 city152",
+        "description": "retailer 815 city152",
+        "city_id": 152
+    },
+    {
+        "id": 816,
+        "name": "retailer 816 city153",
+        "description": "retailer 816 city153",
+        "city_id": 153
+    },
+    {
+        "id": 817,
+        "name": "retailer 817 city154",
+        "description": "retailer 817 city154",
+        "city_id": 154
+    },
+    {
+        "id": 818,
+        "name": "retailer 818 city155",
+        "description": "retailer 818 city155",
+        "city_id": 155
+    },
+    {
+        "id": 819,
+        "name": "retailer 819 city156",
+        "description": "retailer 819 city156",
+        "city_id": 156
+    },
+    {
+        "id": 820,
+        "name": "retailer 820 city157",
+        "description": "retailer 820 city157",
+        "city_id": 157
+    },
+    {
+        "id": 821,
+        "name": "retailer 821 city158",
+        "description": "retailer 821 city158",
+        "city_id": 158
+    },
+    {
+        "id": 822,
+        "name": "retailer 822 city159",
+        "description": "retailer 822 city159",
+        "city_id": 159
+    },
+    {
+        "id": 823,
+        "name": "retailer 823 city160",
+        "description": "retailer 823 city160",
+        "city_id": 160
+    },
+    {
+        "id": 824,
+        "name": "retailer 824 city161",
+        "description": "retailer 824 city161",
+        "city_id": 161
+    },
+    {
+        "id": 825,
+        "name": "retailer 825 city162",
+        "description": "retailer 825 city162",
+        "city_id": 162
+    },
+    {
+        "id": 826,
+        "name": "retailer 826 city163",
+        "description": "retailer 826 city163",
+        "city_id": 163
+    },
+    {
+        "id": 827,
+        "name": "retailer 827 city164",
+        "description": "retailer 827 city164",
+        "city_id": 164
+    },
+    {
+        "id": 828,
+        "name": "retailer 828 city165",
+        "description": "retailer 828 city165",
+        "city_id": 165
+    },
+    {
+        "id": 829,
+        "name": "retailer 829 city166",
+        "description": "retailer 829 city166",
+        "city_id": 166
+    },
+    {
+        "id": 830,
+        "name": "retailer 830 city167",
+        "description": "retailer 830 city167",
+        "city_id": 167
+    },
+    {
+        "id": 831,
+        "name": "retailer 831 city168",
+        "description": "retailer 831 city168",
+        "city_id": 168
+    },
+    {
+        "id": 832,
+        "name": "retailer 832 city169",
+        "description": "retailer 832 city169",
+        "city_id": 169
+    },
+    {
+        "id": 833,
+        "name": "retailer 833 city170",
+        "description": "retailer 833 city170",
+        "city_id": 170
+    },
+    {
+        "id": 834,
+        "name": "retailer 834 city171",
+        "description": "retailer 834 city171",
+        "city_id": 171
+    },
+    {
+        "id": 835,
+        "name": "retailer 835 city172",
+        "description": "retailer 835 city172",
+        "city_id": 172
+    },
+    {
+        "id": 836,
+        "name": "retailer 836 city173",
+        "description": "retailer 836 city173",
+        "city_id": 173
+    },
+    {
+        "id": 837,
+        "name": "retailer 837 city174",
+        "description": "retailer 837 city174",
+        "city_id": 174
+    },
+    {
+        "id": 838,
+        "name": "retailer 838 city175",
+        "description": "retailer 838 city175",
+        "city_id": 175
+    },
+    {
+        "id": 839,
+        "name": "retailer 839 city176",
+        "description": "retailer 839 city176",
+        "city_id": 176
+    },
+    {
+        "id": 840,
+        "name": "retailer 840 city177",
+        "description": "retailer 840 city177",
+        "city_id": 177
+    },
+    {
+        "id": 841,
+        "name": "retailer 841 city178",
+        "description": "retailer 841 city178",
+        "city_id": 178
+    },
+    {
+        "id": 842,
+        "name": "retailer 842 city179",
+        "description": "retailer 842 city179",
+        "city_id": 179
+    },
+    {
+        "id": 843,
+        "name": "retailer 843 city180",
+        "description": "retailer 843 city180",
+        "city_id": 180
+    },
+    {
+        "id": 844,
+        "name": "retailer 844 city181",
+        "description": "retailer 844 city181",
+        "city_id": 181
+    },
+    {
+        "id": 845,
+        "name": "retailer 845 city182",
+        "description": "retailer 845 city182",
+        "city_id": 182
+    },
+    {
+        "id": 846,
+        "name": "retailer 846 city183",
+        "description": "retailer 846 city183",
+        "city_id": 183
+    },
+    {
+        "id": 847,
+        "name": "retailer 847 city184",
+        "description": "retailer 847 city184",
+        "city_id": 184
+    },
+    {
+        "id": 848,
+        "name": "retailer 848 city185",
+        "description": "retailer 848 city185",
+        "city_id": 185
+    },
+    {
+        "id": 849,
+        "name": "retailer 849 city186",
+        "description": "retailer 849 city186",
+        "city_id": 186
+    },
+    {
+        "id": 850,
+        "name": "retailer 850 city187",
+        "description": "retailer 850 city187",
+        "city_id": 187
+    },
+    {
+        "id": 851,
+        "name": "retailer 851 city188",
+        "description": "retailer 851 city188",
+        "city_id": 188
+    },
+    {
+        "id": 852,
+        "name": "retailer 852 city189",
+        "description": "retailer 852 city189",
+        "city_id": 189
+    },
+    {
+        "id": 853,
+        "name": "retailer 853 city190",
+        "description": "retailer 853 city190",
+        "city_id": 190
+    },
+    {
+        "id": 854,
+        "name": "retailer 854 city191",
+        "description": "retailer 854 city191",
+        "city_id": 191
+    },
+    {
+        "id": 855,
+        "name": "retailer 855 city192",
+        "description": "retailer 855 city192",
+        "city_id": 192
+    },
+    {
+        "id": 856,
+        "name": "retailer 856 city193",
+        "description": "retailer 856 city193",
+        "city_id": 193
+    },
+    {
+        "id": 857,
+        "name": "retailer 857 city194",
+        "description": "retailer 857 city194",
+        "city_id": 194
+    },
+    {
+        "id": 858,
+        "name": "retailer 858 city195",
+        "description": "retailer 858 city195",
+        "city_id": 195
+    },
+    {
+        "id": 859,
+        "name": "retailer 859 city196",
+        "description": "retailer 859 city196",
+        "city_id": 196
+    },
+    {
+        "id": 860,
+        "name": "retailer 860 city197",
+        "description": "retailer 860 city197",
+        "city_id": 197
+    },
+    {
+        "id": 861,
+        "name": "retailer 861 city198",
+        "description": "retailer 861 city198",
+        "city_id": 198
+    },
+    {
+        "id": 862,
+        "name": "retailer 862 city199",
+        "description": "retailer 862 city199",
+        "city_id": 199
+    },
+    {
+        "id": 863,
+        "name": "retailer 863 city200",
+        "description": "retailer 863 city200",
+        "city_id": 200
+    },
+    {
+        "id": 864,
+        "name": "retailer 864 city201",
+        "description": "retailer 864 city201",
+        "city_id": 201
+    },
+    {
+        "id": 865,
+        "name": "retailer 865 city202",
+        "description": "retailer 865 city202",
+        "city_id": 202
+    },
+    {
+        "id": 866,
+        "name": "retailer 866 city203",
+        "description": "retailer 866 city203",
+        "city_id": 203
+    },
+    {
+        "id": 867,
+        "name": "retailer 867 city204",
+        "description": "retailer 867 city204",
+        "city_id": 204
+    },
+    {
+        "id": 868,
+        "name": "retailer 868 city205",
+        "description": "retailer 868 city205",
+        "city_id": 205
+    },
+    {
+        "id": 869,
+        "name": "retailer 869 city206",
+        "description": "retailer 869 city206",
+        "city_id": 206
+    },
+    {
+        "id": 870,
+        "name": "retailer 870 city207",
+        "description": "retailer 870 city207",
+        "city_id": 207
+    },
+    {
+        "id": 871,
+        "name": "retailer 871 city208",
+        "description": "retailer 871 city208",
+        "city_id": 208
+    },
+    {
+        "id": 872,
+        "name": "retailer 872 city209",
+        "description": "retailer 872 city209",
+        "city_id": 209
+    },
+    {
+        "id": 873,
+        "name": "retailer 873 city210",
+        "description": "retailer 873 city210",
+        "city_id": 210
+    },
+    {
+        "id": 874,
+        "name": "retailer 874 city211",
+        "description": "retailer 874 city211",
+        "city_id": 211
+    },
+    {
+        "id": 875,
+        "name": "retailer 875 city212",
+        "description": "retailer 875 city212",
+        "city_id": 212
+    },
+    {
+        "id": 876,
+        "name": "retailer 876 city213",
+        "description": "retailer 876 city213",
+        "city_id": 213
+    },
+    {
+        "id": 877,
+        "name": "retailer 877 city214",
+        "description": "retailer 877 city214",
+        "city_id": 214
+    },
+    {
+        "id": 878,
+        "name": "retailer 878 city215",
+        "description": "retailer 878 city215",
+        "city_id": 215
+    },
+    {
+        "id": 879,
+        "name": "retailer 879 city216",
+        "description": "retailer 879 city216",
+        "city_id": 216
+    },
+    {
+        "id": 880,
+        "name": "retailer 880 city217",
+        "description": "retailer 880 city217",
+        "city_id": 217
+    },
+    {
+        "id": 881,
+        "name": "retailer 881 city218",
+        "description": "retailer 881 city218",
+        "city_id": 218
+    },
+    {
+        "id": 882,
+        "name": "retailer 882 city219",
+        "description": "retailer 882 city219",
+        "city_id": 219
+    },
+    {
+        "id": 883,
+        "name": "retailer 883 city220",
+        "description": "retailer 883 city220",
+        "city_id": 220
+    },
+    {
+        "id": 884,
+        "name": "retailer 884 city221",
+        "description": "retailer 884 city221",
+        "city_id": 221
+    },
+    {
+        "id": 885,
+        "name": "retailer 885 city1",
+        "description": "retailer 885 city1",
+        "city_id": 1
+    },
+    {
+        "id": 886,
+        "name": "retailer 886 city2",
+        "description": "retailer 886 city2",
+        "city_id": 2
+    },
+    {
+        "id": 887,
+        "name": "retailer 887 city3",
+        "description": "retailer 887 city3",
+        "city_id": 3
+    },
+    {
+        "id": 888,
+        "name": "retailer 888 city4",
+        "description": "retailer 888 city4",
+        "city_id": 4
+    },
+    {
+        "id": 889,
+        "name": "retailer 889 city5",
+        "description": "retailer 889 city5",
+        "city_id": 5
+    },
+    {
+        "id": 890,
+        "name": "retailer 890 city6",
+        "description": "retailer 890 city6",
+        "city_id": 6
+    },
+    {
+        "id": 891,
+        "name": "retailer 891 city7",
+        "description": "retailer 891 city7",
+        "city_id": 7
+    },
+    {
+        "id": 892,
+        "name": "retailer 892 city8",
+        "description": "retailer 892 city8",
+        "city_id": 8
+    },
+    {
+        "id": 893,
+        "name": "retailer 893 city9",
+        "description": "retailer 893 city9",
+        "city_id": 9
+    },
+    {
+        "id": 894,
+        "name": "retailer 894 city10",
+        "description": "retailer 894 city10",
+        "city_id": 10
+    },
+    {
+        "id": 895,
+        "name": "retailer 895 city11",
+        "description": "retailer 895 city11",
+        "city_id": 11
+    },
+    {
+        "id": 896,
+        "name": "retailer 896 city12",
+        "description": "retailer 896 city12",
+        "city_id": 12
+    },
+    {
+        "id": 897,
+        "name": "retailer 897 city13",
+        "description": "retailer 897 city13",
+        "city_id": 13
+    },
+    {
+        "id": 898,
+        "name": "retailer 898 city14",
+        "description": "retailer 898 city14",
+        "city_id": 14
+    },
+    {
+        "id": 899,
+        "name": "retailer 899 city15",
+        "description": "retailer 899 city15",
+        "city_id": 15
+    },
+    {
+        "id": 900,
+        "name": "retailer 900 city16",
+        "description": "retailer 900 city16",
+        "city_id": 16
+    },
+    {
+        "id": 901,
+        "name": "retailer 901 city17",
+        "description": "retailer 901 city17",
+        "city_id": 17
+    },
+    {
+        "id": 902,
+        "name": "retailer 902 city18",
+        "description": "retailer 902 city18",
+        "city_id": 18
+    },
+    {
+        "id": 903,
+        "name": "retailer 903 city19",
+        "description": "retailer 903 city19",
+        "city_id": 19
+    },
+    {
+        "id": 904,
+        "name": "retailer 904 city20",
+        "description": "retailer 904 city20",
+        "city_id": 20
+    },
+    {
+        "id": 905,
+        "name": "retailer 905 city21",
+        "description": "retailer 905 city21",
+        "city_id": 21
+    },
+    {
+        "id": 906,
+        "name": "retailer 906 city22",
+        "description": "retailer 906 city22",
+        "city_id": 22
+    },
+    {
+        "id": 907,
+        "name": "retailer 907 city23",
+        "description": "retailer 907 city23",
+        "city_id": 23
+    },
+    {
+        "id": 908,
+        "name": "retailer 908 city24",
+        "description": "retailer 908 city24",
+        "city_id": 24
+    },
+    {
+        "id": 909,
+        "name": "retailer 909 city25",
+        "description": "retailer 909 city25",
+        "city_id": 25
+    },
+    {
+        "id": 910,
+        "name": "retailer 910 city26",
+        "description": "retailer 910 city26",
+        "city_id": 26
+    },
+    {
+        "id": 911,
+        "name": "retailer 911 city27",
+        "description": "retailer 911 city27",
+        "city_id": 27
+    },
+    {
+        "id": 912,
+        "name": "retailer 912 city28",
+        "description": "retailer 912 city28",
+        "city_id": 28
+    },
+    {
+        "id": 913,
+        "name": "retailer 913 city29",
+        "description": "retailer 913 city29",
+        "city_id": 29
+    },
+    {
+        "id": 914,
+        "name": "retailer 914 city30",
+        "description": "retailer 914 city30",
+        "city_id": 30
+    },
+    {
+        "id": 915,
+        "name": "retailer 915 city31",
+        "description": "retailer 915 city31",
+        "city_id": 31
+    },
+    {
+        "id": 916,
+        "name": "retailer 916 city32",
+        "description": "retailer 916 city32",
+        "city_id": 32
+    },
+    {
+        "id": 917,
+        "name": "retailer 917 city33",
+        "description": "retailer 917 city33",
+        "city_id": 33
+    },
+    {
+        "id": 918,
+        "name": "retailer 918 city34",
+        "description": "retailer 918 city34",
+        "city_id": 34
+    },
+    {
+        "id": 919,
+        "name": "retailer 919 city35",
+        "description": "retailer 919 city35",
+        "city_id": 35
+    },
+    {
+        "id": 920,
+        "name": "retailer 920 city36",
+        "description": "retailer 920 city36",
+        "city_id": 36
+    },
+    {
+        "id": 921,
+        "name": "retailer 921 city37",
+        "description": "retailer 921 city37",
+        "city_id": 37
+    },
+    {
+        "id": 922,
+        "name": "retailer 922 city38",
+        "description": "retailer 922 city38",
+        "city_id": 38
+    },
+    {
+        "id": 923,
+        "name": "retailer 923 city39",
+        "description": "retailer 923 city39",
+        "city_id": 39
+    },
+    {
+        "id": 924,
+        "name": "retailer 924 city40",
+        "description": "retailer 924 city40",
+        "city_id": 40
+    },
+    {
+        "id": 925,
+        "name": "retailer 925 city41",
+        "description": "retailer 925 city41",
+        "city_id": 41
+    },
+    {
+        "id": 926,
+        "name": "retailer 926 city42",
+        "description": "retailer 926 city42",
+        "city_id": 42
+    },
+    {
+        "id": 927,
+        "name": "retailer 927 city43",
+        "description": "retailer 927 city43",
+        "city_id": 43
+    },
+    {
+        "id": 928,
+        "name": "retailer 928 city44",
+        "description": "retailer 928 city44",
+        "city_id": 44
+    },
+    {
+        "id": 929,
+        "name": "retailer 929 city45",
+        "description": "retailer 929 city45",
+        "city_id": 45
+    },
+    {
+        "id": 930,
+        "name": "retailer 930 city46",
+        "description": "retailer 930 city46",
+        "city_id": 46
+    },
+    {
+        "id": 931,
+        "name": "retailer 931 city47",
+        "description": "retailer 931 city47",
+        "city_id": 47
+    },
+    {
+        "id": 932,
+        "name": "retailer 932 city48",
+        "description": "retailer 932 city48",
+        "city_id": 48
+    },
+    {
+        "id": 933,
+        "name": "retailer 933 city49",
+        "description": "retailer 933 city49",
+        "city_id": 49
+    },
+    {
+        "id": 934,
+        "name": "retailer 934 city50",
+        "description": "retailer 934 city50",
+        "city_id": 50
+    },
+    {
+        "id": 935,
+        "name": "retailer 935 city51",
+        "description": "retailer 935 city51",
+        "city_id": 51
+    },
+    {
+        "id": 936,
+        "name": "retailer 936 city52",
+        "description": "retailer 936 city52",
+        "city_id": 52
+    },
+    {
+        "id": 937,
+        "name": "retailer 937 city53",
+        "description": "retailer 937 city53",
+        "city_id": 53
+    },
+    {
+        "id": 938,
+        "name": "retailer 938 city54",
+        "description": "retailer 938 city54",
+        "city_id": 54
+    },
+    {
+        "id": 939,
+        "name": "retailer 939 city55",
+        "description": "retailer 939 city55",
+        "city_id": 55
+    },
+    {
+        "id": 940,
+        "name": "retailer 940 city56",
+        "description": "retailer 940 city56",
+        "city_id": 56
+    },
+    {
+        "id": 941,
+        "name": "retailer 941 city57",
+        "description": "retailer 941 city57",
+        "city_id": 57
+    },
+    {
+        "id": 942,
+        "name": "retailer 942 city58",
+        "description": "retailer 942 city58",
+        "city_id": 58
+    },
+    {
+        "id": 943,
+        "name": "retailer 943 city59",
+        "description": "retailer 943 city59",
+        "city_id": 59
+    },
+    {
+        "id": 944,
+        "name": "retailer 944 city60",
+        "description": "retailer 944 city60",
+        "city_id": 60
+    },
+    {
+        "id": 945,
+        "name": "retailer 945 city61",
+        "description": "retailer 945 city61",
+        "city_id": 61
+    },
+    {
+        "id": 946,
+        "name": "retailer 946 city62",
+        "description": "retailer 946 city62",
+        "city_id": 62
+    },
+    {
+        "id": 947,
+        "name": "retailer 947 city63",
+        "description": "retailer 947 city63",
+        "city_id": 63
+    },
+    {
+        "id": 948,
+        "name": "retailer 948 city64",
+        "description": "retailer 948 city64",
+        "city_id": 64
+    },
+    {
+        "id": 949,
+        "name": "retailer 949 city65",
+        "description": "retailer 949 city65",
+        "city_id": 65
+    },
+    {
+        "id": 950,
+        "name": "retailer 950 city66",
+        "description": "retailer 950 city66",
+        "city_id": 66
+    },
+    {
+        "id": 951,
+        "name": "retailer 951 city67",
+        "description": "retailer 951 city67",
+        "city_id": 67
+    },
+    {
+        "id": 952,
+        "name": "retailer 952 city68",
+        "description": "retailer 952 city68",
+        "city_id": 68
+    },
+    {
+        "id": 953,
+        "name": "retailer 953 city69",
+        "description": "retailer 953 city69",
+        "city_id": 69
+    },
+    {
+        "id": 954,
+        "name": "retailer 954 city70",
+        "description": "retailer 954 city70",
+        "city_id": 70
+    },
+    {
+        "id": 955,
+        "name": "retailer 955 city71",
+        "description": "retailer 955 city71",
+        "city_id": 71
+    },
+    {
+        "id": 956,
+        "name": "retailer 956 city72",
+        "description": "retailer 956 city72",
+        "city_id": 72
+    },
+    {
+        "id": 957,
+        "name": "retailer 957 city73",
+        "description": "retailer 957 city73",
+        "city_id": 73
+    },
+    {
+        "id": 958,
+        "name": "retailer 958 city74",
+        "description": "retailer 958 city74",
+        "city_id": 74
+    },
+    {
+        "id": 959,
+        "name": "retailer 959 city75",
+        "description": "retailer 959 city75",
+        "city_id": 75
+    },
+    {
+        "id": 960,
+        "name": "retailer 960 city76",
+        "description": "retailer 960 city76",
+        "city_id": 76
+    },
+    {
+        "id": 961,
+        "name": "retailer 961 city77",
+        "description": "retailer 961 city77",
+        "city_id": 77
+    },
+    {
+        "id": 962,
+        "name": "retailer 962 city78",
+        "description": "retailer 962 city78",
+        "city_id": 78
+    },
+    {
+        "id": 963,
+        "name": "retailer 963 city79",
+        "description": "retailer 963 city79",
+        "city_id": 79
+    },
+    {
+        "id": 964,
+        "name": "retailer 964 city80",
+        "description": "retailer 964 city80",
+        "city_id": 80
+    },
+    {
+        "id": 965,
+        "name": "retailer 965 city81",
+        "description": "retailer 965 city81",
+        "city_id": 81
+    },
+    {
+        "id": 966,
+        "name": "retailer 966 city82",
+        "description": "retailer 966 city82",
+        "city_id": 82
+    },
+    {
+        "id": 967,
+        "name": "retailer 967 city83",
+        "description": "retailer 967 city83",
+        "city_id": 83
+    },
+    {
+        "id": 968,
+        "name": "retailer 968 city84",
+        "description": "retailer 968 city84",
+        "city_id": 84
+    },
+    {
+        "id": 969,
+        "name": "retailer 969 city85",
+        "description": "retailer 969 city85",
+        "city_id": 85
+    },
+    {
+        "id": 970,
+        "name": "retailer 970 city86",
+        "description": "retailer 970 city86",
+        "city_id": 86
+    },
+    {
+        "id": 971,
+        "name": "retailer 971 city87",
+        "description": "retailer 971 city87",
+        "city_id": 87
+    },
+    {
+        "id": 972,
+        "name": "retailer 972 city88",
+        "description": "retailer 972 city88",
+        "city_id": 88
+    },
+    {
+        "id": 973,
+        "name": "retailer 973 city89",
+        "description": "retailer 973 city89",
+        "city_id": 89
+    },
+    {
+        "id": 974,
+        "name": "retailer 974 city90",
+        "description": "retailer 974 city90",
+        "city_id": 90
+    },
+    {
+        "id": 975,
+        "name": "retailer 975 city91",
+        "description": "retailer 975 city91",
+        "city_id": 91
+    },
+    {
+        "id": 976,
+        "name": "retailer 976 city92",
+        "description": "retailer 976 city92",
+        "city_id": 92
+    },
+    {
+        "id": 977,
+        "name": "retailer 977 city93",
+        "description": "retailer 977 city93",
+        "city_id": 93
+    },
+    {
+        "id": 978,
+        "name": "retailer 978 city94",
+        "description": "retailer 978 city94",
+        "city_id": 94
+    },
+    {
+        "id": 979,
+        "name": "retailer 979 city95",
+        "description": "retailer 979 city95",
+        "city_id": 95
+    },
+    {
+        "id": 980,
+        "name": "retailer 980 city96",
+        "description": "retailer 980 city96",
+        "city_id": 96
+    },
+    {
+        "id": 981,
+        "name": "retailer 981 city97",
+        "description": "retailer 981 city97",
+        "city_id": 97
+    },
+    {
+        "id": 982,
+        "name": "retailer 982 city98",
+        "description": "retailer 982 city98",
+        "city_id": 98
+    },
+    {
+        "id": 983,
+        "name": "retailer 983 city99",
+        "description": "retailer 983 city99",
+        "city_id": 99
+    },
+    {
+        "id": 984,
+        "name": "retailer 984 city100",
+        "description": "retailer 984 city100",
+        "city_id": 100
+    },
+    {
+        "id": 985,
+        "name": "retailer 985 city101",
+        "description": "retailer 985 city101",
+        "city_id": 101
+    },
+    {
+        "id": 986,
+        "name": "retailer 986 city102",
+        "description": "retailer 986 city102",
+        "city_id": 102
+    },
+    {
+        "id": 987,
+        "name": "retailer 987 city103",
+        "description": "retailer 987 city103",
+        "city_id": 103
+    },
+    {
+        "id": 988,
+        "name": "retailer 988 city104",
+        "description": "retailer 988 city104",
+        "city_id": 104
+    },
+    {
+        "id": 989,
+        "name": "retailer 989 city105",
+        "description": "retailer 989 city105",
+        "city_id": 105
+    },
+    {
+        "id": 990,
+        "name": "retailer 990 city106",
+        "description": "retailer 990 city106",
+        "city_id": 106
+    },
+    {
+        "id": 991,
+        "name": "retailer 991 city107",
+        "description": "retailer 991 city107",
+        "city_id": 107
+    },
+    {
+        "id": 992,
+        "name": "retailer 992 city108",
+        "description": "retailer 992 city108",
+        "city_id": 108
+    },
+    {
+        "id": 993,
+        "name": "retailer 993 city109",
+        "description": "retailer 993 city109",
+        "city_id": 109
+    },
+    {
+        "id": 994,
+        "name": "retailer 994 city110",
+        "description": "retailer 994 city110",
+        "city_id": 110
+    },
+    {
+        "id": 995,
+        "name": "retailer 995 city111",
+        "description": "retailer 995 city111",
+        "city_id": 111
+    },
+    {
+        "id": 996,
+        "name": "retailer 996 city112",
+        "description": "retailer 996 city112",
+        "city_id": 112
+    },
+    {
+        "id": 997,
+        "name": "retailer 997 city113",
+        "description": "retailer 997 city113",
+        "city_id": 113
+    },
+    {
+        "id": 998,
+        "name": "retailer 998 city114",
+        "description": "retailer 998 city114",
+        "city_id": 114
+    },
+    {
+        "id": 999,
+        "name": "retailer 999 city115",
+        "description": "retailer 999 city115",
+        "city_id": 115
+    },
+    {
+        "id": 1000,
+        "name": "retailer 1000 city116",
+        "description": "retailer 1000 city116",
+        "city_id": 116
+    },
+    {
+        "id": 1001,
+        "name": "retailer 1001 city117",
+        "description": "retailer 1001 city117",
+        "city_id": 117
+    },
+    {
+        "id": 1002,
+        "name": "retailer 1002 city118",
+        "description": "retailer 1002 city118",
+        "city_id": 118
+    },
+    {
+        "id": 1003,
+        "name": "retailer 1003 city119",
+        "description": "retailer 1003 city119",
+        "city_id": 119
+    },
+    {
+        "id": 1004,
+        "name": "retailer 1004 city120",
+        "description": "retailer 1004 city120",
+        "city_id": 120
+    },
+    {
+        "id": 1005,
+        "name": "retailer 1005 city121",
+        "description": "retailer 1005 city121",
+        "city_id": 121
+    },
+    {
+        "id": 1006,
+        "name": "retailer 1006 city122",
+        "description": "retailer 1006 city122",
+        "city_id": 122
+    },
+    {
+        "id": 1007,
+        "name": "retailer 1007 city123",
+        "description": "retailer 1007 city123",
+        "city_id": 123
+    },
+    {
+        "id": 1008,
+        "name": "retailer 1008 city124",
+        "description": "retailer 1008 city124",
+        "city_id": 124
+    },
+    {
+        "id": 1009,
+        "name": "retailer 1009 city125",
+        "description": "retailer 1009 city125",
+        "city_id": 125
+    },
+    {
+        "id": 1010,
+        "name": "retailer 1010 city126",
+        "description": "retailer 1010 city126",
+        "city_id": 126
+    },
+    {
+        "id": 1011,
+        "name": "retailer 1011 city127",
+        "description": "retailer 1011 city127",
+        "city_id": 127
+    },
+    {
+        "id": 1012,
+        "name": "retailer 1012 city128",
+        "description": "retailer 1012 city128",
+        "city_id": 128
+    },
+    {
+        "id": 1013,
+        "name": "retailer 1013 city129",
+        "description": "retailer 1013 city129",
+        "city_id": 129
+    },
+    {
+        "id": 1014,
+        "name": "retailer 1014 city130",
+        "description": "retailer 1014 city130",
+        "city_id": 130
+    },
+    {
+        "id": 1015,
+        "name": "retailer 1015 city131",
+        "description": "retailer 1015 city131",
+        "city_id": 131
+    },
+    {
+        "id": 1016,
+        "name": "retailer 1016 city132",
+        "description": "retailer 1016 city132",
+        "city_id": 132
+    },
+    {
+        "id": 1017,
+        "name": "retailer 1017 city133",
+        "description": "retailer 1017 city133",
+        "city_id": 133
+    },
+    {
+        "id": 1018,
+        "name": "retailer 1018 city134",
+        "description": "retailer 1018 city134",
+        "city_id": 134
+    },
+    {
+        "id": 1019,
+        "name": "retailer 1019 city135",
+        "description": "retailer 1019 city135",
+        "city_id": 135
+    },
+    {
+        "id": 1020,
+        "name": "retailer 1020 city136",
+        "description": "retailer 1020 city136",
+        "city_id": 136
+    },
+    {
+        "id": 1021,
+        "name": "retailer 1021 city137",
+        "description": "retailer 1021 city137",
+        "city_id": 137
+    },
+    {
+        "id": 1022,
+        "name": "retailer 1022 city138",
+        "description": "retailer 1022 city138",
+        "city_id": 138
+    },
+    {
+        "id": 1023,
+        "name": "retailer 1023 city139",
+        "description": "retailer 1023 city139",
+        "city_id": 139
+    },
+    {
+        "id": 1024,
+        "name": "retailer 1024 city140",
+        "description": "retailer 1024 city140",
+        "city_id": 140
+    },
+    {
+        "id": 1025,
+        "name": "retailer 1025 city141",
+        "description": "retailer 1025 city141",
+        "city_id": 141
+    },
+    {
+        "id": 1026,
+        "name": "retailer 1026 city142",
+        "description": "retailer 1026 city142",
+        "city_id": 142
+    },
+    {
+        "id": 1027,
+        "name": "retailer 1027 city143",
+        "description": "retailer 1027 city143",
+        "city_id": 143
+    },
+    {
+        "id": 1028,
+        "name": "retailer 1028 city144",
+        "description": "retailer 1028 city144",
+        "city_id": 144
+    },
+    {
+        "id": 1029,
+        "name": "retailer 1029 city145",
+        "description": "retailer 1029 city145",
+        "city_id": 145
+    },
+    {
+        "id": 1030,
+        "name": "retailer 1030 city146",
+        "description": "retailer 1030 city146",
+        "city_id": 146
+    },
+    {
+        "id": 1031,
+        "name": "retailer 1031 city147",
+        "description": "retailer 1031 city147",
+        "city_id": 147
+    },
+    {
+        "id": 1032,
+        "name": "retailer 1032 city148",
+        "description": "retailer 1032 city148",
+        "city_id": 148
+    },
+    {
+        "id": 1033,
+        "name": "retailer 1033 city149",
+        "description": "retailer 1033 city149",
+        "city_id": 149
+    },
+    {
+        "id": 1034,
+        "name": "retailer 1034 city150",
+        "description": "retailer 1034 city150",
+        "city_id": 150
+    },
+    {
+        "id": 1035,
+        "name": "retailer 1035 city151",
+        "description": "retailer 1035 city151",
+        "city_id": 151
+    },
+    {
+        "id": 1036,
+        "name": "retailer 1036 city152",
+        "description": "retailer 1036 city152",
+        "city_id": 152
+    },
+    {
+        "id": 1037,
+        "name": "retailer 1037 city153",
+        "description": "retailer 1037 city153",
+        "city_id": 153
+    },
+    {
+        "id": 1038,
+        "name": "retailer 1038 city154",
+        "description": "retailer 1038 city154",
+        "city_id": 154
+    },
+    {
+        "id": 1039,
+        "name": "retailer 1039 city155",
+        "description": "retailer 1039 city155",
+        "city_id": 155
+    },
+    {
+        "id": 1040,
+        "name": "retailer 1040 city156",
+        "description": "retailer 1040 city156",
+        "city_id": 156
+    },
+    {
+        "id": 1041,
+        "name": "retailer 1041 city157",
+        "description": "retailer 1041 city157",
+        "city_id": 157
+    },
+    {
+        "id": 1042,
+        "name": "retailer 1042 city158",
+        "description": "retailer 1042 city158",
+        "city_id": 158
+    },
+    {
+        "id": 1043,
+        "name": "retailer 1043 city159",
+        "description": "retailer 1043 city159",
+        "city_id": 159
+    },
+    {
+        "id": 1044,
+        "name": "retailer 1044 city160",
+        "description": "retailer 1044 city160",
+        "city_id": 160
+    },
+    {
+        "id": 1045,
+        "name": "retailer 1045 city161",
+        "description": "retailer 1045 city161",
+        "city_id": 161
+    },
+    {
+        "id": 1046,
+        "name": "retailer 1046 city162",
+        "description": "retailer 1046 city162",
+        "city_id": 162
+    },
+    {
+        "id": 1047,
+        "name": "retailer 1047 city163",
+        "description": "retailer 1047 city163",
+        "city_id": 163
+    },
+    {
+        "id": 1048,
+        "name": "retailer 1048 city164",
+        "description": "retailer 1048 city164",
+        "city_id": 164
+    },
+    {
+        "id": 1049,
+        "name": "retailer 1049 city165",
+        "description": "retailer 1049 city165",
+        "city_id": 165
+    },
+    {
+        "id": 1050,
+        "name": "retailer 1050 city166",
+        "description": "retailer 1050 city166",
+        "city_id": 166
+    },
+    {
+        "id": 1051,
+        "name": "retailer 1051 city167",
+        "description": "retailer 1051 city167",
+        "city_id": 167
+    },
+    {
+        "id": 1052,
+        "name": "retailer 1052 city168",
+        "description": "retailer 1052 city168",
+        "city_id": 168
+    },
+    {
+        "id": 1053,
+        "name": "retailer 1053 city169",
+        "description": "retailer 1053 city169",
+        "city_id": 169
+    },
+    {
+        "id": 1054,
+        "name": "retailer 1054 city170",
+        "description": "retailer 1054 city170",
+        "city_id": 170
+    },
+    {
+        "id": 1055,
+        "name": "retailer 1055 city171",
+        "description": "retailer 1055 city171",
+        "city_id": 171
+    },
+    {
+        "id": 1056,
+        "name": "retailer 1056 city172",
+        "description": "retailer 1056 city172",
+        "city_id": 172
+    },
+    {
+        "id": 1057,
+        "name": "retailer 1057 city173",
+        "description": "retailer 1057 city173",
+        "city_id": 173
+    },
+    {
+        "id": 1058,
+        "name": "retailer 1058 city174",
+        "description": "retailer 1058 city174",
+        "city_id": 174
+    },
+    {
+        "id": 1059,
+        "name": "retailer 1059 city175",
+        "description": "retailer 1059 city175",
+        "city_id": 175
+    },
+    {
+        "id": 1060,
+        "name": "retailer 1060 city176",
+        "description": "retailer 1060 city176",
+        "city_id": 176
+    },
+    {
+        "id": 1061,
+        "name": "retailer 1061 city177",
+        "description": "retailer 1061 city177",
+        "city_id": 177
+    },
+    {
+        "id": 1062,
+        "name": "retailer 1062 city178",
+        "description": "retailer 1062 city178",
+        "city_id": 178
+    },
+    {
+        "id": 1063,
+        "name": "retailer 1063 city179",
+        "description": "retailer 1063 city179",
+        "city_id": 179
+    },
+    {
+        "id": 1064,
+        "name": "retailer 1064 city180",
+        "description": "retailer 1064 city180",
+        "city_id": 180
+    },
+    {
+        "id": 1065,
+        "name": "retailer 1065 city181",
+        "description": "retailer 1065 city181",
+        "city_id": 181
+    },
+    {
+        "id": 1066,
+        "name": "retailer 1066 city182",
+        "description": "retailer 1066 city182",
+        "city_id": 182
+    },
+    {
+        "id": 1067,
+        "name": "retailer 1067 city183",
+        "description": "retailer 1067 city183",
+        "city_id": 183
+    },
+    {
+        "id": 1068,
+        "name": "retailer 1068 city184",
+        "description": "retailer 1068 city184",
+        "city_id": 184
+    },
+    {
+        "id": 1069,
+        "name": "retailer 1069 city185",
+        "description": "retailer 1069 city185",
+        "city_id": 185
+    },
+    {
+        "id": 1070,
+        "name": "retailer 1070 city186",
+        "description": "retailer 1070 city186",
+        "city_id": 186
+    },
+    {
+        "id": 1071,
+        "name": "retailer 1071 city187",
+        "description": "retailer 1071 city187",
+        "city_id": 187
+    },
+    {
+        "id": 1072,
+        "name": "retailer 1072 city188",
+        "description": "retailer 1072 city188",
+        "city_id": 188
+    },
+    {
+        "id": 1073,
+        "name": "retailer 1073 city189",
+        "description": "retailer 1073 city189",
+        "city_id": 189
+    },
+    {
+        "id": 1074,
+        "name": "retailer 1074 city190",
+        "description": "retailer 1074 city190",
+        "city_id": 190
+    },
+    {
+        "id": 1075,
+        "name": "retailer 1075 city191",
+        "description": "retailer 1075 city191",
+        "city_id": 191
+    },
+    {
+        "id": 1076,
+        "name": "retailer 1076 city192",
+        "description": "retailer 1076 city192",
+        "city_id": 192
+    },
+    {
+        "id": 1077,
+        "name": "retailer 1077 city193",
+        "description": "retailer 1077 city193",
+        "city_id": 193
+    },
+    {
+        "id": 1078,
+        "name": "retailer 1078 city194",
+        "description": "retailer 1078 city194",
+        "city_id": 194
+    },
+    {
+        "id": 1079,
+        "name": "retailer 1079 city195",
+        "description": "retailer 1079 city195",
+        "city_id": 195
+    },
+    {
+        "id": 1080,
+        "name": "retailer 1080 city196",
+        "description": "retailer 1080 city196",
+        "city_id": 196
+    },
+    {
+        "id": 1081,
+        "name": "retailer 1081 city197",
+        "description": "retailer 1081 city197",
+        "city_id": 197
+    },
+    {
+        "id": 1082,
+        "name": "retailer 1082 city198",
+        "description": "retailer 1082 city198",
+        "city_id": 198
+    },
+    {
+        "id": 1083,
+        "name": "retailer 1083 city199",
+        "description": "retailer 1083 city199",
+        "city_id": 199
+    },
+    {
+        "id": 1084,
+        "name": "retailer 1084 city200",
+        "description": "retailer 1084 city200",
+        "city_id": 200
+    },
+    {
+        "id": 1085,
+        "name": "retailer 1085 city201",
+        "description": "retailer 1085 city201",
+        "city_id": 201
+    },
+    {
+        "id": 1086,
+        "name": "retailer 1086 city202",
+        "description": "retailer 1086 city202",
+        "city_id": 202
+    },
+    {
+        "id": 1087,
+        "name": "retailer 1087 city203",
+        "description": "retailer 1087 city203",
+        "city_id": 203
+    },
+    {
+        "id": 1088,
+        "name": "retailer 1088 city204",
+        "description": "retailer 1088 city204",
+        "city_id": 204
+    },
+    {
+        "id": 1089,
+        "name": "retailer 1089 city205",
+        "description": "retailer 1089 city205",
+        "city_id": 205
+    },
+    {
+        "id": 1090,
+        "name": "retailer 1090 city206",
+        "description": "retailer 1090 city206",
+        "city_id": 206
+    },
+    {
+        "id": 1091,
+        "name": "retailer 1091 city207",
+        "description": "retailer 1091 city207",
+        "city_id": 207
+    },
+    {
+        "id": 1092,
+        "name": "retailer 1092 city208",
+        "description": "retailer 1092 city208",
+        "city_id": 208
+    },
+    {
+        "id": 1093,
+        "name": "retailer 1093 city209",
+        "description": "retailer 1093 city209",
+        "city_id": 209
+    },
+    {
+        "id": 1094,
+        "name": "retailer 1094 city210",
+        "description": "retailer 1094 city210",
+        "city_id": 210
+    },
+    {
+        "id": 1095,
+        "name": "retailer 1095 city211",
+        "description": "retailer 1095 city211",
+        "city_id": 211
+    },
+    {
+        "id": 1096,
+        "name": "retailer 1096 city212",
+        "description": "retailer 1096 city212",
+        "city_id": 212
+    },
+    {
+        "id": 1097,
+        "name": "retailer 1097 city213",
+        "description": "retailer 1097 city213",
+        "city_id": 213
+    },
+    {
+        "id": 1098,
+        "name": "retailer 1098 city214",
+        "description": "retailer 1098 city214",
+        "city_id": 214
+    },
+    {
+        "id": 1099,
+        "name": "retailer 1099 city215",
+        "description": "retailer 1099 city215",
+        "city_id": 215
+    },
+    {
+        "id": 1100,
+        "name": "retailer 1100 city216",
+        "description": "retailer 1100 city216",
+        "city_id": 216
+    },
+    {
+        "id": 1101,
+        "name": "retailer 1101 city217",
+        "description": "retailer 1101 city217",
+        "city_id": 217
+    },
+    {
+        "id": 1102,
+        "name": "retailer 1102 city218",
+        "description": "retailer 1102 city218",
+        "city_id": 218
+    },
+    {
+        "id": 1103,
+        "name": "retailer 1103 city219",
+        "description": "retailer 1103 city219",
+        "city_id": 219
+    },
+    {
+        "id": 1104,
+        "name": "retailer 1104 city220",
+        "description": "retailer 1104 city220",
+        "city_id": 220
+    },
+    {
+        "id": 1105,
+        "name": "retailer 1105 city221",
+        "description": "retailer 1105 city221",
+        "city_id": 221
+    },
+    {
+        "id": 1106,
+        "name": "retailer 1106 city1",
+        "description": "retailer 1106 city1",
+        "city_id": 1
+    },
+    {
+        "id": 1107,
+        "name": "retailer 1107 city2",
+        "description": "retailer 1107 city2",
+        "city_id": 2
+    },
+    {
+        "id": 1108,
+        "name": "retailer 1108 city3",
+        "description": "retailer 1108 city3",
+        "city_id": 3
+    },
+    {
+        "id": 1109,
+        "name": "retailer 1109 city4",
+        "description": "retailer 1109 city4",
+        "city_id": 4
+    },
+    {
+        "id": 1110,
+        "name": "retailer 1110 city5",
+        "description": "retailer 1110 city5",
+        "city_id": 5
+    },
+    {
+        "id": 1111,
+        "name": "retailer 1111 city6",
+        "description": "retailer 1111 city6",
+        "city_id": 6
+    },
+    {
+        "id": 1112,
+        "name": "retailer 1112 city7",
+        "description": "retailer 1112 city7",
+        "city_id": 7
+    },
+    {
+        "id": 1113,
+        "name": "retailer 1113 city8",
+        "description": "retailer 1113 city8",
+        "city_id": 8
+    },
+    {
+        "id": 1114,
+        "name": "retailer 1114 city9",
+        "description": "retailer 1114 city9",
+        "city_id": 9
+    },
+    {
+        "id": 1115,
+        "name": "retailer 1115 city10",
+        "description": "retailer 1115 city10",
+        "city_id": 10
+    },
+    {
+        "id": 1116,
+        "name": "retailer 1116 city11",
+        "description": "retailer 1116 city11",
+        "city_id": 11
+    },
+    {
+        "id": 1117,
+        "name": "retailer 1117 city12",
+        "description": "retailer 1117 city12",
+        "city_id": 12
+    },
+    {
+        "id": 1118,
+        "name": "retailer 1118 city13",
+        "description": "retailer 1118 city13",
+        "city_id": 13
+    },
+    {
+        "id": 1119,
+        "name": "retailer 1119 city14",
+        "description": "retailer 1119 city14",
+        "city_id": 14
+    },
+    {
+        "id": 1120,
+        "name": "retailer 1120 city15",
+        "description": "retailer 1120 city15",
+        "city_id": 15
+    },
+    {
+        "id": 1121,
+        "name": "retailer 1121 city16",
+        "description": "retailer 1121 city16",
+        "city_id": 16
+    },
+    {
+        "id": 1122,
+        "name": "retailer 1122 city17",
+        "description": "retailer 1122 city17",
+        "city_id": 17
+    },
+    {
+        "id": 1123,
+        "name": "retailer 1123 city18",
+        "description": "retailer 1123 city18",
+        "city_id": 18
+    },
+    {
+        "id": 1124,
+        "name": "retailer 1124 city19",
+        "description": "retailer 1124 city19",
+        "city_id": 19
+    },
+    {
+        "id": 1125,
+        "name": "retailer 1125 city20",
+        "description": "retailer 1125 city20",
+        "city_id": 20
+    },
+    {
+        "id": 1126,
+        "name": "retailer 1126 city21",
+        "description": "retailer 1126 city21",
+        "city_id": 21
+    },
+    {
+        "id": 1127,
+        "name": "retailer 1127 city22",
+        "description": "retailer 1127 city22",
+        "city_id": 22
+    },
+    {
+        "id": 1128,
+        "name": "retailer 1128 city23",
+        "description": "retailer 1128 city23",
+        "city_id": 23
+    },
+    {
+        "id": 1129,
+        "name": "retailer 1129 city24",
+        "description": "retailer 1129 city24",
+        "city_id": 24
+    },
+    {
+        "id": 1130,
+        "name": "retailer 1130 city25",
+        "description": "retailer 1130 city25",
+        "city_id": 25
+    },
+    {
+        "id": 1131,
+        "name": "retailer 1131 city26",
+        "description": "retailer 1131 city26",
+        "city_id": 26
+    },
+    {
+        "id": 1132,
+        "name": "retailer 1132 city27",
+        "description": "retailer 1132 city27",
+        "city_id": 27
+    },
+    {
+        "id": 1133,
+        "name": "retailer 1133 city28",
+        "description": "retailer 1133 city28",
+        "city_id": 28
+    },
+    {
+        "id": 1134,
+        "name": "retailer 1134 city29",
+        "description": "retailer 1134 city29",
+        "city_id": 29
+    },
+    {
+        "id": 1135,
+        "name": "retailer 1135 city30",
+        "description": "retailer 1135 city30",
+        "city_id": 30
+    },
+    {
+        "id": 1136,
+        "name": "retailer 1136 city31",
+        "description": "retailer 1136 city31",
+        "city_id": 31
+    },
+    {
+        "id": 1137,
+        "name": "retailer 1137 city32",
+        "description": "retailer 1137 city32",
+        "city_id": 32
+    },
+    {
+        "id": 1138,
+        "name": "retailer 1138 city33",
+        "description": "retailer 1138 city33",
+        "city_id": 33
+    },
+    {
+        "id": 1139,
+        "name": "retailer 1139 city34",
+        "description": "retailer 1139 city34",
+        "city_id": 34
+    },
+    {
+        "id": 1140,
+        "name": "retailer 1140 city35",
+        "description": "retailer 1140 city35",
+        "city_id": 35
+    },
+    {
+        "id": 1141,
+        "name": "retailer 1141 city36",
+        "description": "retailer 1141 city36",
+        "city_id": 36
+    },
+    {
+        "id": 1142,
+        "name": "retailer 1142 city37",
+        "description": "retailer 1142 city37",
+        "city_id": 37
+    },
+    {
+        "id": 1143,
+        "name": "retailer 1143 city38",
+        "description": "retailer 1143 city38",
+        "city_id": 38
+    },
+    {
+        "id": 1144,
+        "name": "retailer 1144 city39",
+        "description": "retailer 1144 city39",
+        "city_id": 39
+    },
+    {
+        "id": 1145,
+        "name": "retailer 1145 city40",
+        "description": "retailer 1145 city40",
+        "city_id": 40
+    },
+    {
+        "id": 1146,
+        "name": "retailer 1146 city41",
+        "description": "retailer 1146 city41",
+        "city_id": 41
+    },
+    {
+        "id": 1147,
+        "name": "retailer 1147 city42",
+        "description": "retailer 1147 city42",
+        "city_id": 42
+    },
+    {
+        "id": 1148,
+        "name": "retailer 1148 city43",
+        "description": "retailer 1148 city43",
+        "city_id": 43
+    },
+    {
+        "id": 1149,
+        "name": "retailer 1149 city44",
+        "description": "retailer 1149 city44",
+        "city_id": 44
+    },
+    {
+        "id": 1150,
+        "name": "retailer 1150 city45",
+        "description": "retailer 1150 city45",
+        "city_id": 45
+    },
+    {
+        "id": 1151,
+        "name": "retailer 1151 city46",
+        "description": "retailer 1151 city46",
+        "city_id": 46
+    },
+    {
+        "id": 1152,
+        "name": "retailer 1152 city47",
+        "description": "retailer 1152 city47",
+        "city_id": 47
+    },
+    {
+        "id": 1153,
+        "name": "retailer 1153 city48",
+        "description": "retailer 1153 city48",
+        "city_id": 48
+    },
+    {
+        "id": 1154,
+        "name": "retailer 1154 city49",
+        "description": "retailer 1154 city49",
+        "city_id": 49
+    },
+    {
+        "id": 1155,
+        "name": "retailer 1155 city50",
+        "description": "retailer 1155 city50",
+        "city_id": 50
+    },
+    {
+        "id": 1156,
+        "name": "retailer 1156 city51",
+        "description": "retailer 1156 city51",
+        "city_id": 51
+    },
+    {
+        "id": 1157,
+        "name": "retailer 1157 city52",
+        "description": "retailer 1157 city52",
+        "city_id": 52
+    },
+    {
+        "id": 1158,
+        "name": "retailer 1158 city53",
+        "description": "retailer 1158 city53",
+        "city_id": 53
+    },
+    {
+        "id": 1159,
+        "name": "retailer 1159 city54",
+        "description": "retailer 1159 city54",
+        "city_id": 54
+    },
+    {
+        "id": 1160,
+        "name": "retailer 1160 city55",
+        "description": "retailer 1160 city55",
+        "city_id": 55
+    },
+    {
+        "id": 1161,
+        "name": "retailer 1161 city56",
+        "description": "retailer 1161 city56",
+        "city_id": 56
+    },
+    {
+        "id": 1162,
+        "name": "retailer 1162 city57",
+        "description": "retailer 1162 city57",
+        "city_id": 57
+    },
+    {
+        "id": 1163,
+        "name": "retailer 1163 city58",
+        "description": "retailer 1163 city58",
+        "city_id": 58
+    },
+    {
+        "id": 1164,
+        "name": "retailer 1164 city59",
+        "description": "retailer 1164 city59",
+        "city_id": 59
+    },
+    {
+        "id": 1165,
+        "name": "retailer 1165 city60",
+        "description": "retailer 1165 city60",
+        "city_id": 60
+    },
+    {
+        "id": 1166,
+        "name": "retailer 1166 city61",
+        "description": "retailer 1166 city61",
+        "city_id": 61
+    },
+    {
+        "id": 1167,
+        "name": "retailer 1167 city62",
+        "description": "retailer 1167 city62",
+        "city_id": 62
+    },
+    {
+        "id": 1168,
+        "name": "retailer 1168 city63",
+        "description": "retailer 1168 city63",
+        "city_id": 63
+    },
+    {
+        "id": 1169,
+        "name": "retailer 1169 city64",
+        "description": "retailer 1169 city64",
+        "city_id": 64
+    },
+    {
+        "id": 1170,
+        "name": "retailer 1170 city65",
+        "description": "retailer 1170 city65",
+        "city_id": 65
+    },
+    {
+        "id": 1171,
+        "name": "retailer 1171 city66",
+        "description": "retailer 1171 city66",
+        "city_id": 66
+    },
+    {
+        "id": 1172,
+        "name": "retailer 1172 city67",
+        "description": "retailer 1172 city67",
+        "city_id": 67
+    },
+    {
+        "id": 1173,
+        "name": "retailer 1173 city68",
+        "description": "retailer 1173 city68",
+        "city_id": 68
+    },
+    {
+        "id": 1174,
+        "name": "retailer 1174 city69",
+        "description": "retailer 1174 city69",
+        "city_id": 69
+    },
+    {
+        "id": 1175,
+        "name": "retailer 1175 city70",
+        "description": "retailer 1175 city70",
+        "city_id": 70
+    },
+    {
+        "id": 1176,
+        "name": "retailer 1176 city71",
+        "description": "retailer 1176 city71",
+        "city_id": 71
+    },
+    {
+        "id": 1177,
+        "name": "retailer 1177 city72",
+        "description": "retailer 1177 city72",
+        "city_id": 72
+    },
+    {
+        "id": 1178,
+        "name": "retailer 1178 city73",
+        "description": "retailer 1178 city73",
+        "city_id": 73
+    },
+    {
+        "id": 1179,
+        "name": "retailer 1179 city74",
+        "description": "retailer 1179 city74",
+        "city_id": 74
+    },
+    {
+        "id": 1180,
+        "name": "retailer 1180 city75",
+        "description": "retailer 1180 city75",
+        "city_id": 75
+    },
+    {
+        "id": 1181,
+        "name": "retailer 1181 city76",
+        "description": "retailer 1181 city76",
+        "city_id": 76
+    },
+    {
+        "id": 1182,
+        "name": "retailer 1182 city77",
+        "description": "retailer 1182 city77",
+        "city_id": 77
+    },
+    {
+        "id": 1183,
+        "name": "retailer 1183 city78",
+        "description": "retailer 1183 city78",
+        "city_id": 78
+    },
+    {
+        "id": 1184,
+        "name": "retailer 1184 city79",
+        "description": "retailer 1184 city79",
+        "city_id": 79
+    },
+    {
+        "id": 1185,
+        "name": "retailer 1185 city80",
+        "description": "retailer 1185 city80",
+        "city_id": 80
+    },
+    {
+        "id": 1186,
+        "name": "retailer 1186 city81",
+        "description": "retailer 1186 city81",
+        "city_id": 81
+    },
+    {
+        "id": 1187,
+        "name": "retailer 1187 city82",
+        "description": "retailer 1187 city82",
+        "city_id": 82
+    },
+    {
+        "id": 1188,
+        "name": "retailer 1188 city83",
+        "description": "retailer 1188 city83",
+        "city_id": 83
+    },
+    {
+        "id": 1189,
+        "name": "retailer 1189 city84",
+        "description": "retailer 1189 city84",
+        "city_id": 84
+    },
+    {
+        "id": 1190,
+        "name": "retailer 1190 city85",
+        "description": "retailer 1190 city85",
+        "city_id": 85
+    },
+    {
+        "id": 1191,
+        "name": "retailer 1191 city86",
+        "description": "retailer 1191 city86",
+        "city_id": 86
+    },
+    {
+        "id": 1192,
+        "name": "retailer 1192 city87",
+        "description": "retailer 1192 city87",
+        "city_id": 87
+    },
+    {
+        "id": 1193,
+        "name": "retailer 1193 city88",
+        "description": "retailer 1193 city88",
+        "city_id": 88
+    },
+    {
+        "id": 1194,
+        "name": "retailer 1194 city89",
+        "description": "retailer 1194 city89",
+        "city_id": 89
+    },
+    {
+        "id": 1195,
+        "name": "retailer 1195 city90",
+        "description": "retailer 1195 city90",
+        "city_id": 90
+    },
+    {
+        "id": 1196,
+        "name": "retailer 1196 city91",
+        "description": "retailer 1196 city91",
+        "city_id": 91
+    },
+    {
+        "id": 1197,
+        "name": "retailer 1197 city92",
+        "description": "retailer 1197 city92",
+        "city_id": 92
+    },
+    {
+        "id": 1198,
+        "name": "retailer 1198 city93",
+        "description": "retailer 1198 city93",
+        "city_id": 93
+    },
+    {
+        "id": 1199,
+        "name": "retailer 1199 city94",
+        "description": "retailer 1199 city94",
+        "city_id": 94
+    },
+    {
+        "id": 1200,
+        "name": "retailer 1200 city95",
+        "description": "retailer 1200 city95",
+        "city_id": 95
+    },
+    {
+        "id": 1201,
+        "name": "retailer 1201 city96",
+        "description": "retailer 1201 city96",
+        "city_id": 96
+    },
+    {
+        "id": 1202,
+        "name": "retailer 1202 city97",
+        "description": "retailer 1202 city97",
+        "city_id": 97
+    },
+    {
+        "id": 1203,
+        "name": "retailer 1203 city98",
+        "description": "retailer 1203 city98",
+        "city_id": 98
+    },
+    {
+        "id": 1204,
+        "name": "retailer 1204 city99",
+        "description": "retailer 1204 city99",
+        "city_id": 99
+    },
+    {
+        "id": 1205,
+        "name": "retailer 1205 city100",
+        "description": "retailer 1205 city100",
+        "city_id": 100
+    },
+    {
+        "id": 1206,
+        "name": "retailer 1206 city101",
+        "description": "retailer 1206 city101",
+        "city_id": 101
+    },
+    {
+        "id": 1207,
+        "name": "retailer 1207 city102",
+        "description": "retailer 1207 city102",
+        "city_id": 102
+    },
+    {
+        "id": 1208,
+        "name": "retailer 1208 city103",
+        "description": "retailer 1208 city103",
+        "city_id": 103
+    },
+    {
+        "id": 1209,
+        "name": "retailer 1209 city104",
+        "description": "retailer 1209 city104",
+        "city_id": 104
+    },
+    {
+        "id": 1210,
+        "name": "retailer 1210 city105",
+        "description": "retailer 1210 city105",
+        "city_id": 105
+    },
+    {
+        "id": 1211,
+        "name": "retailer 1211 city106",
+        "description": "retailer 1211 city106",
+        "city_id": 106
+    },
+    {
+        "id": 1212,
+        "name": "retailer 1212 city107",
+        "description": "retailer 1212 city107",
+        "city_id": 107
+    },
+    {
+        "id": 1213,
+        "name": "retailer 1213 city108",
+        "description": "retailer 1213 city108",
+        "city_id": 108
+    },
+    {
+        "id": 1214,
+        "name": "retailer 1214 city109",
+        "description": "retailer 1214 city109",
+        "city_id": 109
+    },
+    {
+        "id": 1215,
+        "name": "retailer 1215 city110",
+        "description": "retailer 1215 city110",
+        "city_id": 110
+    },
+    {
+        "id": 1216,
+        "name": "retailer 1216 city111",
+        "description": "retailer 1216 city111",
+        "city_id": 111
+    },
+    {
+        "id": 1217,
+        "name": "retailer 1217 city112",
+        "description": "retailer 1217 city112",
+        "city_id": 112
+    },
+    {
+        "id": 1218,
+        "name": "retailer 1218 city113",
+        "description": "retailer 1218 city113",
+        "city_id": 113
+    },
+    {
+        "id": 1219,
+        "name": "retailer 1219 city114",
+        "description": "retailer 1219 city114",
+        "city_id": 114
+    },
+    {
+        "id": 1220,
+        "name": "retailer 1220 city115",
+        "description": "retailer 1220 city115",
+        "city_id": 115
+    },
+    {
+        "id": 1221,
+        "name": "retailer 1221 city116",
+        "description": "retailer 1221 city116",
+        "city_id": 116
+    },
+    {
+        "id": 1222,
+        "name": "retailer 1222 city117",
+        "description": "retailer 1222 city117",
+        "city_id": 117
+    },
+    {
+        "id": 1223,
+        "name": "retailer 1223 city118",
+        "description": "retailer 1223 city118",
+        "city_id": 118
+    },
+    {
+        "id": 1224,
+        "name": "retailer 1224 city119",
+        "description": "retailer 1224 city119",
+        "city_id": 119
+    },
+    {
+        "id": 1225,
+        "name": "retailer 1225 city120",
+        "description": "retailer 1225 city120",
+        "city_id": 120
+    },
+    {
+        "id": 1226,
+        "name": "retailer 1226 city121",
+        "description": "retailer 1226 city121",
+        "city_id": 121
+    },
+    {
+        "id": 1227,
+        "name": "retailer 1227 city122",
+        "description": "retailer 1227 city122",
+        "city_id": 122
+    },
+    {
+        "id": 1228,
+        "name": "retailer 1228 city123",
+        "description": "retailer 1228 city123",
+        "city_id": 123
+    },
+    {
+        "id": 1229,
+        "name": "retailer 1229 city124",
+        "description": "retailer 1229 city124",
+        "city_id": 124
+    },
+    {
+        "id": 1230,
+        "name": "retailer 1230 city125",
+        "description": "retailer 1230 city125",
+        "city_id": 125
+    },
+    {
+        "id": 1231,
+        "name": "retailer 1231 city126",
+        "description": "retailer 1231 city126",
+        "city_id": 126
+    },
+    {
+        "id": 1232,
+        "name": "retailer 1232 city127",
+        "description": "retailer 1232 city127",
+        "city_id": 127
+    },
+    {
+        "id": 1233,
+        "name": "retailer 1233 city128",
+        "description": "retailer 1233 city128",
+        "city_id": 128
+    },
+    {
+        "id": 1234,
+        "name": "retailer 1234 city129",
+        "description": "retailer 1234 city129",
+        "city_id": 129
+    },
+    {
+        "id": 1235,
+        "name": "retailer 1235 city130",
+        "description": "retailer 1235 city130",
+        "city_id": 130
+    },
+    {
+        "id": 1236,
+        "name": "retailer 1236 city131",
+        "description": "retailer 1236 city131",
+        "city_id": 131
+    },
+    {
+        "id": 1237,
+        "name": "retailer 1237 city132",
+        "description": "retailer 1237 city132",
+        "city_id": 132
+    },
+    {
+        "id": 1238,
+        "name": "retailer 1238 city133",
+        "description": "retailer 1238 city133",
+        "city_id": 133
+    },
+    {
+        "id": 1239,
+        "name": "retailer 1239 city134",
+        "description": "retailer 1239 city134",
+        "city_id": 134
+    },
+    {
+        "id": 1240,
+        "name": "retailer 1240 city135",
+        "description": "retailer 1240 city135",
+        "city_id": 135
+    },
+    {
+        "id": 1241,
+        "name": "retailer 1241 city136",
+        "description": "retailer 1241 city136",
+        "city_id": 136
+    },
+    {
+        "id": 1242,
+        "name": "retailer 1242 city137",
+        "description": "retailer 1242 city137",
+        "city_id": 137
+    },
+    {
+        "id": 1243,
+        "name": "retailer 1243 city138",
+        "description": "retailer 1243 city138",
+        "city_id": 138
+    },
+    {
+        "id": 1244,
+        "name": "retailer 1244 city139",
+        "description": "retailer 1244 city139",
+        "city_id": 139
+    },
+    {
+        "id": 1245,
+        "name": "retailer 1245 city140",
+        "description": "retailer 1245 city140",
+        "city_id": 140
+    },
+    {
+        "id": 1246,
+        "name": "retailer 1246 city141",
+        "description": "retailer 1246 city141",
+        "city_id": 141
+    },
+    {
+        "id": 1247,
+        "name": "retailer 1247 city142",
+        "description": "retailer 1247 city142",
+        "city_id": 142
+    },
+    {
+        "id": 1248,
+        "name": "retailer 1248 city143",
+        "description": "retailer 1248 city143",
+        "city_id": 143
+    },
+    {
+        "id": 1249,
+        "name": "retailer 1249 city144",
+        "description": "retailer 1249 city144",
+        "city_id": 144
+    },
+    {
+        "id": 1250,
+        "name": "retailer 1250 city145",
+        "description": "retailer 1250 city145",
+        "city_id": 145
+    },
+    {
+        "id": 1251,
+        "name": "retailer 1251 city146",
+        "description": "retailer 1251 city146",
+        "city_id": 146
+    },
+    {
+        "id": 1252,
+        "name": "retailer 1252 city147",
+        "description": "retailer 1252 city147",
+        "city_id": 147
+    },
+    {
+        "id": 1253,
+        "name": "retailer 1253 city148",
+        "description": "retailer 1253 city148",
+        "city_id": 148
+    },
+    {
+        "id": 1254,
+        "name": "retailer 1254 city149",
+        "description": "retailer 1254 city149",
+        "city_id": 149
+    },
+    {
+        "id": 1255,
+        "name": "retailer 1255 city150",
+        "description": "retailer 1255 city150",
+        "city_id": 150
+    },
+    {
+        "id": 1256,
+        "name": "retailer 1256 city151",
+        "description": "retailer 1256 city151",
+        "city_id": 151
+    },
+    {
+        "id": 1257,
+        "name": "retailer 1257 city152",
+        "description": "retailer 1257 city152",
+        "city_id": 152
+    },
+    {
+        "id": 1258,
+        "name": "retailer 1258 city153",
+        "description": "retailer 1258 city153",
+        "city_id": 153
+    },
+    {
+        "id": 1259,
+        "name": "retailer 1259 city154",
+        "description": "retailer 1259 city154",
+        "city_id": 154
+    },
+    {
+        "id": 1260,
+        "name": "retailer 1260 city155",
+        "description": "retailer 1260 city155",
+        "city_id": 155
+    },
+    {
+        "id": 1261,
+        "name": "retailer 1261 city156",
+        "description": "retailer 1261 city156",
+        "city_id": 156
+    },
+    {
+        "id": 1262,
+        "name": "retailer 1262 city157",
+        "description": "retailer 1262 city157",
+        "city_id": 157
+    },
+    {
+        "id": 1263,
+        "name": "retailer 1263 city158",
+        "description": "retailer 1263 city158",
+        "city_id": 158
+    },
+    {
+        "id": 1264,
+        "name": "retailer 1264 city159",
+        "description": "retailer 1264 city159",
+        "city_id": 159
+    },
+    {
+        "id": 1265,
+        "name": "retailer 1265 city160",
+        "description": "retailer 1265 city160",
+        "city_id": 160
+    },
+    {
+        "id": 1266,
+        "name": "retailer 1266 city161",
+        "description": "retailer 1266 city161",
+        "city_id": 161
+    },
+    {
+        "id": 1267,
+        "name": "retailer 1267 city162",
+        "description": "retailer 1267 city162",
+        "city_id": 162
+    },
+    {
+        "id": 1268,
+        "name": "retailer 1268 city163",
+        "description": "retailer 1268 city163",
+        "city_id": 163
+    },
+    {
+        "id": 1269,
+        "name": "retailer 1269 city164",
+        "description": "retailer 1269 city164",
+        "city_id": 164
+    },
+    {
+        "id": 1270,
+        "name": "retailer 1270 city165",
+        "description": "retailer 1270 city165",
+        "city_id": 165
+    },
+    {
+        "id": 1271,
+        "name": "retailer 1271 city166",
+        "description": "retailer 1271 city166",
+        "city_id": 166
+    },
+    {
+        "id": 1272,
+        "name": "retailer 1272 city167",
+        "description": "retailer 1272 city167",
+        "city_id": 167
+    },
+    {
+        "id": 1273,
+        "name": "retailer 1273 city168",
+        "description": "retailer 1273 city168",
+        "city_id": 168
+    },
+    {
+        "id": 1274,
+        "name": "retailer 1274 city169",
+        "description": "retailer 1274 city169",
+        "city_id": 169
+    },
+    {
+        "id": 1275,
+        "name": "retailer 1275 city170",
+        "description": "retailer 1275 city170",
+        "city_id": 170
+    },
+    {
+        "id": 1276,
+        "name": "retailer 1276 city171",
+        "description": "retailer 1276 city171",
+        "city_id": 171
+    },
+    {
+        "id": 1277,
+        "name": "retailer 1277 city172",
+        "description": "retailer 1277 city172",
+        "city_id": 172
+    },
+    {
+        "id": 1278,
+        "name": "retailer 1278 city173",
+        "description": "retailer 1278 city173",
+        "city_id": 173
+    },
+    {
+        "id": 1279,
+        "name": "retailer 1279 city174",
+        "description": "retailer 1279 city174",
+        "city_id": 174
+    },
+    {
+        "id": 1280,
+        "name": "retailer 1280 city175",
+        "description": "retailer 1280 city175",
+        "city_id": 175
+    },
+    {
+        "id": 1281,
+        "name": "retailer 1281 city176",
+        "description": "retailer 1281 city176",
+        "city_id": 176
+    },
+    {
+        "id": 1282,
+        "name": "retailer 1282 city177",
+        "description": "retailer 1282 city177",
+        "city_id": 177
+    },
+    {
+        "id": 1283,
+        "name": "retailer 1283 city178",
+        "description": "retailer 1283 city178",
+        "city_id": 178
+    },
+    {
+        "id": 1284,
+        "name": "retailer 1284 city179",
+        "description": "retailer 1284 city179",
+        "city_id": 179
+    },
+    {
+        "id": 1285,
+        "name": "retailer 1285 city180",
+        "description": "retailer 1285 city180",
+        "city_id": 180
+    },
+    {
+        "id": 1286,
+        "name": "retailer 1286 city181",
+        "description": "retailer 1286 city181",
+        "city_id": 181
+    },
+    {
+        "id": 1287,
+        "name": "retailer 1287 city182",
+        "description": "retailer 1287 city182",
+        "city_id": 182
+    },
+    {
+        "id": 1288,
+        "name": "retailer 1288 city183",
+        "description": "retailer 1288 city183",
+        "city_id": 183
+    },
+    {
+        "id": 1289,
+        "name": "retailer 1289 city184",
+        "description": "retailer 1289 city184",
+        "city_id": 184
+    },
+    {
+        "id": 1290,
+        "name": "retailer 1290 city185",
+        "description": "retailer 1290 city185",
+        "city_id": 185
+    },
+    {
+        "id": 1291,
+        "name": "retailer 1291 city186",
+        "description": "retailer 1291 city186",
+        "city_id": 186
+    },
+    {
+        "id": 1292,
+        "name": "retailer 1292 city187",
+        "description": "retailer 1292 city187",
+        "city_id": 187
+    },
+    {
+        "id": 1293,
+        "name": "retailer 1293 city188",
+        "description": "retailer 1293 city188",
+        "city_id": 188
+    },
+    {
+        "id": 1294,
+        "name": "retailer 1294 city189",
+        "description": "retailer 1294 city189",
+        "city_id": 189
+    },
+    {
+        "id": 1295,
+        "name": "retailer 1295 city190",
+        "description": "retailer 1295 city190",
+        "city_id": 190
+    },
+    {
+        "id": 1296,
+        "name": "retailer 1296 city191",
+        "description": "retailer 1296 city191",
+        "city_id": 191
+    },
+    {
+        "id": 1297,
+        "name": "retailer 1297 city192",
+        "description": "retailer 1297 city192",
+        "city_id": 192
+    },
+    {
+        "id": 1298,
+        "name": "retailer 1298 city193",
+        "description": "retailer 1298 city193",
+        "city_id": 193
+    },
+    {
+        "id": 1299,
+        "name": "retailer 1299 city194",
+        "description": "retailer 1299 city194",
+        "city_id": 194
+    },
+    {
+        "id": 1300,
+        "name": "retailer 1300 city195",
+        "description": "retailer 1300 city195",
+        "city_id": 195
+    },
+    {
+        "id": 1301,
+        "name": "retailer 1301 city196",
+        "description": "retailer 1301 city196",
+        "city_id": 196
+    },
+    {
+        "id": 1302,
+        "name": "retailer 1302 city197",
+        "description": "retailer 1302 city197",
+        "city_id": 197
+    },
+    {
+        "id": 1303,
+        "name": "retailer 1303 city198",
+        "description": "retailer 1303 city198",
+        "city_id": 198
+    },
+    {
+        "id": 1304,
+        "name": "retailer 1304 city199",
+        "description": "retailer 1304 city199",
+        "city_id": 199
+    },
+    {
+        "id": 1305,
+        "name": "retailer 1305 city200",
+        "description": "retailer 1305 city200",
+        "city_id": 200
+    },
+    {
+        "id": 1306,
+        "name": "retailer 1306 city201",
+        "description": "retailer 1306 city201",
+        "city_id": 201
+    },
+    {
+        "id": 1307,
+        "name": "retailer 1307 city202",
+        "description": "retailer 1307 city202",
+        "city_id": 202
+    },
+    {
+        "id": 1308,
+        "name": "retailer 1308 city203",
+        "description": "retailer 1308 city203",
+        "city_id": 203
+    },
+    {
+        "id": 1309,
+        "name": "retailer 1309 city204",
+        "description": "retailer 1309 city204",
+        "city_id": 204
+    },
+    {
+        "id": 1310,
+        "name": "retailer 1310 city205",
+        "description": "retailer 1310 city205",
+        "city_id": 205
+    },
+    {
+        "id": 1311,
+        "name": "retailer 1311 city206",
+        "description": "retailer 1311 city206",
+        "city_id": 206
+    },
+    {
+        "id": 1312,
+        "name": "retailer 1312 city207",
+        "description": "retailer 1312 city207",
+        "city_id": 207
+    },
+    {
+        "id": 1313,
+        "name": "retailer 1313 city208",
+        "description": "retailer 1313 city208",
+        "city_id": 208
+    },
+    {
+        "id": 1314,
+        "name": "retailer 1314 city209",
+        "description": "retailer 1314 city209",
+        "city_id": 209
+    },
+    {
+        "id": 1315,
+        "name": "retailer 1315 city210",
+        "description": "retailer 1315 city210",
+        "city_id": 210
+    },
+    {
+        "id": 1316,
+        "name": "retailer 1316 city211",
+        "description": "retailer 1316 city211",
+        "city_id": 211
+    },
+    {
+        "id": 1317,
+        "name": "retailer 1317 city212",
+        "description": "retailer 1317 city212",
+        "city_id": 212
+    },
+    {
+        "id": 1318,
+        "name": "retailer 1318 city213",
+        "description": "retailer 1318 city213",
+        "city_id": 213
+    },
+    {
+        "id": 1319,
+        "name": "retailer 1319 city214",
+        "description": "retailer 1319 city214",
+        "city_id": 214
+    },
+    {
+        "id": 1320,
+        "name": "retailer 1320 city215",
+        "description": "retailer 1320 city215",
+        "city_id": 215
+    },
+    {
+        "id": 1321,
+        "name": "retailer 1321 city216",
+        "description": "retailer 1321 city216",
+        "city_id": 216
+    },
+    {
+        "id": 1322,
+        "name": "retailer 1322 city217",
+        "description": "retailer 1322 city217",
+        "city_id": 217
+    },
+    {
+        "id": 1323,
+        "name": "retailer 1323 city218",
+        "description": "retailer 1323 city218",
+        "city_id": 218
+    },
+    {
+        "id": 1324,
+        "name": "retailer 1324 city219",
+        "description": "retailer 1324 city219",
+        "city_id": 219
+    },
+    {
+        "id": 1325,
+        "name": "retailer 1325 city220",
+        "description": "retailer 1325 city220",
+        "city_id": 220
+    },
+    {
+        "id": 1326,
+        "name": "retailer 1326 city221",
+        "description": "retailer 1326 city221",
+        "city_id": 221
     }
 ]

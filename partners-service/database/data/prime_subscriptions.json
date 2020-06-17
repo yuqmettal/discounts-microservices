@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "name": "Test",
+        "name": "Subscripcion prime",
         "validity": 1,
-        "validity_type": "Test Type",
+        "validity_type": "Prime",
         "enabled": true
     }
 ]
