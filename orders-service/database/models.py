@@ -33,6 +33,7 @@ class Cart(Base):
     id = Column(Integer, Sequence('cart_id_seq'), primary_key=True, index=True)
     name = Column(String, index=True, nullable=False)
     cart_items = relationship("CartItem", back_populates="cart")
+    client_carts = relationship("ClientCart", back_populates="cart")
 
 
 class CartItem(Base):
@@ -44,3 +45,13 @@ class CartItem(Base):
     quantity = Column(Float(asdecimal=True), nullable=False)
     notes = Column(Text)
     item_id = Column(Integer, nullable=False)
+
+
+class ClientCart(Base):
+    __tablename__ = 'client_cart'
+
+    id = Column(Integer, Sequence('client_cart_id_seq'), primary_key=True, index=True)
+    cart_id = Column(Integer, ForeignKey('cart.id'), nullable=False)
+    cart = relationship("Cart", back_populates="client_carts")
+    date_joined = Column(Date, nullable=False)
+    client_id = Column(Integer, nullable=False)

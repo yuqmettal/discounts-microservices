@@ -7,12 +7,14 @@ from database.schema.order_schema import OrderCreate
 from database.schema.order_item_schema import OrderItemCreate
 from database.schema.cart_schema import CartCreate
 from database.schema.cart_item_schema import CartItemCreate
+from database.schema.client_cart_schema import ClientCartCreate
 
 
 def seed_data():
     seed_order_data()
     seed_order_item_data()
     seed_cart_item_data()
+    seed_client_cart_data()
 
 
 def seed_order_data():
@@ -81,3 +83,20 @@ def seed_cart_item_data():
             if not cart_item:
                 cart_item = CartItemCreate(**cart_items_data)
                 crud.cart_item.create(db, object_to_create=cart_item)
+
+
+def seed_client_cart_data():
+    order_file = os.path.join(
+        settings.BASE_DIR,
+        'database',
+        'data',
+        'client_carts.json'
+    )
+    with open(order_file) as json_file:
+        data = json.load(json_file)
+        db = SessionLocal()
+        for client_carts_data in data:
+            client_cart = crud.client_cart.get_by_id(db=db, id=client_carts_data['id'])
+            if not client_cart:
+                client_cart = ClientCartCreate(**client_carts_data)
+                crud.client_cart.create(db, object_to_create=client_cart)
