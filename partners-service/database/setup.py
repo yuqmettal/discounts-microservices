@@ -17,3 +17,7 @@ class Base:
     @declared_attr
     def __tablename__(self) -> str:
         return self.__name__.lower()
+
+    __mapper_args__ = {
+        'confirm_deleted_rows': False
+    }
