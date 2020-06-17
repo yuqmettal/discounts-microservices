@@ -28,6 +28,7 @@ class Item(Base):
     margin = Column(Float(asdecimal=True), nullable=False)
     product_id = Column(Integer, ForeignKey('product.id'), nullable=False)
     product = relationship("Product", back_populates="items") 
+    discounts = relationship("DiscountItem", back_populates="item")
 
 
 class Discount(Base):
@@ -49,3 +50,14 @@ class Discount(Base):
     according_deliver_day = Column(Boolean, nullable=False, default=False)
     according_order_day = Column(Boolean, nullable=False, default=False)
     order_and_deliver_same_day = Column(Boolean, nullable=False, default=False)
+    discount_items = relationship("DiscountItem", back_populates="discount")
+
+
+class DiscountItem(Base):
+    __tablename__ = 'discount_item'
+
+    id = Column(Integer, Sequence('discount_item_id_seq'), primary_key=True, index=True)
+    discount_id = Column(Integer, ForeignKey('discount.id'), nullable=False)
+    discount = relationship("Discount", back_populates="discount_items") 
+    item_id = Column(Integer, ForeignKey('item.id'), nullable=False)
+    item = relationship("Item", back_populates="discounts") 

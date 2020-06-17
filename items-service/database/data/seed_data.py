@@ -6,11 +6,14 @@ from database import crud, SessionLocal
 from database.schema.brand_schema import BrandCreate
 from database.schema.product_schema import ProductCreate
 from database.schema.item_schema import ItemCreate
+from database.schema.discount_schema import DiscountCreate
 
 
 def seed_data():
     seed_brand_data()
     seed_product_data()
+    seed_item_data()
+    seed_discount_data()
 
 
 def seed_brand_data():
@@ -62,3 +65,20 @@ def seed_item_data():
             if not item:
                 item = ItemCreate(**item_data)
                 crud.item.create(db, object_to_create=item)
+
+
+def seed_discount_data():
+    json_file = os.path.join(
+        settings.BASE_DIR,
+        'database',
+        'data',
+        'discounts.json'
+    )
+    with open(json_file) as json_file:
+        data = json.load(json_file)
+        db = SessionLocal()
+        for discounts_data in data:
+            discount = crud.discount.get_by_id(db=db, id=discounts_data['id'])
+            if not discount:
+                discount = DiscountCreate(**discounts_data)
+                crud.discount.create(db, object_to_create=discount)

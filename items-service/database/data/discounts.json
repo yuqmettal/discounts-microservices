@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "start_date": "2020-06-01",
+        "end_date": "2020-06-30",
+        "calendarized": false,
+        "priority": 1,
+        "discount": 10,
+        "retailer_id": 1,
+        "category_id": 1,
+        "brand_id": 1,
+        "subcategory_id": 1,
+        "by_products": false,
+        "by_clients": false,
+        "to_prime_clients": false,
+        "free_shipping": false,
+        "free_shipping_amount": false,
+        "according_deliver_day": false,
+        "according_order_day": false,
+        "order_and_deliver_same_day": false
+    }
+]
