@@ -41,10 +41,8 @@ def seed_category_data():
     with open(category_file) as json_file:
         data = json.load(json_file)
         for category_data in data:
-            category = crud.category.get_by_id(db=db, id=category_data['id'])
-            if not category:
-                category = CategoryCreate(**category_data)
-                crud.category.create(db, object_to_create=category)
+            category = CategoryCreate(**category_data)
+            crud.category.create(db, object_to_create=category)
 
 
 def seed_subcategory_data():
@@ -61,10 +59,8 @@ def seed_subcategory_data():
     with open(json_file, encoding='utf8') as json_file:
         data = json.load(json_file)
         for subcategory_data in data:
-            subcategory = crud.subcategory.get_by_id(db=db, id=subcategory_data['id'])
-            if not subcategory:
-                subcategory = SubcategoryCreate(**subcategory_data)
-                crud.subcategory.create(db, object_to_create=subcategory)
+            subcategory = SubcategoryCreate(**subcategory_data)
+            crud.subcategory.create(db, object_to_create=subcategory)
 
 
 def seed_retailer_data():
@@ -81,10 +77,8 @@ def seed_retailer_data():
     with open(json_file, encoding='utf8') as json_file:
         data = json.load(json_file)
         for retailer_data in data:
-            retailer = crud.retailer.get_by_id(db=db, id=retailer_data['id'])
-            if not retailer:
-                retailer = RetailerCreate(**retailer_data)
-                crud.retailer.create(db, object_to_create=retailer)
+            retailer = RetailerCreate(**retailer_data)
+            crud.retailer.create(db, object_to_create=retailer)
 
 
 def seed_prime_subscription_data():
@@ -101,10 +95,8 @@ def seed_prime_subscription_data():
     with open(json_file, encoding='utf8') as json_file:
         data = json.load(json_file)
         for prime_subscription_data in data:
-            prime_subscription = crud.prime_subscription.get_by_id(db=db, id=prime_subscription_data['id'])
-            if not prime_subscription:
-                prime_subscription = PrimeSubscriptionCreate(**prime_subscription_data)
-                crud.prime_subscription.create(db, object_to_create=prime_subscription)
+            prime_subscription = PrimeSubscriptionCreate(**prime_subscription_data)
+            crud.prime_subscription.create(db, object_to_create=prime_subscription)
 
 
 def seed_client_data():
@@ -121,10 +113,8 @@ def seed_client_data():
     with open(json_file, encoding='utf8') as json_file:
         data = json.load(json_file)
         for client_data in data:
-            client = crud.client.get_by_id(db=db, id=client_data['id'])
-            if not client:
-                client = ClientCreate(**client_data)
-                crud.client.create(db, object_to_create=client)
+            client = ClientCreate(**client_data)
+            crud.client.create(db, object_to_create=client)
 
 
 def seed_retailer_category_data():
@@ -141,10 +131,8 @@ def seed_retailer_category_data():
     with open(json_file, encoding='utf8') as json_file:
         data = json.load(json_file)
         for retailer_category_data in data:
-            retailer_category = crud.retailer_category.get_by_id(db=db, id=retailer_category_data['id'])
-            if not retailer_category:
-                retailer_category = RetailerCategoryCreate(**retailer_category_data)
-                crud.retailer_category.create(db, object_to_create=retailer_category)
+            retailer_category = RetailerCategoryCreate(**retailer_category_data)
+            crud.retailer_category.create(db, object_to_create=retailer_category)
 
 
 def seed_retailer_sector_data():
@@ -161,10 +149,8 @@ def seed_retailer_sector_data():
     with open(json_file, encoding='utf8') as json_file:
         data = json.load(json_file)
         for retailer_sector_data in data:
-            retailer_sector = crud.retailer_sector.get_by_id(db=db, id=retailer_sector_data['id'])
-            if not retailer_sector:
-                retailer_sector = RetailerSectorCreate(**retailer_sector_data)
-                crud.retailer_sector.create(db, object_to_create=retailer_sector)
+            retailer_sector = RetailerSectorCreate(**retailer_sector_data)
+            crud.retailer_sector.create(db, object_to_create=retailer_sector)
 
 
 def seed_client_prime_data():
@@ -181,7 +167,5 @@ def seed_client_prime_data():
     with open(json_file, encoding='utf8') as json_file:
         data = json.load(json_file)
         for client_prime_data in data:
-            client_prime = crud.client_prime_subscription.get_by_id(db=db, id=client_prime_data['id'])
-            if not client_prime:
-                client_prime = ClientPrimeSubscriptionCreate(**client_prime_data)
-                crud.client_prime_subscription.create(db, object_to_create=client_prime)
+            client_prime = ClientPrimeSubscriptionCreate(**client_prime_data)
+            crud.client_prime_subscription.create(db, object_to_create=client_prime)
