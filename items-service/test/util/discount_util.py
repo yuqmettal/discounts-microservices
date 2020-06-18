@@ -1,9 +1,9 @@
 from sqlalchemy.orm import Session
 
-from database.schema.discount_schema import DiscountCreate, DiscountUpdate
+from app.database.schema.discount_schema import DiscountCreate, DiscountUpdate
 from .utils import random_lower_string, random_upper_string
-from database import crud
-from database.models import Discount
+from app.database import crud
+from app.database.models import Discount
 
 
 def _create_discount_data():

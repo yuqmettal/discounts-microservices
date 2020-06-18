@@ -3,10 +3,10 @@ from typing import List, Any
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from database import crud
-from api import get_db
-from database.schema.discount_schema import Discount, DiscountCreate, DiscountUpdate
-from client.partner_client import get_category_by_id, get_retailer_by_id
+from app.database import crud
+from app.api import get_db
+from app.database.schema.discount_schema import Discount, DiscountCreate, DiscountUpdate
+from app.client.partner_client import get_category_by_id, get_retailer_by_id
 
 
 router = APIRouter()

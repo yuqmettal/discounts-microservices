@@ -3,9 +3,9 @@ from typing import List, Any
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from database import crud
-from api import get_db
-from database.schema.brand_schema import Brand, BrandCreate, BrandUpdate
+from app.database import crud
+from app.api import get_db
+from app.database.schema.brand_schema import Brand, BrandCreate, BrandUpdate
 
 
 router = APIRouter()

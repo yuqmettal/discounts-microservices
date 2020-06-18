@@ -1,8 +1,8 @@
 from sqlalchemy.orm import Session
 
 from .base import CRUDBase
-from database.models import Discount
-from database.schema.discount_schema import DiscountCreate, DiscountUpdate
+from app.database.models import Discount
+from app.database.schema.discount_schema import DiscountCreate, DiscountUpdate
 
 
 class DiscountCRUD(CRUDBase[Discount, DiscountCreate, DiscountUpdate]):

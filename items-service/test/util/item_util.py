@@ -1,9 +1,9 @@
 from sqlalchemy.orm import Session
 
-from database.schema.item_schema import ItemCreate, ItemUpdate
+from app.database.schema.item_schema import ItemCreate, ItemUpdate
 from .utils import random_lower_string, random_upper_string
-from database import crud
-from database.models import Item
+from app.database import crud
+from app.database.models import Item
 
 
 def create_random_item() -> ItemCreate:

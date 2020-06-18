@@ -2,8 +2,8 @@ from fastapi.testclient import TestClient
 from sqlalchemy.orm import Session
 
 from main import app
-from database import crud
-from database.schema.product_schema import Product, ProductCreate, ProductUpdate
+from app.database import crud
+from app.database.schema.product_schema import Product, ProductCreate, ProductUpdate
 from test.util.utils import random_upper_string
 from test.util.product_util import insert_product, delete_product, create_random_product_data
 

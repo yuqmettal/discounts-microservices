@@ -3,10 +3,10 @@ from fastapi import FastAPI
 from py_eureka_client import eureka_client
 
 import settings
-from api.health import api_router as health_router
-from api.v1 import api_router as v1_router
-from database.data.seed_data import seed_data
-from database import models, engine
+from app.api.health import api_router as health_router
+from app.api.v1 import api_router as v1_router
+from app.database.data.seed_data import seed_data
+from app.database import models, engine
 
 
 models.Base.metadata.create_all(bind=engine)

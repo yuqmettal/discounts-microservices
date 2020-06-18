@@ -4,7 +4,7 @@ from typing import Generic, Type, TypeVar, Optional, List, Union, Dict, Any
 from sqlalchemy.orm import Session
 from fastapi.encoders import jsonable_encoder
 
-from database import Base
+from app.database import Base
 
 
 ModelType = TypeVar("ModelType", bound=Base)

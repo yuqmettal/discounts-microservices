@@ -1,8 +1,8 @@
 from sqlalchemy.orm import Session
 
 from .base import CRUDBase
-from database.models import Product
-from database.schema.product_schema import ProductCreate, ProductUpdate
+from app.database.models import Product
+from app.database.schema.product_schema import ProductCreate, ProductUpdate
 
 
 class ProductCRUD(CRUDBase[Product, ProductCreate, ProductUpdate]):

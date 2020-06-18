@@ -1,8 +1,8 @@
 from sqlalchemy.orm import Session
 
 from .base import CRUDBase
-from database.models import Brand
-from database.schema.brand_schema import BrandCreate, BrandUpdate
+from app.database.models import Brand
+from app.database.schema.brand_schema import BrandCreate, BrandUpdate
 
 
 class BrandCRUD(CRUDBase[Brand, BrandCreate, BrandUpdate]):

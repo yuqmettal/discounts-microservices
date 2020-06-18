@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
-from database import crud
-from database.schema.product_schema import ProductCreate, ProductUpdate
+from app.database import crud
+from app.database.schema.product_schema import ProductCreate, ProductUpdate
 from test.util.product_util import insert_product, delete_product
 
 

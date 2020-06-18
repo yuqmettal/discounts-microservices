@@ -2,11 +2,11 @@ from fastapi.testclient import TestClient
 from sqlalchemy.orm import Session
 
 from main import app
-from database import crud
-from database.schema.item_schema import Item, ItemCreate, ItemUpdate
+from app.database import crud
+from app.database.schema.item_schema import Item, ItemCreate, ItemUpdate
 from test.util.utils import random_upper_string
 from test.util.item_util import insert_item, delete_item, create_random_item_data
-from client.base import EurekaResponse
+from app.client.base import EurekaResponse
 
 
 client = TestClient(app)
@@ -31,13 +31,13 @@ def test_POST_new_valid_item(db: Session, mocker) -> None:
     retailer_response = EurekaResponse(
         200, {'name': 'mocked', 'description': 'mocked', 'id': 1, 'city_id': 1, 'category_id': 1, 'category_enabled': True})
     mocker.patch(
-        'client.partner_client._partner_retailer_client.call_remote_service',
+        'app.client.partner_client._partner_retailer_client.call_remote_service',
         return_value=retailer_response
     )
     category_response = EurekaResponse(
         200, {'name': 'mocked', 'description': 'mocked', 'id': 1})
     mocker.patch(
-        'client.partner_client._partner_category_client.call_remote_service',
+        'app.client.partner_client._partner_category_client.call_remote_service',
         return_value=category_response
     )
 
@@ -61,13 +61,13 @@ def test_POST_new_item_invalid_retailer_id(db: Session, mocker) -> None:
     retailer_response = EurekaResponse(
         404, {'name': 'mocked', 'description': 'mocked', 'id': 1, 'city_id': 1, 'category_id': 1, 'category_enabled': True})
     mocker.patch(
-        'client.partner_client._partner_retailer_client.call_remote_service',
+        'app.client.partner_client._partner_retailer_client.call_remote_service',
         return_value=retailer_response
     )
     category_response = EurekaResponse(
         200, {'name': 'mocked', 'description': 'mocked', 'id': 1})
     mocker.patch(
-        'client.partner_client._partner_category_client.call_remote_service',
+        'app.client.partner_client._partner_category_client.call_remote_service',
         return_value=category_response
     )
 
@@ -83,13 +83,13 @@ def test_POST_new_item_invalid_category_id(db: Session, mocker) -> None:
     retailer_response = EurekaResponse(
         200, {'name': 'mocked', 'description': 'mocked', 'id': 1, 'city_id': 1, 'category_id': 1, 'category_enabled': True})
     mocker.patch(
-        'client.partner_client._partner_retailer_client.call_remote_service',
+        'app.client.partner_client._partner_retailer_client.call_remote_service',
         return_value=retailer_response
     )
     category_response = EurekaResponse(
         400, {'name': 'mocked', 'description': 'mocked', 'id': 1})
     mocker.patch(
-        'client.partner_client._partner_category_client.call_remote_service',
+        'app.client.partner_client._partner_category_client.call_remote_service',
         return_value=category_response
     )
 

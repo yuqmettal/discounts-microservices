@@ -1,9 +1,9 @@
 from sqlalchemy.orm import Session
 
-from database.schema.brand_schema import BrandCreate, BrandUpdate
+from app.database.schema.brand_schema import BrandCreate, BrandUpdate
 from .utils import random_lower_string, random_upper_string
-from database import crud
-from database.models import Brand
+from app.database import crud
+from app.database.models import Brand
 
 
 def create_random_brand() -> BrandCreate:

@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
-from database import crud
-from database.schema.brand_schema import BrandCreate, BrandUpdate
+from app.database import crud
+from app.database.schema.brand_schema import BrandCreate, BrandUpdate
 from test.util.brand_util import insert_brand, delete_brand
 
 

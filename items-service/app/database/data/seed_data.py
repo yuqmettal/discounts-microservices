@@ -5,11 +5,11 @@ import logging
 logger = logging.getLogger(__name__)
 
 import settings
-from database import crud, SessionLocal
-from database.schema.brand_schema import BrandCreate
-from database.schema.product_schema import ProductCreate
-from database.schema.item_schema import ItemCreate
-from database.schema.discount_schema import DiscountCreate
+from app.database import crud, SessionLocal
+from app.database.schema.brand_schema import BrandCreate
+from app.database.schema.product_schema import ProductCreate
+from app.database.schema.item_schema import ItemCreate
+from app.database.schema.discount_schema import DiscountCreate
 
 
 def seed_data():

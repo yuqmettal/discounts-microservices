@@ -4,8 +4,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import pytest
 
-from database import models, SessionLocal, engine
-from database.data.seed_data import seed_data
+from app.database import models, SessionLocal, engine
+from app.database.data.seed_data import seed_data
 
 
 models.Base.metadata.create_all(bind=engine)

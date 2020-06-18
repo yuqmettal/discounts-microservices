@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
-from database import crud
-from database.schema.discount_schema import DiscountCreate, DiscountUpdate
+from app.database import crud
+from app.database.schema.discount_schema import DiscountCreate, DiscountUpdate
 from test.util.discount_util import insert_discount, delete_discount
 
 

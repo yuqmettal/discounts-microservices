@@ -2,8 +2,8 @@ from fastapi.testclient import TestClient
 from sqlalchemy.orm import Session
 
 from main import app
-from database import crud
-from database.schema.brand_schema import Brand, BrandCreate, BrandUpdate
+from app.database import crud
+from app.database.schema.brand_schema import Brand, BrandCreate, BrandUpdate
 from test.util.utils import random_upper_string
 from test.util.brand_util import insert_brand, delete_brand, create_random_brand_data
 

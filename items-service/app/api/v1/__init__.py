@@ -1,10 +1,10 @@
 from fastapi import APIRouter
 
-from api.v1.endpoints import brand
-from api.v1.endpoints import product
-from api.v1.endpoints import item
-from api.v1.endpoints import discount
-from api.v1.endpoints import discount_item
+from app.api.v1.endpoints import brand
+from app.api.v1.endpoints import product
+from app.api.v1.endpoints import item
+from app.api.v1.endpoints import discount
+from app.api.v1.endpoints import discount_item
 
 
 api_router = APIRouter()
