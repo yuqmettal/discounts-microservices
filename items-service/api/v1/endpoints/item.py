@@ -5,14 +5,14 @@ from sqlalchemy.orm import Session
 
 from database import crud
 from api import get_db
-from database.schema.item_schema import Item, ItemCreate, ItemUpdate
+from database.schema.item_schema import Item, ItemCreate, ItemUpdate, ListItem
 from client.partner_client import get_category_by_id, get_retailer_by_id
 
 
 router = APIRouter()
 
 
-@router.get("/", response_model=List[Item])
+@router.get("/", response_model=List[ListItem])
 async def get_all_items(
     db: Session = Depends(get_db),
     page: int = 1,
@@ -42,7 +42,7 @@ async def post_item(
     return crud.item.create(db, object_to_create=item)
 
 
-@router.get("/{item_id}", response_model=Item)
+@router.get("/{item_id}", response_model=ListItem)
 async def get_item_by_id(
     *,
     db: Session = Depends(get_db),

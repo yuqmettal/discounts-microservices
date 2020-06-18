@@ -11,7 +11,6 @@ class ItemBase(BaseModel):
     category_id: Optional[int] = None
     pvp: Optional[float] = None
     margin: Optional[float] = None
-    product: Optional[Product] = None
 
 
 class ItemCreate(ItemBase):
@@ -33,7 +32,6 @@ class ItemInDatabase(ItemBase):
     category_id: int
     pvp: float
     margin: float
-    product: Product
 
     class Config:
         orm_mode = True
@@ -41,3 +39,7 @@ class ItemInDatabase(ItemBase):
 
 class Item(ItemInDatabase):
     pass
+
+
+class ListItem(ItemInDatabase):
+    product: Product

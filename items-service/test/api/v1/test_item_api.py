@@ -13,15 +13,16 @@ client = TestClient(app)
 
 
 def test_GET_item(db: Session) -> None:
-    item_count = crud.item.count(db)
-    response = client.get('/api/v1/item/')
+    item_count = 56
+    response = client.get('/api/v1/item/?size=56')
     assert response.status_code == 200
     assert len(response.json()) == item_count
     created = insert_item(db)
 
-    response = client.get('/api/v1/item/')
+    response = client.get(f'/api/v1/item/{created.id}')
+    created_item = response.json()
     assert response.status_code == 200
-    assert len(response.json()) == item_count + 1
+    assert created_item['category_id'] == created.category_id
     
     delete_item(db, created)
 
@@ -146,9 +147,7 @@ def test_DELETE_existing_item(db: Session) -> None:
     response = client.delete(f'/api/v1/item/{created.id}')
     item_from_api = response.json()
     assert response.status_code == 200
-    assert created.category_id == item_from_api['category_id']
-    
-    delete_item(db, created)
+    assert created.product_id == item_from_api['product_id']
 
 
 def test_DELETE_unexisting_item(db: Session) -> None:
