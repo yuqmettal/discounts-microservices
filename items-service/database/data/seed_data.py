@@ -1,5 +1,8 @@
 import os
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 import settings
 from database import crud, SessionLocal
@@ -17,6 +20,10 @@ def seed_data():
 
 
 def seed_brand_data():
+    logger.info("Seeding brands")
+    db = SessionLocal()
+    if crud.brand.count(db) > 0:
+        return
     json_file = os.path.join(
         settings.BASE_DIR,
         'database',
@@ -34,6 +41,10 @@ def seed_brand_data():
 
 
 def seed_product_data():
+    logger.info("Seeding products")
+    db = SessionLocal()
+    if crud.product.count(db) > 0:
+        return
     json_file = os.path.join(
         settings.BASE_DIR,
         'database',
@@ -51,6 +62,10 @@ def seed_product_data():
 
 
 def seed_item_data():
+    logger.info("Seeding items")
+    db = SessionLocal()
+    if crud.item.count(db) > 0:
+        return
     json_file = os.path.join(
         settings.BASE_DIR,
         'database',
@@ -68,6 +83,10 @@ def seed_item_data():
 
 
 def seed_discount_data():
+    logger.info("Seeding discounts")
+    db = SessionLocal()
+    if crud.discount.count(db) > 0:
+        return
     json_file = os.path.join(
         settings.BASE_DIR,
         'database',
