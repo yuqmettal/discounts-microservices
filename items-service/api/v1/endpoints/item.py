@@ -12,9 +12,13 @@ from client.partner_client import get_category_by_id, get_retailer_by_id
 router = APIRouter()
 
 
-@router.get("/")
-async def get_all_items(db: Session = Depends(get_db)) -> List[Item]:
-    return crud.item.filter(db)
+@router.get("/", response_model=List[Item])
+async def get_all_items(
+    db: Session = Depends(get_db),
+    page: int = 1,
+    size: int = 100
+) -> Any:
+    return crud.item.paging(db, page=page, size=size)
 
 
 @router.post("/")
@@ -53,7 +57,7 @@ async def get_item_by_id(
 
 
 @router.put("/{item_id}", response_model=Item)
-def update_item(
+async def update_item(
     *,
     db: Session = Depends(get_db),
     item_id: int,
@@ -66,12 +70,12 @@ def update_item(
             detail="The item doesn't exists",
         )
     item = crud.item.update(db, db_object=item,
-                           object_to_update=item_update)
+                            object_to_update=item_update)
     return item
 
 
 @router.delete("/{item_id}", response_model=Item)
-def delete_item(
+async def delete_item(
     *,
     db: Session = Depends(get_db),
     item_id: int,

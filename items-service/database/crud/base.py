@@ -19,6 +19,10 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
     def get_by_id(self, db: Session, id: int) -> Optional[ModelType]:
         return db.query(self.model).filter(self.model.id == id).first()
 
+    def paging(self, db: Session, *, page: int = 1, size: int = 100) -> List[ModelType]:
+        skip = (page - 1) * size
+        return self.filter(db=db, skip=skip, limit=size)
+
     def filter(self, db: Session, *, skip: int = None, limit: int = None) -> List[ModelType]:
         main_query = db.query(self.model)
         if None not in [skip, limit]:
