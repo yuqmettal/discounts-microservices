@@ -18,6 +18,9 @@ def seed_data():
 
 
 def seed_order_data():
+    db = SessionLocal()
+    if crud.order.count(db) <= 0:
+        return
     order_file = os.path.join(
         settings.BASE_DIR,
         'database',
@@ -26,7 +29,6 @@ def seed_order_data():
     )
     with open(order_file) as json_file:
         data = json.load(json_file)
-        db = SessionLocal()
         for order_data in data:
             order = crud.order.get_by_id(db=db, id=order_data['id'])
             if not order:
@@ -35,6 +37,9 @@ def seed_order_data():
 
 
 def seed_order_item_data():
+    db = SessionLocal()
+    if crud.order_item.count(db) <= 0:
+        return
     order_file = os.path.join(
         settings.BASE_DIR,
         'database',
@@ -43,7 +48,6 @@ def seed_order_item_data():
     )
     with open(order_file) as json_file:
         data = json.load(json_file)
-        db = SessionLocal()
         for order_item_data in data:
             order_item = crud.order_item.get_by_id(db=db, id=order_item_data['id'])
             if not order_item:
@@ -52,6 +56,9 @@ def seed_order_item_data():
 
 
 def seed_cart_data():
+    db = SessionLocal()
+    if crud.cart.count(db) <= 0:
+        return
     order_file = os.path.join(
         settings.BASE_DIR,
         'database',
@@ -60,7 +67,6 @@ def seed_cart_data():
     )
     with open(order_file) as json_file:
         data = json.load(json_file)
-        db = SessionLocal()
         for cart_data in data:
             cart = crud.cart.get_by_id(db=db, id=cart_data['id'])
             if not cart:
@@ -69,6 +75,9 @@ def seed_cart_data():
 
 
 def seed_cart_item_data():
+    db = SessionLocal()
+    if crud.cart_item.count(db) <= 0:
+        return
     order_file = os.path.join(
         settings.BASE_DIR,
         'database',
@@ -77,7 +86,6 @@ def seed_cart_item_data():
     )
     with open(order_file) as json_file:
         data = json.load(json_file)
-        db = SessionLocal()
         for cart_items_data in data:
             cart_item = crud.cart_item.get_by_id(db=db, id=cart_items_data['id'])
             if not cart_item:
@@ -86,6 +94,9 @@ def seed_cart_item_data():
 
 
 def seed_client_cart_data():
+    db = SessionLocal()
+    if crud.client_cart.count(db) <= 0:
+        return
     order_file = os.path.join(
         settings.BASE_DIR,
         'database',
@@ -94,7 +105,6 @@ def seed_client_cart_data():
     )
     with open(order_file) as json_file:
         data = json.load(json_file)
-        db = SessionLocal()
         for client_carts_data in data:
             client_cart = crud.client_cart.get_by_id(db=db, id=client_carts_data['id'])
             if not client_cart:
