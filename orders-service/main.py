@@ -1,5 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from py_eureka_client import eureka_client
 
 import settings
@@ -14,7 +15,15 @@ models.Base.metadata.create_all(bind=engine)
 seed_data()
 
 
-app = FastAPI(title="Orders service", openapi_url="/api/v1/openapi.json")
+app = FastAPI(title="Orders service", openapi_url="/orders/api/v1/openapi.json")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['*'],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.include_router(health_router)
 app.include_router(v1_router, prefix='/api/v1')
