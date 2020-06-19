@@ -65,6 +65,22 @@ services:
     env_file:
       - ./orders_service/.env
 
+  web:
+    build: ./web_server
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - address_service
+      - partners_service
+      - items_service
+      - orders_service
+    links:
+      - "address_service:address_service"
+      - "partners_service:partners_service"
+      - "items_service:items_service"
+      - "orders_service:orders_service"
+
 
 volumes:
   pg_discount_data:
