@@ -34,7 +34,8 @@ Una vez ingresado el comando, los servicios tardaran en levantarse unos 5 minuto
 ## Diseño 🔮
 
 El proyecto ha sido diseñado con una arquitectura basada en microservicios.
-Para mas detalle sobre el diseño ver [Arquitectura](Design.md)
+
+Para mas detalle sobre el diseño ver [Arquitectura](Design.md).
  
 
 ## Uso 💻
