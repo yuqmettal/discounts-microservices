@@ -7,16 +7,16 @@ from app.database.models import Discount
 
 
 def _create_discount_data():
-    return {
+    return  {
         "start_date": "2020-06-01",
         "end_date": "2020-06-30",
         "calendarized": False,
         "priority": 1,
         "discount": 10,
         "retailer_id": 1,
-        "category_id": 1,
-        "brand_id": 1,
-        "subcategory_id": 1,
+        "by_categories": False,
+        "by_subcategories": False,
+        "by_brands": False,
         "by_products": False,
         "by_clients": False,
         "to_prime_clients": False,
@@ -24,7 +24,7 @@ def _create_discount_data():
         "free_shipping_amount": False,
         "according_deliver_day": False,
         "according_order_day": False,
-        "order_and_deliver_same_day": False,
+        "order_and_deliver_same_day": False
     }
 
 
@@ -42,4 +42,7 @@ def insert_discount(db: Session):
 
 
 def delete_discount(db: Session, discount: Discount):
+    items = crud.discount_item.get_by_discount(db, discount_id=discount.id)
+    for item in items:
+        crud.discount_item.remove(db, id=item.id)
     crud.discount.remove(db, id=discount.id)

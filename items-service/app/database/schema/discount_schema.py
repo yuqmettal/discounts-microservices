@@ -1,5 +1,5 @@
 from datetime import date
-from typing import Optional
+from typing import Optional, List
 
 from pydantic import BaseModel
 
@@ -11,9 +11,9 @@ class DiscountBase(BaseModel):
     priority: Optional[int] = None
     discount: Optional[float] = None
     retailer_id: Optional[int] = None
-    category_id: Optional[int] = None
-    brand_id: Optional[int] = None
-    subcategory_id: Optional[int] = None
+    by_categories: Optional[bool] = None
+    by_subcategories: Optional[bool] = None
+    by_brands: Optional[bool] = None
     by_products: Optional[bool] = None
     by_clients: Optional[bool] = None
     to_prime_clients: Optional[bool] = None
@@ -22,7 +22,6 @@ class DiscountBase(BaseModel):
     according_deliver_day: Optional[bool] = None
     according_order_day: Optional[bool] = None
     order_and_deliver_same_day: Optional[bool] = None
-    
 
 
 class DiscountCreate(DiscountBase):
@@ -31,10 +30,10 @@ class DiscountCreate(DiscountBase):
     calendarized: bool
     priority: int
     discount: float
-    retailer_id: int
-    category_id: int
-    brand_id: int
-    subcategory_id: int
+    retailer_id: Optional[int] = None
+    by_categories: Optional[bool] = None
+    by_subcategories: Optional[bool] = None
+    by_brands: Optional[bool] = None
     by_products: bool
     by_clients: bool
     to_prime_clients: bool
@@ -44,6 +43,14 @@ class DiscountCreate(DiscountBase):
     according_order_day: bool
     order_and_deliver_same_day: bool
 
+
+class DiscountPOST(BaseModel):
+    discount: DiscountCreate
+    categories: Optional[List] = None
+    subcategories: Optional[List] = None
+    brands: Optional[List] = None
+    products: Optional[List] = None
+    
 
 class DiscountUpdate(DiscountBase):
     pass
@@ -57,9 +64,9 @@ class DiscountInDatabase(DiscountBase):
     priority: int
     discount: float
     retailer_id: int
-    category_id: int
-    brand_id: int
-    subcategory_id: int
+    by_categories:bool
+    by_subcategories:bool
+    by_brands:bool
     by_products: bool
     by_clients: bool
     to_prime_clients: bool

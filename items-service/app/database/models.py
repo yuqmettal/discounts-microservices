@@ -1,22 +1,24 @@
-from sqlalchemy import Column, Integer, String, Sequence, ForeignKey, Boolean, Date, Float
+from sqlalchemy import Column, Integer, String, Sequence, ForeignKey, Boolean, Date, Float, UniqueConstraint
 from sqlalchemy.orm import relationship
 
 from .setup import Base
 
 
 class Brand(Base):
-    id = Column(Integer, Sequence('brand_id_seq'), primary_key=True, index=True)
+    id = Column(Integer, Sequence('brand_id_seq'),
+                primary_key=True, index=True)
     name = Column(String, unique=True, index=True, nullable=False)
     products = relationship("Product", back_populates="brand")
 
 
 class Product(Base):
-    id = Column(Integer, Sequence('product_id_seq'), primary_key=True, index=True)
+    id = Column(Integer, Sequence('product_id_seq'),
+                primary_key=True, index=True)
     name = Column(String, nullable=False)
     description = Column(String, nullable=False)
     tax_rate = Column(Float(asdecimal=True), nullable=False)
     brand_id = Column(Integer, ForeignKey('brand.id'), nullable=False)
-    brand = relationship("Brand", back_populates="products") 
+    brand = relationship("Brand", back_populates="products")
     items = relationship("Item", back_populates="product")
 
 
@@ -27,22 +29,23 @@ class Item(Base):
     pvp = Column(Float(asdecimal=True), nullable=False)
     margin = Column(Float(asdecimal=True), nullable=False)
     product_id = Column(Integer, ForeignKey('product.id'), nullable=False)
-    product = relationship("Product", back_populates="items") 
+    product = relationship("Product", back_populates="items")
     discounts = relationship("DiscountItem", back_populates="item")
 
 
 class Discount(Base):
-    id = Column(Integer, Sequence('discount_id_seq'), primary_key=True, index=True)
+    id = Column(Integer, Sequence('discount_id_seq'),
+                primary_key=True, index=True)
     start_date = Column(Date, nullable=False)
     end_date = Column(Date, nullable=False)
     calendarized = Column(Boolean, nullable=False, default=False)
     priority = Column(Integer, nullable=False)
     discount = Column(Float(asdecimal=True), nullable=False)
     retailer_id = Column(Integer)
-    category_id = Column(Integer)
-    brand_id = Column(Integer)
-    subcategory_id = Column(Integer)
     by_products = Column(Boolean, nullable=False, default=False)
+    by_categories = Column(Boolean, nullable=False, default=False)
+    by_subcategories = Column(Boolean, nullable=False, default=False)
+    by_brands = Column(Boolean, nullable=False, default=False)
     by_clients = Column(Boolean, nullable=False, default=False)
     to_prime_clients = Column(Boolean, nullable=False, default=False)
     free_shipping = Column(Boolean, nullable=False, default=False)
@@ -56,8 +59,17 @@ class Discount(Base):
 class DiscountItem(Base):
     __tablename__ = 'discount_item'
 
-    id = Column(Integer, Sequence('discount_item_id_seq'), primary_key=True, index=True)
+    id = Column(Integer, Sequence('discount_item_id_seq'),
+                primary_key=True, index=True)
     discount_id = Column(Integer, ForeignKey('discount.id'), nullable=False)
-    discount = relationship("Discount", back_populates="discount_items") 
+    discount = relationship("Discount", back_populates="discount_items")
     item_id = Column(Integer, ForeignKey('item.id'), nullable=False)
-    item = relationship("Item", back_populates="discounts") 
+    item = relationship("Item", back_populates="discounts")
+
+    __table_args__ = (
+        UniqueConstraint(
+            'discount_id',
+            'item_id',
+            name='discount_item_uq'
+        ),
+    )

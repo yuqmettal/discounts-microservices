@@ -28,14 +28,14 @@ def test_GET_discount(db: Session) -> None:
 
 def test_POST_new_valid_discount(db: Session, mocker) -> None:
     retailer_response = EurekaResponse(
-        200, {'name': 'mocked', 'description': 'mocked', 'id': 1, 'city_id': 1, 'category_id': 1, 'category_enabled': True})
+        200, {'name': 'mocked', 'description': 'mocked', 'id': 1, 'city_id': 1})
     mocker.patch(
         'app.client.partner_client._partner_retailer_client.call_remote_service',
         return_value=retailer_response
     )
 
     discount_data = create_random_discount_data()
-    response = client.post('/api/v1/discount/', json=discount_data)
+    response = client.post('/api/v1/discount/', json={"discount": discount_data})
 
     assert response.status_code == 200
 
@@ -59,7 +59,7 @@ def test_POST_new_discount_invalid_retailer_id(db: Session, mocker) -> None:
     )
 
     discount_data = create_random_discount_data()
-    response = client.post('/api/v1/discount/', json=discount_data)
+    response = client.post('/api/v1/discount/', json={"discount": discount_data})
 
     created_discount = response.json()
     assert response.status_code == 400

@@ -6,8 +6,8 @@ class EurekaClient():
     def __init__(self, remote_service: str):
         self.remote_service = remote_service
 
-    def _call_post_service(self, url: str, data, /) -> 'EurekaResponse':
-        response = requests.post(url, data)
+    def _call_post_service(self, url: str, /) -> 'EurekaResponse':
+        response = requests.post(url, self.data)
         content = response.json()
         return EurekaResponse(response.status_code, content)
 

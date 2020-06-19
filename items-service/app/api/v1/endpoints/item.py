@@ -12,13 +12,12 @@ from app.client.partner_client import get_category_by_id, get_retailer_by_id
 router = APIRouter()
 
 
-@router.get("/", response_model=List[ListItem])
+@router.get("/")
 async def get_all_items(
-    db: Session = Depends(get_db),
     page: int = 1,
     size: int = 100
 ) -> Any:
-    return crud.item.paging(db, page=page, size=size)
+    return crud.item.get_items_with_descount(page=page, size=size)
 
 
 @router.post("/")

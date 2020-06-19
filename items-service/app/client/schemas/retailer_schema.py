@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, List
 
 from pydantic import BaseModel
 
@@ -28,8 +28,6 @@ class RetailerInDatabase(RetailerBase):
     name: str
     description: str
     city_id: int
-    category_id: int
-    category_enabled: bool
 
     class Config:
         orm_mode = True
@@ -37,3 +35,7 @@ class RetailerInDatabase(RetailerBase):
 
 class Retailer(RetailerInDatabase):
     pass
+
+
+class RetailerIds(BaseModel):
+    ids: List

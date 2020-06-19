@@ -15,6 +15,17 @@ def test_list_all_discount_items(db: Session) -> None:
     delete_discount_item(db, created)
 
 
+def test_update_discount(db: Session) -> None:
+    created = insert_discount_item(db)
+    discount_from_db = crud.discount_item.get_by_id(db, created.id)
+    discount_update = DiscountItemUpdate(discount_id=2)
+    updated_discount = crud.discount_item.update(
+        db, db_object=discount_from_db, object_to_update=discount_update)
+    discount_from_db = crud.discount_item.get_by_id(db, created.id)
+    assert discount_from_db.id == updated_discount.id
+    assert discount_from_db.discount_id == 2
+    delete_discount_item(db, created)
+
 def test_create_discount_item(db: Session) -> None:
     created = insert_discount_item(db)
     discount_item_created = crud.discount_item.get_by_id(db, created.id)

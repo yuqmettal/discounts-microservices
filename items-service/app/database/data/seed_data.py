@@ -26,6 +26,7 @@ def seed_brand_data():
         return
     json_file = os.path.join(
         settings.BASE_DIR,
+        'app',
         'database',
         'data',
         'brands.json'
@@ -47,6 +48,7 @@ def seed_product_data():
         return
     json_file = os.path.join(
         settings.BASE_DIR,
+        'app',
         'database',
         'data',
         'products.json'
@@ -68,6 +70,7 @@ def seed_item_data():
         return
     json_file = os.path.join(
         settings.BASE_DIR,
+        'app',
         'database',
         'data',
         'items.json'
@@ -89,6 +92,7 @@ def seed_discount_data():
         return
     json_file = os.path.join(
         settings.BASE_DIR,
+        'app',
         'database',
         'data',
         'discounts.json'

@@ -5,8 +5,9 @@ from sqlalchemy.orm import Session
 
 from app.database import crud
 from app.api import get_db
-from app.database.schema.discount_schema import Discount, DiscountCreate, DiscountUpdate
+from app.database.schema.discount_schema import Discount, DiscountCreate, DiscountUpdate, DiscountPOST
 from app.client.partner_client import get_category_by_id, get_retailer_by_id
+from ....business.discount_business import process_discount
 
 
 router = APIRouter()
@@ -21,15 +22,16 @@ async def get_all_discounts(db: Session = Depends(get_db)) -> List[Discount]:
 async def post_discount(
     *,
     db: Session = Depends(get_db),
-    discount: DiscountCreate
+    discount: DiscountPOST
 ) -> Any:
-    retailer = get_retailer_by_id(discount.retailer_id)
-    if not retailer:
-        raise HTTPException(
-            status_code=400,
-            detail=f"The Retailer with id '{discount.retailer_id}' does not exists",
-        )
-    return crud.discount.create(db, object_to_create=discount)
+    if discount.discount.retailer_id:
+        retailer = get_retailer_by_id(discount.discount.retailer_id)
+        if not retailer:
+            raise HTTPException(
+                status_code=400,
+                detail=f"The Retailer with id '{discount.discount.retailer_id}' does not exists",
+            )
+    return process_discount(db, discount)
 
 
 @router.get("/{discount_id}", response_model=Discount)
