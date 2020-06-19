@@ -3,7 +3,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 APP_HOST = os.environ.get('APP_HOST', '127.0.0.1')
-APP_PORT = os.environ.get('APP_PORT', 8082)
+APP_PORT = os.environ.get('APP_PORT', 8083)
 
 DATABASE_URL = os.environ.get(
     'DATABASE_URL',

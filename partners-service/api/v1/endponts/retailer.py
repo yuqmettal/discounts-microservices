@@ -17,6 +17,25 @@ async def get_all_retailers(db: Session = Depends(get_db)) -> List[Retailer]:
     return crud.retailer.filter(db)
 
 
+@router.post("/category/")
+async def get_all_retailers_by_category(
+    *,
+    db: Session = Depends(get_db),
+    categories: List[int],
+) -> Any:
+    return crud.retailer_category.get_by_categories(db, categories=categories)
+
+
+@router.post("/subcategory/")
+async def get_all_retailers_by_subcategory(
+    *,
+    db: Session = Depends(get_db),
+    subcategories: List[int],
+) -> Any:
+    categories = crud.subcategory.get_category_ids_from_subcategories(db, subcategories=subcategories)
+    return crud.retailer_category.get_by_categories(db, categories= categories)
+
+
 @router.post("/")
 async def post_retailer(
     *,
@@ -70,7 +89,7 @@ def update_retailer(
             detail="The retailer doesn't exists",
         )
     retailer = crud.retailer.update(db, db_object=retailer,
-                                          object_to_update=retailer_update)
+                                    object_to_update=retailer_update)
     return retailer
 
 
