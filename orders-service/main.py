@@ -5,6 +5,13 @@ from py_eureka_client import eureka_client
 import settings
 from api.health import api_router as health_router
 from api.v1 import api_router as v1_router
+from database.data.seed_data import seed_data
+from database import models, engine
+
+
+models.Base.metadata.create_all(bind=engine)
+
+seed_data()
 
 
 app = FastAPI(title="Orders service", openapi_url="/api/v1/openapi.json")
