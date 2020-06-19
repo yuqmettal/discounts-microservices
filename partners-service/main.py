@@ -1,11 +1,12 @@
-from api.v1 import api_router as v1_router
-from api.health import api_router as health_router
-import settings
 import uvicorn
 from fastapi import FastAPI, Depends
+from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from py_eureka_client import eureka_client
 
+from api.v1 import api_router as v1_router
+from api.health import api_router as health_router
+import settings
 from database.data.seed_data import seed_data
 from database import models, engine
 
@@ -15,7 +16,15 @@ models.Base.metadata.create_all(bind=engine)
 
 seed_data()
 
-app = FastAPI(title="Partners service", openapi_url="/api/v1/openapi.json")
+app = FastAPI(title="Partners service", openapi_url="/partners/api/v1/openapi.json")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['*'],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.include_router(health_router)
 app.include_router(v1_router, prefix='/api/v1')
