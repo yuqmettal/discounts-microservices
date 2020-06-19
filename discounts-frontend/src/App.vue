@@ -29,9 +29,9 @@
       </v-btn>
     </v-app-bar>
 
-    <v-content>
+    <v-main>
       <Discounts />
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 

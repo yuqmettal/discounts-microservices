@@ -1,20 +1,29 @@
 <template>
   <v-container>
-    <h1>Discounts</h1>
-    <v-data-table
-      :headers="headers"
-      :items="desserts"
-      :items-per-page="5"
-      class="elevation-1"
-    ></v-data-table>
+    <v-card class="mx-auto" outlined>
+      <h1>Discounts</h1>
+      <v-data-table
+        :headers="headers"
+        :items="discounts"
+        class="elevation-1"
+      ></v-data-table>
+    </v-card>
   </v-container>
 </template>
 
 <script>
 export default {
   name: 'Discounts',
-  data() {
-
+  async created() {
+    await this.$store.dispatch('discount/getDiscounts');
   },
+  computed: {
+    discounts() {
+      return this.$store.getters['discount/discounts'];
+    },
+  },
+  data: () => ({
+    headers: [{ text: 'Id', value: 'id' }],
+  }),
 };
 </script>
