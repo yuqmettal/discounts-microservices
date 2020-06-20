@@ -24,6 +24,14 @@
                       </v-col>
                       <v-col cols="2" sm="12" md="2">
                         <v-text-field
+                          v-model="editedItem.discount.priority"
+                          type="number"
+                          label="Prioridad"
+                          required
+                        />
+                      </v-col>
+                      <v-col cols="2" sm="12" md="2">
+                        <v-text-field
                           v-model="editedItem.discount.discount"
                           type="number"
                           label="Porcentaje de descuento"
@@ -39,6 +47,64 @@
                           persistent-hint
                         />
                       </v-col>
+                      <v-col cols="4" sm="12" md="4">
+                        <v-menu
+                          ref="menu1"
+                          v-model="menu1"
+                          :close-on-content-click="false"
+                          transition="scale-transition"
+                          offset-y
+                          max-width="290px"
+                          min-width="290px"
+                        >
+                          <template v-slot:activator="{ on, attrs }">
+                            <v-text-field
+                              v-model="editedItem.discount.start_date"
+                              label="Fecha de inicio"
+                              hint="Fecha de inicio de la promocion"
+                              persistent-hint
+                              v-bind="attrs"
+                              @blur="date = parseDate(dateFormatted)"
+                              v-on="on"
+                            />
+                          </template>
+                          <v-date-picker
+                            v-model="editedItem.discount.start_date"
+                            no-title
+                            @input="menu1 = false"
+                          />
+                        </v-menu>
+                      </v-col>
+                      <v-col cols="4" sm="12" md="4">
+                        <v-menu
+                          ref="menu2"
+                          v-model="menu2"
+                          :close-on-content-click="false"
+                          transition="scale-transition"
+                          offset-y
+                          max-width="290px"
+                          min-width="290px"
+                        >
+                          <template v-slot:activator="{ on, attrs }">
+                            <v-text-field
+                              v-model="editedItem.discount.end_date"
+                              label="Fecha final"
+                              hint="Fecha de fin de la promocion"
+                              persistent-hint
+                              v-bind="attrs"
+                              @blur="date = parseDate(dateFormatted)"
+                              v-on="on"
+                            />
+                          </template>
+                          <v-date-picker
+                            v-model="editedItem.discount.end_date"
+                            no-title
+                            @input="menu2 = false"
+                          />
+                        </v-menu>
+                      </v-col>
+                    </v-row>
+                    <v-row>
                       <v-col cols="2" sm="12" md="2">
                         <v-checkbox
                           v-model="editedItem.discount.by_categories"
@@ -137,6 +203,7 @@ export default {
   data: () => ({
     headers: [
       { text: 'Id', value: 'id' },
+      { text: 'Nombre', value: 'name' },
       { text: 'Fecha Inicio', value: 'start_date' },
       { text: 'Fecha Fin', value: 'end_date' },
       { text: 'Por clientes', value: 'by_clients' },
