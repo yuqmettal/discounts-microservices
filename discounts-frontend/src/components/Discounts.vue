@@ -28,7 +28,13 @@
                           label="Descripcion"
                         />
                       </v-col>
-                      <v-col cols="12" sm="12" md="12">
+                      <v-col cols="2" sm="12" md="2">
+                        <v-checkbox
+                          v-model="editedItem.discount.by_categories"
+                          label="Por categorias"
+                        />
+                      </v-col>
+                      <v-col cols="10" sm="12" md="10">
                         <v-select
                           v-model="editedItem.categories"
                           :items="categoriesForSelect"
@@ -38,9 +44,16 @@
                           hint="Selecciona las categorias que aplicaran descuento"
                           persistent-hint
                           deletable-chips
+                          :disabled="!editedItem.discount.by_categories"
                         />
                       </v-col>
-                      <v-col cols="12" sm="12" md="12">
+                      <v-col cols="2" sm="12" md="2">
+                        <v-checkbox
+                          v-model="editedItem.discount.by_subcategories"
+                          label="Por subcategorias"
+                        />
+                      </v-col>
+                      <v-col cols="10" sm="12" md="10">
                         <v-select
                           v-model="editedItem.subcategories"
                           :items="subcategoriesForSelect"
@@ -50,6 +63,7 @@
                           hint="Selecciona las subcategorias que aplicaran descuento"
                           persistent-hint
                           deletable-chips
+                          :disabled="!editedItem.discount.by_subcategories"
                         />
                       </v-col>
                     </v-row>
