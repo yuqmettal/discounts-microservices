@@ -19,13 +19,24 @@
                 <v-card-text>
                   <v-container>
                     <v-row>
-                      <v-col cols="12" sm="12" md="12">
+                      <v-col cols="6" sm="12" md="6">
                         <v-text-field v-model="editedItem.discount.name" label="Nombre" required />
                       </v-col>
-                      <v-col cols="12" sm="12" md="12">
+                      <v-col cols="2" sm="12" md="2">
                         <v-text-field
-                          v-model="editedItem.discount.description"
-                          label="Descripcion"
+                          v-model="editedItem.discount.discount"
+                          type="number"
+                          label="Porcentaje de descuento"
+                          required
+                        />
+                      </v-col>
+                      <v-col cols="4" sm="12" md="4">
+                        <v-select
+                          v-model="editedItem.discount.retailer_id"
+                          :items="retailersForSelect"
+                          label="Comercios"
+                          hint="Un comercio especifico"
+                          persistent-hint
                         />
                       </v-col>
                       <v-col cols="2" sm="12" md="2">
@@ -64,6 +75,28 @@
                           persistent-hint
                           deletable-chips
                           :disabled="!editedItem.discount.by_subcategories"
+                        />
+                      </v-col>
+                      <v-col cols="2" sm="12" md="2">
+                        <v-checkbox v-model="editedItem.discount.by_brands" label="Por marcas" />
+                      </v-col>
+                      <v-col cols="10" sm="12" md="10">
+                        <v-select
+                          v-model="editedItem.brands"
+                          :items="brandsForSelect"
+                          label="Marcas"
+                          multiple
+                          chips
+                          hint="Selecciona las marcas que aplicaran descuento"
+                          persistent-hint
+                          deletable-chips
+                          :disabled="!editedItem.discount.by_brands"
+                        />
+                      </v-col>
+                      <v-col cols="12" sm="12" md="12">
+                        <v-text-field
+                          v-model="editedItem.discount.description"
+                          label="Descripcion"
                         />
                       </v-col>
                     </v-row>

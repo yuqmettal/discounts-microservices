@@ -5,6 +5,7 @@ import discountModule from './discount';
 import categoryModule from './category';
 import subcategoryModule from './subcategory';
 import retailerModule from './retailer';
+import brandModule from './brand';
 
 Vue.use(Vuex);
 
@@ -20,5 +21,6 @@ export default new Vuex.Store({
     category: categoryModule,
     subcategory: subcategoryModule,
     retailer: retailerModule,
+    brand: brandModule,
   },
 });

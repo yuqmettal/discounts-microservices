@@ -4,6 +4,7 @@ export default {
     await this.$store.dispatch('category/getCategories');
     await this.$store.dispatch('subcategory/getSubcategories');
     await this.$store.dispatch('retailer/getRetailers');
+    await this.$store.dispatch('brand/getBrands');
   },
   computed: {
     discounts() {
@@ -24,6 +25,17 @@ export default {
     },
     retailers() {
       return this.$store.getters['retailer/retailers'];
+    },
+    retailersForSelect() {
+      return this.retailers
+        .map((retailer) => ({ value: retailer.id, text: retailer.name }));
+    },
+    brands() {
+      return this.$store.getters['brand/brands'];
+    },
+    brandsForSelect() {
+      return this.brands
+        .map((brand) => ({ value: brand.id, text: brand.name }));
     },
   },
   methods: {
