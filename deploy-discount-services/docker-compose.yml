@@ -65,6 +65,18 @@ services:
     env_file:
       - ./orders_service/.env
 
+  frontend:
+    build: ../discounts-frontend
+    ports:
+      - 8005:80
+    depends_on:
+      - address_service
+      - partners_service
+      - items_service
+      - orders_service
+    env_file:
+      - ./frontend/.env
+
   web:
     build: ./web_server
     ports:
