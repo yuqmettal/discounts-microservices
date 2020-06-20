@@ -5,6 +5,8 @@ from pydantic import BaseModel
 
 
 class DiscountBase(BaseModel):
+    name: Optional[str] = None
+    description: Optional[str] = None
     start_date: Optional[date] = None
     end_date: Optional[date] = None
     calendarized: Optional[bool] = None
@@ -25,6 +27,8 @@ class DiscountBase(BaseModel):
 
 
 class DiscountCreate(DiscountBase):
+    name: str
+    description: Optional[str] = None
     start_date: date
     end_date: date
     calendarized: bool
@@ -58,6 +62,8 @@ class DiscountUpdate(DiscountBase):
 
 class DiscountInDatabase(DiscountBase):
     id: int
+    name: str
+    description: Optional[str] = None
     start_date: date
     end_date: date
     calendarized: bool

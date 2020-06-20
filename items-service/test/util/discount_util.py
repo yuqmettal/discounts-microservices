@@ -8,6 +8,8 @@ from app.database.models import Discount
 
 def _create_discount_data():
     return  {
+        "name": "Discount 3",
+        "description ": "Discount 3 2020-06-30",
         "start_date": "2020-06-01",
         "end_date": "2020-06-30",
         "calendarized": False,

@@ -12,6 +12,26 @@ from app.client.base import EurekaResponse
 client = TestClient(app)
 
 
+CREATE_DISCOUNT_METHOD = 'app.database.crud.discount.create'
+POPULATE_RETAILER_METHOD = 'app.database.crud.discount_item.populate_from_retailer_ids'
+POPULATE_RETAILER_PRODUCTS_METHOD = 'app.database.crud.discount_item.populate_from_product_ids'
+POPULATE_RETAILER_BRANDS_METHOD = 'app.database.crud.discount_item.populate_from_brand_ids'
+
+
+class MockDiscount:
+    def __init__(self, id: int, discount: dict):
+        self.id = id
+        self.discount = discount
+        self.categories = []
+        self.subcategories = []
+        self.brands = []
+        self.products = []
+        self.retailer_id = 0
+
+
+mocked_discount = MockDiscount(1, {})
+
+
 def test_GET_discount(db: Session) -> None:
     discount_count = crud.discount.count(db)
     response = client.get('/api/v1/discount/')
@@ -33,6 +53,10 @@ def test_POST_new_valid_discount(db: Session, mocker) -> None:
         'app.client.partner_client._partner_retailer_client.call_remote_service',
         return_value=retailer_response
     )
+    create_discount_mock = mocker.patch(CREATE_DISCOUNT_METHOD, return_value=mocked_discount)
+    mocker.patch(POPULATE_RETAILER_METHOD, return_value=999)
+    mocker.patch(POPULATE_RETAILER_BRANDS_METHOD, return_value=999)
+    mocker.patch(POPULATE_RETAILER_PRODUCTS_METHOD, return_value=999)
 
     discount_data = create_random_discount_data()
     response = client.post('/api/v1/discount/', json={"discount": discount_data})
@@ -46,8 +70,7 @@ def test_POST_new_valid_discount(db: Session, mocker) -> None:
 
     assert discount_from_db
     assert discount_from_db.retailer_id == discount_data['retailer_id']
-    
-    delete_discount(db, discount_from_db)
+    assert create_discount_mock.call_count == 1
 
 
 def test_POST_new_discount_invalid_retailer_id(db: Session, mocker) -> None:
