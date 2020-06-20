@@ -11,6 +11,9 @@ from test.util.product_util import insert_product, delete_product, create_random
 client = TestClient(app)
 
 
+FILTER_PRODUCT_METHOD = 'app.database.crud.product.filter_by_name'
+
+
 def test_GET_product(db: Session) -> None:
     product_count = crud.product.count(db)
     response = client.get('/api/v1/product/')
@@ -23,6 +26,13 @@ def test_GET_product(db: Session) -> None:
     assert len(response.json()) == product_count + 1
     
     delete_product(db, created)
+
+
+def test_GET_filter_product_by_name(db: Session, mocker) -> None:
+    filter_method = mocker.patch(FILTER_PRODUCT_METHOD, return_value=[1,2,3,4])
+    response = client.get('/api/v1/product/name/mi_producto')
+    assert response.status_code == 200
+    assert filter_method.call_count == 1
 
 
 def test_POST_new_product(db: Session) -> None:

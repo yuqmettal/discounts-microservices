@@ -9,5 +9,9 @@ class ProductCRUD(CRUDBase[Product, ProductCreate, ProductUpdate]):
     def get_by_name(self, db: Session, *, name: str):
         return db.query(Product).filter(Product.name == name).first()
 
+    def filter_by_name(self, db: Session, *, name: str):
+        search = "%{}%".format(name)
+        return db.query(Product).filter(Product.name.like(search)).all()
+
 
 product = ProductCRUD(Product)

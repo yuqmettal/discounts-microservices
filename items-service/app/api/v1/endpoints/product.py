@@ -16,6 +16,15 @@ async def get_all_products(db: Session = Depends(get_db)) -> List[Product]:
     return crud.product.filter(db)
 
 
+@router.get("/name/{product_name}/")
+async def filter_products_by_name(
+    *,
+    db: Session = Depends(get_db),
+    product_name: str,
+) -> List[Product]:
+    return crud.product.filter_by_name(db, name=product_name)
+
+
 @router.post("/")
 async def post_product(
     *,
