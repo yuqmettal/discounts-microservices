@@ -39,12 +39,8 @@ export default {
     },
   },
   methods: {
-    save() {
-      if (this.editedIndex > -1) {
-        Object.assign(this.discounts[this.editedIndex], this.editedItem);
-      } else {
-        this.discounts.push(this.editedItem);
-      }
+    async save() {
+      await this.$store.dispatch('discount/createDiscount', this.editedItem);
       this.close();
     },
     close() {

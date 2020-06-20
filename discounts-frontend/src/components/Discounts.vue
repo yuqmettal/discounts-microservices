@@ -201,13 +201,18 @@ export default {
   name: 'Discounts',
   mixins: [discountMixin],
   data: () => ({
+    dialog: false,
+    menu1: {},
+    menu2: {},
     headers: [
       { text: 'Id', value: 'id' },
       { text: 'Nombre', value: 'name' },
       { text: 'Fecha Inicio', value: 'start_date' },
       { text: 'Fecha Fin', value: 'end_date' },
       { text: 'Por clientes', value: 'by_clients' },
-      { text: '', value: 'actions', sortable: false },
+      { text: 'Por categorias', value: 'by_categories' },
+      { text: 'Por subcategorias', value: 'by_subcategories' },
+      { text: 'Por marcas', value: 'by_brands' },
     ],
     editedIndex: -1,
     editedItem: {

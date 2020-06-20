@@ -1,4 +1,4 @@
-import { getData } from './connect';
+import { getData, postData } from './connect';
 
 export default {
   namespaced: true,
@@ -31,6 +31,16 @@ export default {
     async getDiscounts({ commit }) {
       commit('loading');
       const response = await getData(commit, 'items', '/discount/', undefined, {});
+      if (response.status !== 200) {
+        commit('setError');
+      } else {
+        commit('setDiscounts', response.data);
+      }
+      return response;
+    },
+    async createDiscount({ commit }, discount) {
+      commit('loading');
+      const response = await postData(commit, 'items', '/discount/', discount, {});
       if (response.status !== 200) {
         commit('setError');
       } else {
