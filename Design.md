@@ -29,13 +29,13 @@ Los servicios son:
 * [Servicio de Items](/items-service/README.md)
 * [Servicio de Ordenes](/orders-service/README.md)
 
-![Servicios](/Services.png)
+![Servicios](/Services_.png)
 
 Cada servicio posee responsabilidades unicas y trabaja con una base de datos independiente de los otros servicios.
 
 Como es de suponer, los servicios estan relacionados. A continuacion un esquema de la relacion entre los servicios:
 
-![Relaciones](/service_dependences.png)
+![Relaciones](/service_dependences_.png)
 
 
 ## Comunicacion entre servicios ☎️
@@ -51,7 +51,7 @@ A continuacion la documentacion del servicio eureka:
 
 Al implementar Eureka tenemos un panorama distinto, ahora podemos comunicar efectivamente los servicios y el tema de escalamiento de servicios es mucho mas facil y nuestro diseño queda de la siguiente manera:
 
-![Services](/service_discovery.png)
+![Services](/service_discovery_.png)
 
 #### Voila! 🎉🎉🎉
 
