@@ -5,4 +5,4 @@ pydantic[email]
 python-dotenv==0.13.0
 requests==2.23.0
 SQLAlchemy==1.3.17
-uvicorn==0.11.5
+uvicorn==0.11.7
